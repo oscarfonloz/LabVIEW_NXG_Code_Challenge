@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="95E15381E69DD5642A8CD5D93C4BF8EB0692EBD2F321FCD647B51112F8159C67F7B5FEF26362CF5A300524B8903E44DB8EEC9ACA02D8DC15E25D37AF9B76B3E9" Timestamp="1D489E9CFAFEE13" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="402BA999FE3C62BFB7D69E91A11DAD6C320481B7D50B86ECE3EDECDE412103ECBD768B5118EE774941305455B10F1AB4D0E39F0CD8E292743DA0BD8AA1C54A14" Timestamp="1D48B36EFE8D514" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -15,7 +15,7 @@
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="21" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
 					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="22" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="23" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Open" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Open Gate" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
 						<FontSetting FontFamily="Verdana" FontSize="9.75" Id="8" />
 					</FileNameText>
 				</IconTemplate>
@@ -51,20 +51,20 @@
 				<p.Text>Error out</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="-210 380 40 15" DataItem="16" Id="29" Label="30" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@b5de96781d8d464c8e695dd200739b0a" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="29" Bounds="-210 363 55 14" Id="30" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Turbine in</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="715 380 40 15" DataItem="17" Id="31" Label="32" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@b5de96781d8d464c8e695dd200739b0a" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="31" Bounds="715 363 63 14" Id="32" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Turbine out</p.Text>
 			</NodeLabel>
 			<CaseStructure Bounds="-135 345 825 160" DataType="Error" Id="33" Selected="34" UserSelectorBounds="360 0 106 17">
 				<CaseStructure.Case Bounds="5 5 815 150" Id="34" Pattern="No Error">
-					<PropertyNode Bounds="580 30 211 60" Id="132" InstanceDataType="@b5de96781d8d464c8e695dd200739b0a" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<PropertyNode Bounds="580 30 211 60" Id="132" InstanceDataType="@2eb81370261440c5a6cff0ab5eead59c" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 							<TypeDefinitionTarget TargetName="Turbine.gtype" />
 						</p.TypeDefinitionTargets>
@@ -108,7 +108,7 @@
 					<Wire Id="319" Joints="N(307:In Range?)|(400,115) h(110) v(-20) N(315:s)|(520,95)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="320" Joints="N(144:Value)|(320,80) h(10) B(1) N(315:t)|(520,80) B(1) v(30) N(307:x)|(370,110)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="323" Joints="N(39:34)|(4,35) N(322:instance in)|(340,35)" xmlns="http://www.ni.com/PlatformFramework" />
-					<PropertyNode Bounds="340 30 154 45" Id="322" InstanceDataType="@b5de96781d8d464c8e695dd200739b0a" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<PropertyNode Bounds="340 30 154 45" Id="322" InstanceDataType="@2eb81370261440c5a6cff0ab5eead59c" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 							<TypeDefinitionTarget TargetName="Turbine.gtype" />
 						</p.TypeDefinitionTargets>
@@ -168,13 +168,13 @@
 			</Cluster>
 			<Label Height="[float]16" Id="108" LabelOwner="[UIModel]101" Left="[float]544" Text="[string]Error out" Top="[float]352" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
 			<PanelExecutionWindow Id="109" />
-			<ValueClassControl BaseName="[string]Turbine" Id="126" IsTabStop="[bool]False" Label="[UIModel]128" Left="[float]100" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=16}" ValueClassControl="[Type]@b5de96781d8d464c8e695dd200739b0a" p4:ControlDefinitionChecksum="8lzLjT4LNOqpkaZFOI/sd9d82zPq5GumeSlsIUA5u3U=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ValueClassControl BaseName="[string]Turbine" Id="126" IsTabStop="[bool]False" Label="[UIModel]128" Left="[float]100" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=16}" ValueClassControl="[Type]@2eb81370261440c5a6cff0ab5eead59c" p4:ControlDefinitionChecksum="8lzLjT4LNOqpkaZFOI/sd9d82zPq5GumeSlsIUA5u3U=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="Turbine.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
 			</ValueClassControl>
 			<Label Height="[float]16" Id="128" LabelOwner="[UIModel]126" Left="[float]100" Text="[string]Turbine in" Top="[float]32" Width="[float]54" xmlns="http://www.ni.com/PanelCommon" />
-			<ValueClassControl BaseName="[string]Turbine" Id="129" IsReadOnly="[bool]True" IsTabStop="[bool]False" Label="[UIModel]131" Left="[float]544" TabIndex="[int]3" Top="[float]52" Value="{DataItemBinding Id=17}" ValueClassControl="[Type]@b5de96781d8d464c8e695dd200739b0a" p4:ControlDefinitionChecksum="8lzLjT4LNOqpkaZFOI/sd9d82zPq5GumeSlsIUA5u3U=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ValueClassControl BaseName="[string]Turbine" Id="129" IsReadOnly="[bool]True" IsTabStop="[bool]False" Label="[UIModel]131" Left="[float]544" TabIndex="[int]3" Top="[float]52" Value="{DataItemBinding Id=17}" ValueClassControl="[Type]@2eb81370261440c5a6cff0ab5eead59c" p4:ControlDefinitionChecksum="8lzLjT4LNOqpkaZFOI/sd9d82zPq5GumeSlsIUA5u3U=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="Turbine.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
@@ -211,13 +211,13 @@
 			</p.TypeDefinitionTargets>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed.</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@b5de96781d8d464c8e695dd200739b0a" Id="16" Name="Turbine in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@2eb81370261440c5a6cff0ab5eead59c" Id="16" Name="Turbine in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Turbine.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="1" DataType="@b5de96781d8d464c8e695dd200739b0a" Id="17" Name="Turbine out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@2eb81370261440c5a6cff0ab5eead59c" Id="17" Name="Turbine out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Turbine.gtype" />
@@ -231,12 +231,16 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="b5de96781d8d464c8e695dd200739b0a">
+		<p.TypeReference TypeId="2eb81370261440c5a6cff0ab5eead59c">
 			<Composite Id="1" Name="Turbine.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
@@ -247,19 +251,38 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Gate State (FALSE = Closed)" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Open Percentage (%)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Power at Max Flow (MW)" DataType="Double" />
-					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Flow (cfs)" DataType="Double" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void">
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Open.gvi" ReturnType="Void">
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Open Gate.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Read Generated Power.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Unit Test.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>

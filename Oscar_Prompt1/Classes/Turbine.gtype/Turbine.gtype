@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B7EF2E23BD2D4A4EAF06A3C28E20F6676AF9E1674B71B4F197DE1F4C638A0DC39E0CE5545290E28444DA827165F3ECA2B105932626B8E4E9EF8BC623ABD7315E" Timestamp="1D48A912EC0E31F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A0516A1A26290A9EAB109F842ABF658FAB858E2938F2700755D09EE1A0479D138D0058261733D9B8A6E3DEAF9300AA2753000490259EF298EE7A66D13863145E" Timestamp="1D48B2C1CFCEA59" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition BaseType="gObject" BaseTypeSignature="@321c26ff432b46cd9d2d8ec47cc5f4e1" DataType="@a2637c6b21344faf914fd54f96c557aa" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition BaseType="gObject" BaseTypeSignature="@321c26ff432b46cd9d2d8ec47cc5f4e1" DataType="@9457a6cff1e546cda816520a7db6f000" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;This class holds the methods and properties of a Turbine. Use it to generate power.&lt;/p&gt;</p.UserDescription>
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
@@ -31,12 +31,15 @@
 		<DataItem DataType="Double" Id="18" Name="Power at Max Flow (MW)">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@90699216caa54405bc330f27b952439a" Id="23" Target="Turbine.gtype::Init.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@ec9f3d72bb8b49f283b053007f15ce65" Id="25" Target="Turbine.gtype::Open Gate.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@ff53881c003c4a3d925082aa030e54b2" Id="27" Target="Turbine.gtype::Close Gate.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@94a459909b884e808e4b8b6ec6e5a8b9" Id="29" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@975895cdc98a4efe9ddeaffeb786267f" Id="31" Target="Turbine.gtype::Unit Test.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@14a71ba8cddf460fa90e6004281c582c" Id="41" Target="Turbine.gtype::Close.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@8d69fd9df7974f099f7fc31685166906" Id="23" Target="Turbine.gtype::Init.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f24f0885589047849cd50cd1284b36cf" Id="25" Target="Turbine.gtype::Open Gate.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@8d36fd15a48c4acb98ee34ae5bd2d896" Id="27" Target="Turbine.gtype::Close Gate.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@34175795294443e796b35687823465bc" Id="29" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@a238aeb56955429e9dcf0ff793bc268a" Id="31" Target="Turbine.gtype::Unit Test.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@91855ec41af746c09225356b0a66adb5" Id="41" Target="Turbine.gtype::Close.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<DataItem DataType="Double" Id="44" Name="Max Flow (cfs)">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
 	</TypeDefinition>
 	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -49,6 +52,8 @@
 					<Label Height="[float]16" Id="17" LabelOwner="[UIModel]16" Left="[float]27" Text="[string]Open Percentage (%)" Top="[float]135" Width="[float]112" xmlns="http://www.ni.com/PanelCommon" />
 					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="20" Label="[UIModel]21" Left="[float]27" MinHeight="[float]24" TabIndex="[int]2" Top="[float]214" Value="{DataItemBinding Id=18}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 					<Label Height="[float]16" Id="21" LabelOwner="[UIModel]20" Left="[float]27" Text="[string]Power at Max Flow (MW)" Top="[float]194" Width="[float]132" xmlns="http://www.ni.com/PanelCommon" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="42" Label="[UIModel]43" Left="[float]26" MinHeight="[float]24" TabIndex="[int]3" Top="[float]269" Value="{DataItemBinding Id=44}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<Label Height="[float]16" Id="43" LabelOwner="[UIModel]42" Left="[float]26" Text="[string]Max Flow (cfs)" Top="[float]249" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Id="22" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Init.gvi" StoragePath="Init.gvi" />
@@ -63,34 +68,26 @@
 		<p.TypeReference TypeId="321c26ff432b46cd9d2d8ec47cc5f4e1">
 			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="a2637c6b21344faf914fd54f96c557aa">
+		<p.TypeReference TypeId="9457a6cff1e546cda816520a7db6f000">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Gate State (FALSE = Closed)" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Open Percentage (%)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Power at Max Flow (MW)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Flow (cfs)" DataType="Double" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="90699216caa54405bc330f27b952439a">
-			<Attributed AttributedType="@5dfdfc2841c44b7083dee90d10845402">
+		<p.TypeReference TypeId="8d69fd9df7974f099f7fc31685166906">
+			<Attributed AttributedType="@8f140540dfff4b5f803d777e9a591864">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="ec9f3d72bb8b49f283b053007f15ce65">
-			<Attributed AttributedType="@5bfd6d32e3aa4b5ab220ff21700f388b">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
-					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
-					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="ff53881c003c4a3d925082aa030e54b2">
-			<Attributed AttributedType="@ed0842a868bf48f19bec2e5c860d228a">
+		<p.TypeReference TypeId="f24f0885589047849cd50cd1284b36cf">
+			<Attributed AttributedType="@2a64c789b7384f868d7a5158c420c322">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -98,8 +95,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="94a459909b884e808e4b8b6ec6e5a8b9">
-			<Attributed AttributedType="@fd3294e5b3c84ac797ecc4d254e6a91f">
+		<p.TypeReference TypeId="8d36fd15a48c4acb98ee34ae5bd2d896">
+			<Attributed AttributedType="@d0614d824443496db3fb6080660cbefa">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -107,24 +104,33 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="975895cdc98a4efe9ddeaffeb786267f">
-			<Attributed AttributedType="@325060b479a046298fe8f2a576b685fb">
+		<p.TypeReference TypeId="34175795294443e796b35687823465bc">
+			<Attributed AttributedType="@ad6779e532f040f188ba054d8f69a795">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="a238aeb56955429e9dcf0ff793bc268a">
+			<Attributed AttributedType="@6feba23e31104846b717f3c26f9ee1b7">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="14a71ba8cddf460fa90e6004281c582c">
-			<Attributed AttributedType="@7c7d496c359949328eb626fa87ad1f26">
+		<p.TypeReference TypeId="91855ec41af746c09225356b0a66adb5">
+			<Attributed AttributedType="@c14d7c3d7ce24448872ba976a4c87120">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5dfdfc2841c44b7083dee90d10845402">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@5cac7f2e8ace41e89097d08ca31a078a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="8f140540dfff4b5f803d777e9a591864">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@e64e5ff780c048488692d9cd048ba2d0">
 						<AttributeValues>
@@ -146,7 +152,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@273472285d5241f2b5c1f7267bf772c7">
+					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -159,10 +165,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5bfd6d32e3aa4b5ab220ff21700f388b">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open Gate.gvi" ReturnType="Void" DeclaringType="@5cac7f2e8ace41e89097d08ca31a078a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="2a64c789b7384f868d7a5158c420c322">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open Gate.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@4f070939de474e9eaacb59729cb574e5">
+					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -177,7 +183,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@273472285d5241f2b5c1f7267bf772c7">
+					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -195,10 +201,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="ed0842a868bf48f19bec2e5c860d228a">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void" DeclaringType="@5cac7f2e8ace41e89097d08ca31a078a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="d0614d824443496db3fb6080660cbefa">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@4f070939de474e9eaacb59729cb574e5">
+					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -208,7 +214,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@273472285d5241f2b5c1f7267bf772c7">
+					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -221,10 +227,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="fd3294e5b3c84ac797ecc4d254e6a91f">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Generated Power.gvi" ReturnType="Void" DeclaringType="@5cac7f2e8ace41e89097d08ca31a078a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="ad6779e532f040f188ba054d8f69a795">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Generated Power.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@4f070939de474e9eaacb59729cb574e5">
+					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -234,7 +240,17 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@273472285d5241f2b5c1f7267bf772c7">
+					<Attributed AttributedType="@9e6f9624515148bab3108ee2c7627440">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Power at Max Flow (MW)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@87bdb5fa9c31454f9944d49a62932f59">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Open Percentage (%)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -244,6 +260,11 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Power Generated (MW)" />
 						</AttributeValues>
 					</Attributed>
+					<Attributed AttributedType="@2d39952d04934afd902caa05c8117791">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Gate State (FALSE = Closed)" />
+						</AttributeValues>
+					</Attributed>
 					<Attributed AttributedType="@283b364e3da54b9cbfd48e5df590ae1a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
@@ -252,13 +273,13 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="325060b479a046298fe8f2a576b685fb">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Unit Test.gvi" ReturnType="Void" DeclaringType="@5cac7f2e8ace41e89097d08ca31a078a" GenericTypeDefinition="Void" />
+		<p.TypeReference TypeId="6feba23e31104846b717f3c26f9ee1b7">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Unit Test.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="7c7d496c359949328eb626fa87ad1f26">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@360957b883684d4e82bcc063b1042dd6" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="c14d7c3d7ce24448872ba976a4c87120">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@1e5c9fa6104e45378976a7a7d14d85e2">
+					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -276,85 +297,7 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5cac7f2e8ace41e89097d08ca31a078a">
-			<Composite Id="1" Name="Turbine.gtype">
-				<MemberScopes>
-					<Access Scope="Private" />
-					<Access Scope="Private" />
-					<Access Scope="Private" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-				</MemberScopes>
-				<GenericTypeDefinition>Void</GenericTypeDefinition>
-				<BaseType>@321c26ff432b46cd9d2d8ec47cc5f4e1</BaseType>
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Gate State (FALSE = Closed)" DataType="Boolean" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Open Percentage (%)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Power at Max Flow (MW)" DataType="Double" />
-					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Open.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Read Generated Power.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Unit Test.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="e64e5ff780c048488692d9cd048ba2d0">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Double" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="b08919b6d8a548c99a08387ca6157350">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="ebbf75b2d62e4c438d728f0f6b349ab3">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Double" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="584fe768716642bab2aa798a65f5ba44">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="273472285d5241f2b5c1f7267bf772c7">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@5cac7f2e8ace41e89097d08ca31a078a" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="283b364e3da54b9cbfd48e5df590ae1a">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="4f070939de474e9eaacb59729cb574e5">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@5cac7f2e8ace41e89097d08ca31a078a" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="131e466e8a7f49288eaa51608b227702">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="76cc67aa13944d07a0e9719b48500f41">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="360957b883684d4e82bcc063b1042dd6">
+		<p.TypeReference TypeId="b6b6e72e10a44719a40ac3f41bce313a">
 			<Composite Id="1" Name="Turbine.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -373,13 +316,13 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Gate State (FALSE = Closed)" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Open Percentage (%)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Power at Max Flow (MW)" DataType="Double" />
-					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Function.gvi" ReturnType="Void">
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
@@ -391,7 +334,7 @@
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Open.gvi" ReturnType="Void">
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Open Gate.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
@@ -412,8 +355,41 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="1e5c9fa6104e45378976a7a7d14d85e2">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@360957b883684d4e82bcc063b1042dd6" />
+		<p.TypeReference TypeId="e64e5ff780c048488692d9cd048ba2d0">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b08919b6d8a548c99a08387ca6157350">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="ebbf75b2d62e4c438d728f0f6b349ab3">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="584fe768716642bab2aa798a65f5ba44">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0bb692f7328544c6a592bb5a40132a4e">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@b6b6e72e10a44719a40ac3f41bce313a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="283b364e3da54b9cbfd48e5df590ae1a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d067ca6abeb24d40b7fea954ec813b6f">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@b6b6e72e10a44719a40ac3f41bce313a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="131e466e8a7f49288eaa51608b227702">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="76cc67aa13944d07a0e9719b48500f41">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9e6f9624515148bab3108ee2c7627440">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="B0" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="87bdb5fa9c31454f9944d49a62932f59">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="B1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2d39952d04934afd902caa05c8117791">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Boolean" />
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">

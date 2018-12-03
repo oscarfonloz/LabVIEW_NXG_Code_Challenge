@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="23311A72DC448857B308BE4B9178A82DBF7F35FDC1C289741892B7A4CDEF74CF4FAC9CDD8A54E44BC4634BA12024979CEA03B0F6A56B963836F18C0200DE9CE2" Timestamp="1D48A913D41E2A2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CD713FDFA2E73E027F9465425908D032A3F902F6E248AAED96F827209825C86C46F2705027D0450FB772A8F8DACC12C893CF5C197276D897DDBF4F064D2286B8" Timestamp="1D48B2C963E7FED" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -38,13 +38,14 @@
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<MethodCall Bounds="120 195 40 40" Id="15" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Init.gvi&quot;" Signature="@8d69fd9df7974f099f7fc31685166906" Target="Turbine.gtype::Init.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="120 160 40 40" Id="15" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Init.gvi&quot;" Signature="@9433f69920c24f3b96fce135f05242bd" Target="Turbine.gtype::Init.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Power at Max Flow (MW)" />
 						<Parameter Id="L1" Desc="Gate State (FALSE = Closed)" />
 						<Parameter Id="L2" Desc="Open Percentage (%)" />
 						<Parameter Id="L3" Desc="Error in" />
+						<Parameter Id="T0" Desc="Max Flow (cfs)" />
 						<Parameter Id="R0" Desc="Turbine out" />
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
@@ -53,10 +54,11 @@
 				<Terminal DataType="Boolean" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Input" Hotspot="15 0" Id="T0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="185 195 40 40" Id="16" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Open Gate.gvi&quot;" Signature="@f24f0885589047849cd50cd1284b36cf" Target="Turbine.gtype::Open Gate.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="185 160 40 40" Id="16" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Open Gate.gvi&quot;" Signature="@62cef5ff0d2149a292d7333a17e5abb2" Target="Turbine.gtype::Open Gate.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
@@ -67,30 +69,38 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="245 195 40 40" Id="17" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Read Generated Power.gvi&quot;" Signature="@9689adc5baa14c9d948f4470477f7dcd" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="245 160 40 40" Id="17" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Read Generated Power.gvi&quot;" Signature="@0e5c57a856e1408b93d5e51fb30247a6" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
 						<Parameter Id="L3" Desc="Error in" />
+						<Parameter Id="B0" Desc="Power at Max Flow (MW)" />
+						<Parameter Id="B1" Desc="Open Percentage (%)" />
 						<Parameter Id="R0" Desc="Turbine out" />
 						<Parameter Id="R1" Desc="Power Generated (MW)" />
+						<Parameter Id="R2" Desc="Gate State (FALSE = Closed)" />
 						<Parameter Id="R3" Desc="Error out" />
+						<Parameter Id="T1" Desc="Flow (cfs)" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="425 195 40 40" Id="18" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Close Gate.gvi&quot;" Signature="@8d36fd15a48c4acb98ee34ae5bd2d896" Target="Turbine.gtype::Close Gate.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="435 160 40 40" Id="18" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Close Gate.gvi&quot;" Signature="@ac945a3a3240488f9a6a45f1c5a2ab18" Target="Turbine.gtype::Close Gate.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
@@ -99,28 +109,36 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="485 195 40 40" Id="19" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Read Generated Power.gvi&quot;" Signature="@9689adc5baa14c9d948f4470477f7dcd" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="495 160 40 40" Id="19" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Read Generated Power.gvi&quot;" Signature="@0e5c57a856e1408b93d5e51fb30247a6" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
 						<Parameter Id="L3" Desc="Error in" />
+						<Parameter Id="B0" Desc="Power at Max Flow (MW)" />
+						<Parameter Id="B1" Desc="Open Percentage (%)" />
 						<Parameter Id="R0" Desc="Turbine out" />
 						<Parameter Id="R1" Desc="Power Generated (MW)" />
+						<Parameter Id="R2" Desc="Gate State (FALSE = Closed)" />
 						<Parameter Id="R3" Desc="Error out" />
+						<Parameter Id="T1" Desc="Flow (cfs)" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="305 195 40 40" Id="20" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Open Gate.gvi&quot;" Signature="@f24f0885589047849cd50cd1284b36cf" Target="Turbine.gtype::Open Gate.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="315 160 40 40" Id="20" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Open Gate.gvi&quot;" Signature="@62cef5ff0d2149a292d7333a17e5abb2" Target="Turbine.gtype::Open Gate.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
@@ -131,98 +149,104 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<MethodCall Bounds="365 195 40 40" Id="21" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Read Generated Power.gvi&quot;" Signature="@9689adc5baa14c9d948f4470477f7dcd" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="375 160 40 40" Id="21" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Read Generated Power.gvi&quot;" Signature="@0e5c57a856e1408b93d5e51fb30247a6" Target="Turbine.gtype::Read Generated Power.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
 						<Parameter Id="L3" Desc="Error in" />
+						<Parameter Id="B0" Desc="Power at Max Flow (MW)" />
+						<Parameter Id="B1" Desc="Open Percentage (%)" />
 						<Parameter Id="R0" Desc="Turbine out" />
 						<Parameter Id="R1" Desc="Power Generated (MW)" />
+						<Parameter Id="R2" Desc="Gate State (FALSE = Closed)" />
 						<Parameter Id="R3" Desc="Error out" />
+						<Parameter Id="T1" Desc="Flow (cfs)" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<Wire Id="22" Joints="N(15:R0)|(160,200) N(16:L0)|(185,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="23" Joints="N(16:R0)|(225,200) N(17:L0)|(245,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="24" Joints="N(17:R0)|(285,200) N(20:L0)|(305,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="25" Joints="N(20:R0)|(345,200) N(21:L0)|(365,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="26" Joints="N(21:R0)|(405,200) N(18:L0)|(425,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="27" Joints="N(18:R0)|(465,200) N(19:L0)|(485,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="28" Joints="N(15:R3)|(160,230) N(16:L3)|(185,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="29" Joints="N(16:R3)|(225,230) N(17:L3)|(245,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="31" Joints="N(20:R3)|(345,230) N(21:L3)|(365,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="32" Joints="N(21:R3)|(405,230) N(18:L3)|(425,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="33" Joints="N(18:R3)|(465,230) N(19:L3)|(485,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="34" Joints="N(17:R3)|(285,230) N(20:L3)|(305,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="60 135 40 15" DataItem="38" Id="41" Label="42" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="22" Joints="N(15:R0)|(160,165) N(16:L0)|(185,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="23" Joints="N(16:R0)|(225,165) N(17:L0)|(245,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="24" Joints="N(17:R0)|(285,165) N(20:L0)|(315,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="25" Joints="N(20:R0)|(355,165) N(21:L0)|(375,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="26" Joints="N(21:R0)|(415,165) N(18:L0)|(435,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="27" Joints="N(18:R0)|(475,165) N(19:L0)|(495,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="28" Joints="N(15:R3)|(160,195) N(16:L3)|(185,195)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="29" Joints="N(16:R3)|(225,195) N(17:L3)|(245,195)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="31" Joints="N(20:R3)|(355,195) N(21:L3)|(375,195)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="32" Joints="N(21:R3)|(415,195) N(18:L3)|(435,195)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="33" Joints="N(18:R3)|(475,195) N(19:L3)|(495,195)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="34" Joints="N(17:R3)|(285,195) N(20:L3)|(315,195)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="60 160 40 15" DataItem="38" Id="41" Label="42" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="41" Bounds="-83 135 138 14" Id="42" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="41" Bounds="-83 160 138 14" Id="42" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Power at Max Flow (MW)</p.Text>
 			</NodeLabel>
-			<Literal Bounds="120 175 45 15" DataType="Double" Id="43" Label="44" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="120 120 45 15" DataType="Double" Id="43" Label="44" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>0x4059000000000000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 			</Literal>
-			<NodeLabel AttachedTo="43" Bounds="120 157 30 15" Id="44" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="43" Bounds="120 138 30 15" Id="44" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Open Percentage (-1 keeps previous value)</p.Text>
 			</NodeLabel>
-			<Wire Id="45" Joints="N(43:Out)|(165,180) h(10) v(30) N(16:L1)|(185,210)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="245 240 40 15" DataType="Double" Id="46" Label="47" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="45" Joints="N(43:Out)|(165,125) h(10) v(50) N(16:L1)|(185,175)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="245 140 40 15" DataType="Double" Id="46" Label="47" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>0x4049000000000000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 			</Literal>
-			<NodeLabel AttachedTo="46" Bounds="245 222 30 15" Id="47" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="46" Bounds="245 158 30 15" Id="47" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Open Percentage (-1 keeps previous value)</p.Text>
 			</NodeLabel>
-			<Wire Id="48" Joints="N(46:Out)|(285,245) h(10) v(-35) N(20:L1)|(305,210)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="710 150 40 15" DataItem="50" Id="51" Label="54" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="48" Joints="N(46:Out)|(285,145) h(20) v(30) N(20:L1)|(315,175)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="730 110 40 15" DataItem="50" Id="51" Label="54" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Boolean" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="51" Bounds="755 150 31 14" Id="54" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="51" Bounds="775 110 31 14" Id="54" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Pass?</p.Text>
 			</NodeLabel>
-			<Not Bounds="605 220 25 20" Id="56" />
-			<IsEqualTo0 Bounds="605 170 30 30" Id="60" />
-			<Wire Id="61" Joints="N(19:R1)|(525,210) h(10) v(-25) N(60:x)|(605,185)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="63" Joints="N(62:o)|(690,155) N(51:Value)|(713,155)" xmlns="http://www.ni.com/PlatformFramework" />
-			<LogicalAnd Bounds="665 145 25 40" Id="62" Terminals="o=63, c0t0v=84, c1t0v=83, c2t0v=86, c3t0v=85" VerticalChunkCount="4" />
-			<IsEqual Bounds="490 145 30 30" Id="69" />
-			<IsEqual Bounds="310 115 30 30" Id="70" />
-			<Divide Bounds="125 135 30 30" Id="77" />
-			<Literal Bounds="60 150 40 15" DataType="Double" Id="78" Label="79" xmlns="http://www.ni.com/MocCommon">
+			<Not Bounds="625 210 25 20" Id="56" />
+			<IsEqualTo0 Bounds="570 150 30 30" Id="60" />
+			<Wire Id="61" Joints="N(19:R1)|(535,175) h(20) v(-10) N(60:x)|(570,165)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="63" Joints="N(62:o)|(710,115) N(51:Value)|(733,115)" xmlns="http://www.ni.com/PlatformFramework" />
+			<LogicalAnd Bounds="685 105 25 50" Id="62" Terminals="o=63, c0t0v=84, c1t0v=83, c2t0v=118, c3t0v=119, c4t0v=115" VerticalChunkCount="5" />
+			<IsEqual Bounds="500 105 30 30" Id="69" />
+			<IsEqual Bounds="320 75 30 30" Id="70" />
+			<Divide Bounds="125 85 30 30" Id="77" />
+			<Literal Bounds="60 100 40 15" DataType="Double" Id="78" Label="79" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>0x4000000000000000</p.Data>
 				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 			</Literal>
-			<NodeLabel AttachedTo="78" Bounds="60 132 30 15" Id="79" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="78" Bounds="60 118 30 15" Id="79" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>y</p.Text>
 			</NodeLabel>
-			<Wire Id="80" Joints="N(78:Out)|(100,155) N(77:y)|(125,155)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="83" Joints="N(69:x = y?)|(520,160) N(62:c1t0v)|(665,160)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="84" Joints="N(70:x = y?)|(340,130) h(305) v(20) N(62:c0t0v)|(665,150)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="85" Joints="N(56:.not. x?)|(630,230) h(25) v(-50) N(62:c3t0v)|(665,180)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="86" Joints="N(60:x = 0?)|(635,185) h(10) v(-15) N(62:c2t0v)|(665,170)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="87" Joints="N(17:R1)|(285,210) h(10) v(-75) N(70:y)|(310,135)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="88" Joints="N(41:Value)|(100,140) h(10) B(1) N(77:x)|(125,140) B(1) v(-20) N(70:x)|(310,120) B(1) v(60) N(15:L0)|(120,200)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="95" Joints="N(77:x/y)|(155,150) N(94:number)|(190,150)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="96" Joints="N(94:nearest integer value)|(220,150) N(69:x)|(490,150)" xmlns="http://www.ni.com/PlatformFramework" />
-			<RoundToNearest Bounds="190 135 30 30" Id="94" />
-			<Wire Id="99" Joints="N(21:R1)|(405,210) h(10) v(-35) N(98:number)|(430,175)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="100" Joints="N(98:nearest integer value)|(460,175) h(15) v(-10) N(69:y)|(490,165)" xmlns="http://www.ni.com/PlatformFramework" />
-			<RoundToNearest Bounds="430 160 30 30" Id="98" />
-			<MethodCall Bounds="545 195 40 40" Id="101" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Close.gvi&quot;" Signature="@91855ec41af746c09225356b0a66adb5" Target="Turbine.gtype::Close.gvi" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="80" Joints="N(78:Out)|(100,105) N(77:y)|(125,105)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="83" Joints="N(69:x = y?)|(530,120) N(62:c1t0v)|(685,120)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="84" Joints="N(70:x = y?)|(350,90) h(315) v(20) N(62:c0t0v)|(685,110)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="87" Joints="N(17:R1)|(285,175) h(10) v(-80) N(70:y)|(320,95)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="88" Joints="N(41:Value)|(100,165) h(10) B(1) N(15:L0)|(120,165) B(1) v(-75) B(3) N(77:x)|(125,90) B(3) v(-10) N(70:x)|(320,80)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="95" Joints="N(77:x/y)|(155,100) N(94:number)|(190,100)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="96" Joints="N(94:nearest integer value)|(220,100) h(15) v(10) N(69:x)|(500,110)" xmlns="http://www.ni.com/PlatformFramework" />
+			<RoundToNearest Bounds="190 85 30 30" Id="94" />
+			<Wire Id="99" Joints="N(21:R1)|(415,175) h(10) v(-35) N(98:number)|(440,140)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="100" Joints="N(98:nearest integer value)|(470,140) h(15) v(-15) N(69:y)|(500,125)" xmlns="http://www.ni.com/PlatformFramework" />
+			<RoundToNearest Bounds="440 125 30 30" Id="98" />
+			<MethodCall Bounds="565 185 40 40" Id="101" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Turbine.gtype\\Close.gvi&quot;" Signature="@23d66e9587bb40d98d692a0a3e00e491" Target="Turbine.gtype::Close.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Turbine in" />
@@ -230,13 +254,25 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@b6b6e72e10a44719a40ac3f41bce313a" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@2eb81370261440c5a6cff0ab5eead59c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
-			<Wire Id="103" Joints="N(19:R3)|(525,230) N(101:L3)|(545,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="104" Joints="N(101:R3)|(585,230) N(56:x)|(605,230)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="105" Joints="N(19:R0)|(525,200) N(101:L0)|(545,200)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="103" Joints="N(19:R3)|(535,195) h(10) v(25) N(101:L3)|(565,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="104" Joints="N(101:R3)|(605,220) N(56:x)|(625,220)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="105" Joints="N(19:R0)|(535,165) h(10) v(25) N(101:L0)|(565,190)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="60 135 40 15" DataItem="106" Id="110" Label="111" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="110" Bounds="-26 135 81 14" Id="111" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Max Flow (cfs)</p.Text>
+			</NodeLabel>
+			<Wire Id="112" Joints="N(110:Value)|(100,140) h(35) N(15:T0)|(135,160)" xmlns="http://www.ni.com/PlatformFramework" />
+			<IsEqualTo0 Bounds="625 125 30 30" Id="113" />
+			<Wire Id="114" Joints="N(19:T1)|(520,160) v(-20) N(113:x)|(625,140)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="115" Joints="N(56:.not. x?)|(650,220) h(25) v(-70) N(62:c4t0v)|(685,150)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="118" Joints="N(113:x = 0?)|(655,140) h(10) v(-10) N(62:c2t0v)|(685,130)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="119" Joints="N(60:x = 0?)|(600,165) h(65) v(-25) N(62:c3t0v)|(685,140)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
 			<PanelExecutionWindow Id="14" />
@@ -244,6 +280,8 @@
 			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="49" LabelOwner="[UIModel]39" Left="[float]20" Text="[string]Power at Max Flow (MW)" Top="[float]64" Width="[float]132" xmlns="http://www.ni.com/PanelCommon" />
 			<LED BaseName="[string]Square LED" Enabled="[bool]True" FalseContent="[string]Off" Height="[float]24" Id="52" IsReadOnly="[bool]True" Label="[UIModel]53" Left="[float]212" MinHeight="[float]24" MinWidth="[float]24" Shape="[LEDShape]Square" TabIndex="[int]1" Top="[float]84" TrueContent="[string]On" Value="{DataItemBinding Id=50}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="53" LabelOwner="[UIModel]52" Left="[float]212" Text="[string]Pass?" Top="[float]64" Width="[float]28" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Enabled="[bool]True" Height="[float]24" Id="107" Interval="[double]1" IsReadOnly="[bool]False" Label="[UIModel]108" Left="[float]20" Maximum="[double]Infinity" MinHeight="[float]24" Minimum="[double]-Infinity" TabIndex="[int]2" Top="[float]148" Value="{DataItemBinding Id=106}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="108" LabelOwner="[UIModel]107" Left="[float]20" Text="[string]Max Flow (cfs)" Top="[float]128" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
 		</NativeFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="38" Name="Power at Max Flow (MW)" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x3FF0000000000000</p.DefaultValue>
@@ -251,19 +289,23 @@
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="50" Name="Pass?" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="106" Name="Max Flow (cfs)" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x4059000000000000</p.DefaultValue>
+		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="8d69fd9df7974f099f7fc31685166906">
-			<Attributed AttributedType="@8f140540dfff4b5f803d777e9a591864">
+		<p.TypeReference TypeId="9433f69920c24f3b96fce135f05242bd">
+			<Attributed AttributedType="@6f6f3086427b408b969205dde3084597">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b6b6e72e10a44719a40ac3f41bce313a">
+		<p.TypeReference TypeId="2eb81370261440c5a6cff0ab5eead59c">
 			<Composite Id="1" Name="Turbine.gtype">
 				<MemberScopes>
+					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
@@ -280,6 +322,7 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Gate State (FALSE = Closed)" DataType="Boolean" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Open Percentage (%)" DataType="Double" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Power at Max Flow (MW)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Flow (cfs)" DataType="Double" />
 					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
@@ -319,8 +362,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f24f0885589047849cd50cd1284b36cf">
-			<Attributed AttributedType="@2a64c789b7384f868d7a5158c420c322">
+		<p.TypeReference TypeId="62cef5ff0d2149a292d7333a17e5abb2">
+			<Attributed AttributedType="@30996671a1dc4ef18dfa418116b2d61b">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -328,8 +371,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9689adc5baa14c9d948f4470477f7dcd">
-			<Attributed AttributedType="@f33f90ca76664f2c86608b4d25d86695">
+		<p.TypeReference TypeId="0e5c57a856e1408b93d5e51fb30247a6">
+			<Attributed AttributedType="@f4d6a16de77140dfb1bf414eb08fb441">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -337,8 +380,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8d36fd15a48c4acb98ee34ae5bd2d896">
-			<Attributed AttributedType="@d0614d824443496db3fb6080660cbefa">
+		<p.TypeReference TypeId="ac945a3a3240488f9a6a45f1c5a2ab18">
+			<Attributed AttributedType="@96bd6bea023e43fbb77d3cb3a81d2e7d">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -346,16 +389,16 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="91855ec41af746c09225356b0a66adb5">
-			<Attributed AttributedType="@c14d7c3d7ce24448872ba976a4c87120">
+		<p.TypeReference TypeId="23d66e9587bb40d98d692a0a3e00e491">
+			<Attributed AttributedType="@9953fa698832437b932d0d4feae15388">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8f140540dfff4b5f803d777e9a591864">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="6f6f3086427b408b969205dde3084597">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@2eb81370261440c5a6cff0ab5eead59c" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@e64e5ff780c048488692d9cd048ba2d0">
 						<AttributeValues>
@@ -377,7 +420,12 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
+					<Attributed AttributedType="@0186a10b96d241fe8eded5eded178ed8">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Max Flow (cfs)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@a79cdf7a94434464b4fdcc76e87e2ef7">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -393,10 +441,10 @@
 		<p.TypeReference TypeId="321c26ff432b46cd9d2d8ec47cc5f4e1">
 			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="2a64c789b7384f868d7a5158c420c322">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open Gate.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="30996671a1dc4ef18dfa418116b2d61b">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open Gate.gvi" ReturnType="Void" DeclaringType="@2eb81370261440c5a6cff0ab5eead59c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
+					<Attributed AttributedType="@2c19b480af2c427688c08f263a68076b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -411,7 +459,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
+					<Attributed AttributedType="@a79cdf7a94434464b4fdcc76e87e2ef7">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -429,10 +477,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f33f90ca76664f2c86608b4d25d86695">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Generated Power.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="f4d6a16de77140dfb1bf414eb08fb441">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Generated Power.gvi" ReturnType="Void" DeclaringType="@2eb81370261440c5a6cff0ab5eead59c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
+					<Attributed AttributedType="@2c19b480af2c427688c08f263a68076b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -442,7 +490,17 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
+					<Attributed AttributedType="@9e6f9624515148bab3108ee2c7627440">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Power at Max Flow (MW)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@87bdb5fa9c31454f9944d49a62932f59">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Open Percentage (%)" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@a79cdf7a94434464b4fdcc76e87e2ef7">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -452,18 +510,28 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Power Generated (MW)" />
 						</AttributeValues>
 					</Attributed>
+					<Attributed AttributedType="@2d39952d04934afd902caa05c8117791">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Gate State (FALSE = Closed)" />
+						</AttributeValues>
+					</Attributed>
 					<Attributed AttributedType="@283b364e3da54b9cbfd48e5df590ae1a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
 						</AttributeValues>
 					</Attributed>
+					<Attributed AttributedType="@fcf8be457c2f41d08467b7f38fb7c1cb">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Flow (cfs)" />
+						</AttributeValues>
+					</Attributed>
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d0614d824443496db3fb6080660cbefa">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="96bd6bea023e43fbb77d3cb3a81d2e7d">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Gate.gvi" ReturnType="Void" DeclaringType="@2eb81370261440c5a6cff0ab5eead59c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
+					<Attributed AttributedType="@2c19b480af2c427688c08f263a68076b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -473,7 +541,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@0bb692f7328544c6a592bb5a40132a4e">
+					<Attributed AttributedType="@a79cdf7a94434464b4fdcc76e87e2ef7">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine out" />
 						</AttributeValues>
@@ -486,10 +554,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c14d7c3d7ce24448872ba976a4c87120">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@b6b6e72e10a44719a40ac3f41bce313a" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="9953fa698832437b932d0d4feae15388">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@2eb81370261440c5a6cff0ab5eead59c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d067ca6abeb24d40b7fea954ec813b6f">
+					<Attributed AttributedType="@2c19b480af2c427688c08f263a68076b">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Turbine in" />
 						</AttributeValues>
@@ -519,20 +587,35 @@
 		<p.TypeReference TypeId="584fe768716642bab2aa798a65f5ba44">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="0bb692f7328544c6a592bb5a40132a4e">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@b6b6e72e10a44719a40ac3f41bce313a" />
+		<p.TypeReference TypeId="0186a10b96d241fe8eded5eded178ed8">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="T0" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="a79cdf7a94434464b4fdcc76e87e2ef7">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@2eb81370261440c5a6cff0ab5eead59c" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="283b364e3da54b9cbfd48e5df590ae1a">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="d067ca6abeb24d40b7fea954ec813b6f">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@b6b6e72e10a44719a40ac3f41bce313a" />
+		<p.TypeReference TypeId="2c19b480af2c427688c08f263a68076b">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@2eb81370261440c5a6cff0ab5eead59c" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="131e466e8a7f49288eaa51608b227702">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="76cc67aa13944d07a0e9719b48500f41">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="9e6f9624515148bab3108ee2c7627440">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="B0" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="87bdb5fa9c31454f9944d49a62932f59">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="B1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="2d39952d04934afd902caa05c8117791">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="fcf8be457c2f41d08467b7f38fb7c1cb">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="T1" DataType="Double" />
 		</p.TypeReference>
 	</DataTypeReferenceTable>
 	<IconTable xmlns="http://www.ni.com/PlatformFramework">

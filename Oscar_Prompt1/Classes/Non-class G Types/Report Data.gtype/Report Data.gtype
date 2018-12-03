@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8F9632284D5BB85981881BDD123EDD900B7B7F58EB0A7DCEDACEABADE0DF0B2A98872D91E0F2072EFE4612297DCEAD7D79FB5AFD0D235121D83EDC6E6DA11FFC" Timestamp="1D48A9BE294A5C0" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7F3161631DF6D03390D1C317A1FF77C530DDD7AC73229EB7389EC9D70F577B0419EA2442125F76965DFED6BE29BC6AE8C3C8C4F205473CA120F6FAFFBA08AF46" Timestamp="1D48B2CFD19D848" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -7,7 +7,7 @@
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@e80fd7d7fb1040ce96a3ccdc617beb75" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@26f1e6769f344f9c83716a41f72c4a6a" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="Lake properties.gtype" />
 			<TypeDefinitionTarget TargetName="Large Floodgates properties.gtype" />
@@ -19,7 +19,7 @@
 				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@e80fd7d7fb1040ce96a3ccdc617beb75" Id="14" Name="Report Data">
+		<DataItem DataType="@26f1e6769f344f9c83716a41f72c4a6a" Id="14" Name="Report Data">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>0x0_0x0_0x0_</Field1>
@@ -44,6 +44,7 @@
 							<Field3>null</Field3>
 							<Field4>null</Field4>
 							<Field5>0x0</Field5>
+							<Field6>0x0</Field6>
 						</Cluster>
 					</Field4>
 				</Cluster>
@@ -61,7 +62,7 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="Report Data.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e80fd7d7fb1040ce96a3ccdc617beb75" Height="[float]576" Id="10" Label="[UIModel]13" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=14}" Width="[float]666" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@26f1e6769f344f9c83716a41f72c4a6a" Height="[float]576" Id="10" Label="[UIModel]13" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=14}" Width="[float]749" xmlns="http://www.ni.com/PanelCommon">
 						<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@13d6552cc8f9473da62b7a5701b5c8c9" Height="[float]60" Id="17" Label="[UIModel]24" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Lake\ properties}" Width="[float]376" p7:ControlDefinitionChecksum="uCT3dAqI39Nq6Wrc84eQHhsxUSsmz8E52s/0wfayAbE=" xmlns:p7="http://www.ni.com/PanelCommon">
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="Lake properties.gtype::ControlDefinition" />
@@ -104,28 +105,30 @@
 							<p7:Label Height="[float]16" Id="46" LabelOwner="[UIModel]45" Left="[float]127" Text="[string]Small Floodgates Size (cfs)" Top="[float]4" Width="[float]140" />
 						</Cluster>
 						<Label Height="[float]16" Id="48" LabelOwner="[UIModel]40" Left="[float]4" Text="[string]Small Floodgates properties" Top="[float]240" Width="[float]148" />
-						<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@3699f1e1a3ca4c0a9646d7a0527c0c94" Height="[float]156" Id="74" Label="[UIModel]87" Left="[float]4" TabIndex="[int]3" Top="[float]408" Value="{ClusterBinding FieldName=Turbines\ properties}" Width="[float]650" p7:ControlDefinitionChecksum="He/FSlY3hXb12zDeigml1jOwzHd6J/CB1IGAIE9Yp9M=" xmlns:p7="http://www.ni.com/PanelCommon">
+						<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b6e5b2531bb34d969d65b9b0b6c5daed" Height="[float]156" Id="88" Label="[UIModel]103" Left="[float]4" TabIndex="[int]3" Top="[float]408" Value="{ClusterBinding FieldName=Turbines\ properties}" Width="[float]733" p7:ControlDefinitionChecksum="oOKO2dmXwS+wvawJrmHPfy0dldCIuagxZV9dKThB6C0=" xmlns:p7="http://www.ni.com/PanelCommon">
 							<p7:p.TypeDefinitionTargets>
 								<p7:TypeDefinitionTarget TargetName="Turbines properties.gtype::ControlDefinition" />
 							</p7:p.TypeDefinitionTargets>
-							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="75" Interval="[int]1" Label="[UIModel]76" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=#\ of\ Turbines}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Height="[float]16" Id="76" LabelOwner="[UIModel]75" Left="[float]4" Text="[string]# of Turbines" Top="[float]4" Width="[float]70" />
-							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="77" IsReadOnly="[bool]False" Label="[UIModel]78" Left="[float]84" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Power\ at\ Max\ Flow\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Height="[float]16" Id="78" LabelOwner="[UIModel]77" Left="[float]84" Text="[string]Power at Max Flow (MW)" Top="[float]4" Width="[float]132" />
-							<p7:ArrayViewer ArrayElement="[UIModel]85" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="79" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]80" Left="[float]224" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Turbine\ Gates\ Status}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]72">
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="89" Interval="[int]1" Label="[UIModel]90" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=#\ of\ Turbines}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="90" LabelOwner="[UIModel]89" Left="[float]4" Text="[string]# of Turbines" Top="[float]4" Width="[float]70" />
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="91" IsReadOnly="[bool]False" Label="[UIModel]92" Left="[float]84" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Power\ at\ Max\ Flow\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="92" LabelOwner="[UIModel]91" Left="[float]84" Text="[string]Power at Max Flow (MW)" Top="[float]4" Width="[float]132" />
+							<p7:ArrayViewer ArrayElement="[UIModel]101" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="93" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]94" Left="[float]224" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Turbine\ Gates\ Status}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]72">
 								<p.DefaultElementValue>False</p.DefaultElementValue>
-								<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="85" IsReadOnly="[bool]False" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="101" IsReadOnly="[bool]False" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							</p7:ArrayViewer>
-							<p7:Label Height="[float]16" Id="80" LabelOwner="[UIModel]79" Left="[float]224" Text="[string]Turbine Gates Status" Top="[float]4" Width="[float]109" />
-							<p7:ArrayViewer ArrayElement="[UIModel]86" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]120" Id="81" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]82" Left="[float]341" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Turbines\ State\ (%)}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104">
+							<p7:Label Height="[float]16" Id="94" LabelOwner="[UIModel]93" Left="[float]224" Text="[string]Turbine Gates Status" Top="[float]4" Width="[float]109" />
+							<p7:ArrayViewer ArrayElement="[UIModel]102" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]120" Id="95" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]96" Left="[float]341" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Turbines\ State\ (%)}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104">
 								<p.DefaultElementValue>0x0</p.DefaultElementValue>
-								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="86" IsReadOnly="[bool]False" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+								<NumericText BaseName="[string]Numeric" Height="[float]24" Id="102" IsReadOnly="[bool]False" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 							</p7:ArrayViewer>
-							<p7:Label Height="[float]16" Id="82" LabelOwner="[UIModel]81" Left="[float]341" Text="[string]Turbines State (%)" Top="[float]4" Width="[float]96" />
-							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="83" IsReadOnly="[bool]False" Label="[UIModel]84" Left="[float]453" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]4" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Total\ Power\ Being\ Generated\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-							<p7:Label Height="[float]16" Id="84" LabelOwner="[UIModel]83" Left="[float]453" Text="[string]Total Power Being Generated (MW)" Top="[float]4" Width="[float]185" />
+							<p7:Label Height="[float]16" Id="96" LabelOwner="[UIModel]95" Left="[float]341" Text="[string]Turbines State (%)" Top="[float]4" Width="[float]96" />
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="97" IsReadOnly="[bool]False" Label="[UIModel]98" Left="[float]453" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]4" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Total\ Power\ Being\ Generated\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="98" LabelOwner="[UIModel]97" Left="[float]453" Text="[string]Total Power Being Generated (MW)" Top="[float]4" Width="[float]185" />
+							<NumericText BaseName="[string]Numeric" Height="[float]24" Id="99" IsReadOnly="[bool]False" Label="[UIModel]100" Left="[float]646" MinHeight="[float]24" TabIndex="[int]5" Top="[float]24" Value="{ClusterBinding FieldName=Max\ Flow\ (cfs)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+							<p7:Label Height="[float]16" Id="100" LabelOwner="[UIModel]99" Left="[float]646" Text="[string]Max Flow (cfs)" Top="[float]4" Width="[float]75" />
 						</Cluster>
-						<Label Height="[float]16" Id="87" LabelOwner="[UIModel]74" Left="[float]4" Text="[string]Turbines properties" Top="[float]388" Width="[float]103" />
+						<Label Height="[float]16" Id="103" LabelOwner="[UIModel]88" Left="[float]4" Text="[string]Turbines properties" Top="[float]388" Width="[float]103" />
 					</Cluster>
 					<Label Height="[float]16" Id="13" LabelOwner="[UIModel]10" Left="[float]100" Text="[string]Report Data" Top="[float]80" Width="[float]63" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -133,13 +136,13 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="e80fd7d7fb1040ce96a3ccdc617beb75">
+		<p.TypeReference TypeId="26f1e6769f344f9c83716a41f72c4a6a">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Lake properties" DataType="@13d6552cc8f9473da62b7a5701b5c8c9" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Large Floodgates properties" DataType="@f60c82deed274fd4a2b831d2f851728c" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Small Floodgates properties" DataType="@4d6f926689814e0c9c56b01a5e970e20" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Turbines properties" DataType="@3699f1e1a3ca4c0a9646d7a0527c0c94" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Turbines properties" DataType="@b6e5b2531bb34d969d65b9b0b6c5daed" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -152,8 +155,8 @@
 		<p.TypeReference TypeId="4d6f926689814e0c9c56b01a5e970e20">
 			<Typedef TypedefName="Small Floodgates properties.gtype" UnderlyingType="@dc39c0c6579f4135813c317998b0d2ba" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="3699f1e1a3ca4c0a9646d7a0527c0c94">
-			<Typedef TypedefName="Turbines properties.gtype" UnderlyingType="@e481047caeca4119a80c7051f1ccc9cb" />
+		<p.TypeReference TypeId="b6e5b2531bb34d969d65b9b0b6c5daed">
+			<Typedef TypedefName="Turbines properties.gtype" UnderlyingType="@aed0d25a990943ce8b6222ec67554fb4" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="b105d2b71291421c8e773cc84701623f">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -182,7 +185,7 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e481047caeca4119a80c7051f1ccc9cb">
+		<p.TypeReference TypeId="aed0d25a990943ce8b6222ec67554fb4">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="# of Turbines" DataType="Int32" />
@@ -190,6 +193,7 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbine Gates Status" DataType="Boolean[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbines State (%)" DataType="Double[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Total Power Being Generated (MW)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Flow (cfs)" DataType="Double" />
 				</Members>
 			</Composite>
 		</p.TypeReference>

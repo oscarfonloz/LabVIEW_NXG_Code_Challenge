@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="98831224DD35600392EF0CE2830CAF25858FA093F372502F9522370AD4C248BA2730CC2A9A72227CB4C6D528593D27C643868CE3DD121D329051EB09D618237D" Timestamp="1D48A047ADD91D4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="168992B0B0941D12FD52A3FA0B98B6CE2328B4E07023426857E131888DF961FDA5717E2A93AB5F739AB381238272B816E96BA6A9D9080CC9E43CE9AEFBF5FE10" Timestamp="1D48B373AC88F23" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@19750baad75248fbaa788c69d57f534e" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@1be9c6d924914c488297aba4d55e5c31" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@19750baad75248fbaa788c69d57f534e" Id="12" Name="Command">
+		<DataItem DataType="@1be9c6d924914c488297aba4d55e5c31" Id="12" Name="Command">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</TypeDefinition>
@@ -27,6 +27,8 @@
 						<EnumSelectorInfo DisplayValue="[string]Update Dam" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Log" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
 						<EnumSelectorInfo DisplayValue="[string]Initialize" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]Change Inflow" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]4" ValueType="[Type]UInt16" />
+						<EnumSelectorInfo DisplayValue="[string]ChangeTurbines Status" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]5" ValueType="[Type]UInt16" />
 					</EnumSelector>
 					<Label Height="[float]16" Id="11" LabelOwner="[UIModel]10" Left="[float]100" Text="[string]Command" Top="[float]80" Width="[float]55" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -34,13 +36,15 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="19750baad75248fbaa788c69d57f534e">
+		<p.TypeReference TypeId="1be9c6d924914c488297aba4d55e5c31">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Stop" />
 					<EnumerationMember Value="1" Name="Update Dam" />
 					<EnumerationMember Value="2" Name="Log" />
 					<EnumerationMember Value="3" Name="Initialize" />
+					<EnumerationMember Value="4" Name="Change Inflow" />
+					<EnumerationMember Value="5" Name="ChangeTurbines Status" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

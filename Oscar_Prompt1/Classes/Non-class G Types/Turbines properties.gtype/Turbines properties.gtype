@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="BBA24EECFBBBDF3F024CA459DB88A39985B1E415D3FC1DF0D810D821E0F4BC60BBFF08EE545A114F96865EAFFD6EC36754F781970431AFA86C8C4E900E560473" Timestamp="1D48AA4CC3EE291" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="2A2DD33FFA186A8ED2AD9765A96B9B5BB81CE1FEFD4B126D5B1D03F4D821F3075740636089F6BA00EC9FA44786FF5CE911CC938EE9F8E727DEA8574C8DF3140D" Timestamp="1D48B2CBE732FDF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
@@ -7,13 +7,13 @@
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition DataType="@e481047caeca4119a80c7051f1ccc9cb" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition DataType="@aed0d25a990943ce8b6222ec67554fb4" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
 			</IconPanel>
 		</Icon>
-		<DataItem DataType="@e481047caeca4119a80c7051f1ccc9cb" Id="22" Name="Turbines properties">
+		<DataItem DataType="@aed0d25a990943ce8b6222ec67554fb4" Id="22" Name="Turbines properties">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>2</Field1>
@@ -21,6 +21,7 @@
 					<Field3>null</Field3>
 					<Field4>null</Field4>
 					<Field5>0x0</Field5>
+					<Field6>0x0</Field6>
 				</Cluster>
 			</p.DefaultValue>
 		</DataItem>
@@ -30,7 +31,7 @@
 		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="Turbines properties.gtype" NameTracksFileName="True">
 			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
 				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
-					<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@e481047caeca4119a80c7051f1ccc9cb" Height="[float]156" Id="10" Label="[UIModel]21" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=22}" Width="[float]650" xmlns="http://www.ni.com/PanelCommon">
+					<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@aed0d25a990943ce8b6222ec67554fb4" Height="[float]156" Id="10" Label="[UIModel]21" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=22}" Width="[float]733" xmlns="http://www.ni.com/PanelCommon">
 						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="11" Interval="[int]1" Label="[UIModel]12" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=#\ of\ Turbines}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Label Height="[float]16" Id="12" LabelOwner="[UIModel]11" Left="[float]4" Text="[string]# of Turbines" Top="[float]4" Width="[float]70" />
 						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="13" IsReadOnly="[bool]False" Label="[UIModel]14" Left="[float]84" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Power\ at\ Max\ Flow\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -47,6 +48,8 @@
 						<Label Height="[float]16" Id="18" LabelOwner="[UIModel]17" Left="[float]341" Text="[string]Turbines State (%)" Top="[float]4" Width="[float]96" />
 						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="23" IsReadOnly="[bool]False" Label="[UIModel]24" Left="[float]453" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]4" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Total\ Power\ Being\ Generated\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 						<Label Height="[float]16" Id="24" LabelOwner="[UIModel]23" Left="[float]453" Text="[string]Total Power Being Generated (MW)" Top="[float]4" Width="[float]185" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="25" IsReadOnly="[bool]False" Label="[UIModel]26" Left="[float]646" MinHeight="[float]24" TabIndex="[int]5" Top="[float]24" Value="{ClusterBinding FieldName=Max\ Flow\ (cfs)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="26" LabelOwner="[UIModel]25" Left="[float]646" Text="[string]Max Flow (cfs)" Top="[float]4" Width="[float]75" />
 					</Cluster>
 					<Label Height="[float]16" Id="21" LabelOwner="[UIModel]10" Left="[float]100" Text="[string]Turbines properties" Top="[float]80" Width="[float]103" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
@@ -54,7 +57,7 @@
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="e481047caeca4119a80c7051f1ccc9cb">
+		<p.TypeReference TypeId="aed0d25a990943ce8b6222ec67554fb4">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="# of Turbines" DataType="Int32" />
@@ -62,6 +65,7 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbine Gates Status" DataType="Boolean[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbines State (%)" DataType="Double[]" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Total Power Being Generated (MW)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Flow (cfs)" DataType="Double" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
