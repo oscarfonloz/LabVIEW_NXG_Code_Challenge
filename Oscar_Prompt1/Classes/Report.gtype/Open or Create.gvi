@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D11E7FC9606A65BA3672225A97387D0A1BD7217E037A940494E1A63E6F301F215BAD3061C18ACEA895FE2F8B104D775F9E132D30C2AF5A14240348B901D96BEC" Timestamp="1D48AB61D00F27E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D8507C240CF3F21A1C812AE039913ABE29FB4D3A71DE02122923DD192542B2E1100AC7E646FE3975D79DF7B442482715930BBB1116D95C5A55C8BFAC4D44375A" Timestamp="1D48ABCDE5EC779" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -44,30 +44,30 @@
 			<NodeLabel AttachedTo="25" Bounds="-55 483 42 14" Id="26" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error in</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="715 420 40 15" DataItem="15" Id="27" Label="28" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="835 450 40 15" DataItem="15" Id="27" Label="28" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="27" Bounds="715 403 50 14" Id="28" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="27" Bounds="835 433 50 14" Id="28" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Error out</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="715 360 40 15" DataItem="17" Id="31" Label="32" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@4b5aa392307e41f9a7b788aec636eac8" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="835 410 40 15" DataItem="17" Id="31" Label="32" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@dc1457dac8624d6cae2c80a750593c8c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="31" Bounds="715 343 59 14" Id="32" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="31" Bounds="835 393 59 14" Id="32" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Report out</p.Text>
 			</NodeLabel>
-			<CaseStructure Bounds="5 340 685 190" DataType="Error" Id="33" Selected="34" UserSelectorBounds="290 0 106 17">
-				<CaseStructure.Case Bounds="5 5 675 180" Id="34" Pattern="No Error">
-					<Wire Id="135" Joints="N(39:34)|(4,20) h(496) v(50) N(134:instance in)|(520,70)" xmlns="http://www.ni.com/PlatformFramework" />
-					<PropertyNode Bounds="520 65 134 60" Id="134" InstanceDataType="@4b5aa392307e41f9a7b788aec636eac8" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+			<CaseStructure Bounds="5 340 805 190" DataType="Error" Id="33" Selected="34" UserSelectorBounds="350 0 106 17">
+				<CaseStructure.Case Bounds="5 5 795 180" Id="34" Pattern="No Error">
+					<Wire Id="135" Joints="N(39:34)|(4,20) h(616) v(50) N(134:instance in)|(640,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<PropertyNode Bounds="640 65 134 60" Id="134" InstanceDataType="@dc1457dac8624d6cae2c80a750593c8c" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 							<TypeDefinitionTarget TargetName="Report.gtype" />
 						</p.TypeDefinitionTargets>
 						<PropertyItemTerminal Action="Write" DataType="Path" Hotspot="0 25" Id="c0t0v" Path="Log Path" PathElementMemberKinds="Field" Usage="Required" />
 						<PropertyItemTerminal Action="Write" DataType="@18002efefbb942ffbb33cba82f8b85e0" Hotspot="0 40" Id="c1t0v" Path="Report Refnum" PathElementMemberKinds="Field" Usage="Required" />
 					</PropertyNode>
-					<Wire Id="139" Joints="N(134:instance out)|(654,70) h(6) v(-50) N(38:34)|(671,20)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="220" Joints="N(134:error out)|(654,80) N(37:34)|(671,80)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="139" Joints="N(134:instance out)|(774,70) N(38:34)|(791,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="220" Joints="N(134:error out)|(774,80) N(37:34)|(791,80)" xmlns="http://www.ni.com/PlatformFramework" />
 					<IsEmptyStringOrPath Bounds="25 55 30 30" Id="221" />
 					<CaseStructure Bounds="75 25 330 110" Default="224" Id="223" Selected="225" UserSelectorBounds="121 0 88 17">
 						<CaseStructure.Case Bounds="5 5 320 100" Id="224" Pattern="False">
@@ -123,11 +123,10 @@
 						<CaseStructure.Tunnel Bounds="321 60 13 10" Docking="Right" Id="232" Terminals="223=228, 224=231, 225=243" />
 					</CaseStructure>
 					<Wire Id="227" Joints="N(221:empty?)|(55,70) N(226:223)|(71,70)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="228" Joints="N(232:223)|(409,90) h(31) B(1) N(134:c0t0v)|(520,90) B(1) v(40) N(250:file path (use dialog\))|(450,130)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="228" Joints="N(232:223)|(409,90) h(31) B(1) N(134:c0t0v)|(640,90) B(1) v(40) N(250:file path (use dialog\))|(450,130)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="229" Joints="N(216:34)|(4,90) h(11) B(1) N(230:223)|(71,90) B(1) v(-20) N(221:string/path)|(25,70)" xmlns="http://www.ni.com/PlatformFramework" />
 					<OpenOrCreateOrReplaceFile Bounds="450 125 40 40" Id="250" />
 					<Wire Id="252" Joints="N(36:34)|(4,160) N(250:error in)|(450,160)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="253" Joints="N(250:error out)|(490,160) h(20) v(-80) N(134:error in)|(520,80)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="295 140 135 15" DataType="@ba3516956925474392e4c2db3ae044e7" Id="255" Label="256" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>3</p.Data>
 						<EnumBehavior />
@@ -136,21 +135,29 @@
 						<p.Text>operation</p.Text>
 					</NodeLabel>
 					<Wire Id="257" Joints="N(255:Out)|(430,145) h(10) v(-5) N(250:operation (0:open\))|(450,140)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="266" Joints="N(250:refnum out)|(490,130) h(10) v(-25) N(134:c1t0v)|(520,105)" xmlns="http://www.ni.com/PlatformFramework" />
+					<GetFileSize Bounds="510 125 40 40" Id="267" />
+					<SetFilePosition Bounds="570 125 40 40" Id="268" />
+					<Wire Id="269" Joints="N(250:refnum out)|(490,130) N(267:file)|(510,130)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="271" Joints="N(267:refnum out)|(550,130) N(268:refnum)|(570,130)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="272" Joints="N(268:refnum out)|(610,130) h(10) v(-25) N(134:c1t0v)|(640,105)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="273" Joints="N(267:error out)|(550,160) N(268:error in)|(570,160)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="275" Joints="N(250:error out)|(490,160) N(267:error in)|(510,160)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="276" Joints="N(268:error out)|(610,160) h(20) v(-80) N(134:error in)|(640,80)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="277" Joints="N(267:size (in bytes\))|(550,140) N(268:offset (in bytes\) (0\))|(570,140)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 675 180" Id="35" Pattern="Error">
-					<Wire Id="69" Joints="N(39:35)|(4,20) N(38:35)|(671,20)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="70" Joints="N(36:35)|(4,160) h(656) v(-80) N(37:35)|(671,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure.Case Bounds="5 5 795 180" Id="35" Pattern="Error">
+					<Wire Id="69" Joints="N(39:35)|(4,20) h(776) v(50) N(38:35)|(791,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="70" Joints="N(36:35)|(4,160) h(776) v(-80) N(37:35)|(791,80)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 160 13 10" Docking="Left" Id="36" Terminals="33=74, 34=252, 35=70" />
-				<CaseStructure.Tunnel Bounds="676 80 13 10" Docking="Right" Id="37" Terminals="33=73, 34=220, 35=70" />
-				<CaseStructure.Tunnel Bounds="676 20 13 10" Docking="Right" Id="38" Terminals="33=71, 34=139, 35=69" />
+				<CaseStructure.Tunnel Bounds="796 80 13 10" Docking="Right" Id="37" Terminals="33=73, 34=220, 35=70" />
+				<CaseStructure.Tunnel Bounds="796 70 13 10" Docking="Right" Id="38" Terminals="33=71, 34=139, 35=69" />
 				<CaseStructure.Tunnel Bounds="-4 20 13 10" Docking="Left" Id="39" Terminals="33=72, 34=135, 35=69" />
 				<CaseStructure.Tunnel Bounds="-4 90 13 10" Docking="Left" Id="216" Terminals="33=215, 34=229, 35" />
 			</CaseStructure>
-			<Wire Id="71" Joints="N(38:33)|(694,365) N(31:Value)|(718,365)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="71" Joints="N(38:33)|(814,415) N(31:Value)|(838,415)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="72" Joints="N(132:Out)|(-15,365) N(39:33)|(1,365)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="73" Joints="N(37:33)|(694,425) N(27:Value)|(718,425)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="73" Joints="N(37:33)|(814,425) h(11) v(30) N(27:Value)|(838,455)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="74" Joints="N(25:Value)|(-15,505) N(36:33)|(1,505)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="-55 430 40 15" DataItem="140" Id="143" Label="144" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Path" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -159,7 +166,7 @@
 				<p.Text>Log Path</p.Text>
 			</NodeLabel>
 			<Wire Id="215" Joints="N(143:Value)|(-15,435) N(216:33)|(1,435)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Literal Bounds="-55 360 40 15" DataType="@4b5aa392307e41f9a7b788aec636eac8" Id="132" Label="133" p4:ControlDefinitionChecksum="VYrSsTgHOn2vMgKDXh7BMKkPHP6p/RXL6eioxlQV8pU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<Literal Bounds="-55 360 40 15" DataType="@dc1457dac8624d6cae2c80a750593c8c" Id="132" Label="133" p4:ControlDefinitionChecksum="VYrSsTgHOn2vMgKDXh7BMKkPHP6p/RXL6eioxlQV8pU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>null</p.Data>
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="Report.gtype" />
@@ -197,7 +204,7 @@
 			</Cluster>
 			<Label Height="[float]16" Id="108" LabelOwner="[UIModel]101" Left="[float]544" Text="[string]Error out" Top="[float]352" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
 			<PanelExecutionWindow Id="109" />
-			<ValueClassControl BaseName="[string]Report" Id="129" IsReadOnly="[bool]True" IsTabStop="[bool]False" Label="[UIModel]131" Left="[float]544" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=17}" ValueClassControl="[Type]@4b5aa392307e41f9a7b788aec636eac8" p4:ControlDefinitionChecksum="VYrSsTgHOn2vMgKDXh7BMKkPHP6p/RXL6eioxlQV8pU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ValueClassControl BaseName="[string]Report" Id="129" IsReadOnly="[bool]True" IsTabStop="[bool]False" Label="[UIModel]131" Left="[float]544" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=17}" ValueClassControl="[Type]@dc1457dac8624d6cae2c80a750593c8c" p4:ControlDefinitionChecksum="VYrSsTgHOn2vMgKDXh7BMKkPHP6p/RXL6eioxlQV8pU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="Report.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
@@ -232,7 +239,7 @@
 			</p.TypeDefinitionTargets>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed.</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="1" DataType="@4b5aa392307e41f9a7b788aec636eac8" Id="17" Name="Report out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="1" DataType="@dc1457dac8624d6cae2c80a750593c8c" Id="17" Name="Report out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Report.gtype" />
@@ -243,7 +250,7 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="4b5aa392307e41f9a7b788aec636eac8">
+		<p.TypeReference TypeId="dc1457dac8624d6cae2c80a750593c8c">
 			<Composite Id="1" Name="Report.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -251,6 +258,8 @@
 					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
+					<Access Scope="Private" />
+					<Access Scope="Private" />
 					<Access Scope="Public" />
 				</MemberScopes>
 				<GenericTypeDefinition>Void</GenericTypeDefinition>
@@ -276,7 +285,19 @@
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Write Status.gvi" ReturnType="Void">
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Text Array to Tabbed String.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Write Line to File.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Write Status.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
