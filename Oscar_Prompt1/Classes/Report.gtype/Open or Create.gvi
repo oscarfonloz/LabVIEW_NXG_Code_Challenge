@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="D8507C240CF3F21A1C812AE039913ABE29FB4D3A71DE02122923DD192542B2E1100AC7E646FE3975D79DF7B442482715930BBB1116D95C5A55C8BFAC4D44375A" Timestamp="1D48ABCDE5EC779" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BCA85E2A66CFC85156438CA4A7E4FE4DE7CA71614771A2B1541B0BBC22C38571048F751861A9B07E15C1C9DD0AA0C6C08EA7BAA8D06A538803C628E06F9EBF74" Timestamp="1D48AC0CFC37756" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -21,7 +21,7 @@
 				</IconTemplate>
 			</IconPanel>
 		</Icon>
-		<ConnectorPane Height="40" Id="9" ListViewHeight="100" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+		<ConnectorPane Height="40" Id="9" ListViewHeight="115" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
 			<ConnectorPaneTerminal ListViewHotspot="0 80" Parameter="140" />
 			<ConnectorPaneTerminal Hotspot="0 15" />
 			<ConnectorPaneTerminal Hotspot="0 25" />
@@ -29,7 +29,7 @@
 			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
 			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 50" Parameter="17" />
-			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 15" ListViewHotspot="150 95" Parameter="278" />
 			<ConnectorPaneTerminal Hotspot="40 25" />
 			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 65" Parameter="15" />
 			<ConnectorPaneTerminal Hotspot="15 40" />
@@ -123,7 +123,7 @@
 						<CaseStructure.Tunnel Bounds="321 60 13 10" Docking="Right" Id="232" Terminals="223=228, 224=231, 225=243" />
 					</CaseStructure>
 					<Wire Id="227" Joints="N(221:empty?)|(55,70) N(226:223)|(71,70)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="228" Joints="N(232:223)|(409,90) h(31) B(1) N(134:c0t0v)|(640,90) B(1) v(40) N(250:file path (use dialog\))|(450,130)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="228" Joints="N(232:223)|(409,90) h(31) B(1) h(168) B(2) N(134:c0t0v)|(640,90) B(2) v(70) N(314:34)|(791,160) B(1) v(40) N(250:file path (use dialog\))|(450,130)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="229" Joints="N(216:34)|(4,90) h(11) B(1) N(230:223)|(71,90) B(1) v(-20) N(221:string/path)|(25,70)" xmlns="http://www.ni.com/PlatformFramework" />
 					<OpenOrCreateOrReplaceFile Bounds="450 125 40 40" Id="250" />
 					<Wire Id="252" Joints="N(36:34)|(4,160) N(250:error in)|(450,160)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -154,6 +154,7 @@
 				<CaseStructure.Tunnel Bounds="796 70 13 10" Docking="Right" Id="38" Terminals="33=71, 34=139, 35=69" />
 				<CaseStructure.Tunnel Bounds="-4 20 13 10" Docking="Left" Id="39" Terminals="33=72, 34=135, 35=69" />
 				<CaseStructure.Tunnel Bounds="-4 90 13 10" Docking="Left" Id="216" Terminals="33=215, 34=229, 35" />
+				<CaseStructure.Tunnel Bounds="796 160 13 10" DefaultIfUnwired="True" Docking="Right" Id="314" Terminals="33=313, 34=228, 35" />
 			</CaseStructure>
 			<Wire Id="71" Joints="N(38:33)|(814,415) N(31:Value)|(838,415)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="72" Joints="N(132:Out)|(-15,365) N(39:33)|(1,365)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -162,8 +163,8 @@
 			<DataAccessor Bounds="-55 430 40 15" DataItem="140" Id="143" Label="144" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Path" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="143" Bounds="-108 430 48 14" Id="144" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>Log Path</p.Text>
+			<NodeLabel AttachedTo="143" Bounds="-124 430 64 14" Id="144" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Log Path In</p.Text>
 			</NodeLabel>
 			<Wire Id="215" Joints="N(143:Value)|(-15,435) N(216:33)|(1,435)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Literal Bounds="-55 360 40 15" DataType="@dc1457dac8624d6cae2c80a750593c8c" Id="132" Label="133" p4:ControlDefinitionChecksum="VYrSsTgHOn2vMgKDXh7BMKkPHP6p/RXL6eioxlQV8pU=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
@@ -177,6 +178,13 @@
 			<NodeLabel AttachedTo="132" Bounds="-90 360 30 15" Id="133" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Report in</p.Text>
 			</NodeLabel>
+			<DataAccessor Bounds="850 500 40 15" DataItem="278" Id="281" Label="282" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Path" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="281" Bounds="895 500 72 14" Id="282" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Log Path Out</p.Text>
+			</NodeLabel>
+			<Wire Id="313" Joints="N(314:33)|(814,505) N(281:Value)|(853,505)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]2000">
 			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="92" IsTabStop="[bool]True" Label="[UIModel]99" Left="[float]100" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]372" Value="{DataItemBinding Id=14}" Width="[float]176" p4:ControlDefinitionChecksum="e3nj023iwYRzhBkV8z61WFGSCt7pzzv3hwIJFanixR4=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
@@ -211,7 +219,9 @@
 			</ValueClassControl>
 			<Label Height="[float]16" Id="131" LabelOwner="[UIModel]129" Left="[float]544" Text="[string]Report out" Top="[float]32" Width="[float]57" xmlns="http://www.ni.com/PanelCommon" />
 			<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" Height="[float]24" Id="141" InteractionMode="[PathSelectorInteractionModes]BrowseDialog, TextInput, AllowNullPathSelection" Label="[UIModel]247" Left="[float]100" MinHeight="[float]24" Path="{DataItemBinding Id=140}" TabIndex="[int]3" Top="[float]148" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="247" LabelOwner="[UIModel]141" Left="[float]100" Text="[string]Log Path" Top="[float]128" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="247" LabelOwner="[UIModel]141" Left="[float]100" Text="[string]Log Path In" Top="[float]128" Width="[float]60" xmlns="http://www.ni.com/PanelCommon" />
+			<PathSelector BaseName="[string]Path" Height="[float]24" Id="279" InteractionMode="[PathSelectorInteractionModes]ReadOnly" Label="[UIModel]316" Left="[float]544" MinHeight="[float]24" Path="{DataItemBinding Id=278}" TabIndex="[int]4" Top="[float]148" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="316" LabelOwner="[UIModel]279" Left="[float]544" Text="[string]Log Path Out" Top="[float]128" Width="[float]70" xmlns="http://www.ni.com/PanelCommon" />
 		</NativeFrontPanel>
 		<DataItem CallDirection="Input" CallIndex="2" DataType="Error" Id="14" Name="Error in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
@@ -245,7 +255,10 @@
 				<TypeDefinitionTarget TargetName="Report.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Path" Id="140" Name="Log Path" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Path" Id="140" Name="Log Path In" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Path" Id="278" Name="Log Path Out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="AF0F5D2B8EDBA533650B8C23DFF4DC6C803266C352461B0AB7A07B0B72684682958908B9DDB9A911E1484173A71A99E53AE792A12EFF1312EF88316BA53D50EF" Timestamp="1D48A053A9C8E3A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C39570DE33FCA4AF9D59A9EF190FFB74495C347467C7BEAC0B67F159F46B15BE41D45B07FB11B25C8AC3AA04ABD0AF9B14132968F09850EFBF481E48DFAD92BC" Timestamp="1D48AC15A9FCC81" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -84,21 +84,20 @@
 							</MethodDeclaration>
 						</p.MethodDeclaration>
 						<Terminal DataType="@dcc7ad490fdb41ebafa1bf3bc3e8b6e6" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-						<Terminal DataType="@9c3d43c608bc49b4835f2c261b651b8f" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+						<Terminal DataType="@c09f626fe8f643898b6361f0f0bbf501" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="@d3bc3351dc964b0f9302527af5cd07b8" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="@dcc7ad490fdb41ebafa1bf3bc3e8b6e6" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 						<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 					</MethodCall>
-					<MergeErrors Bounds="190 55 30 20" Id="57" Terminals="error out=570, c0t0v=567, c1t0v=60" />
+					<MergeErrors Bounds="190 55 30 20" Id="57" Terminals="error out=570, c0t0v=575, c1t0v=60" />
 					<Wire Id="558" Joints="N(559:64)|(4,20) N(16:L0)|(130,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="561" Joints="N(16:R0)|(170,20) N(562:64)|(241,20)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="564" Joints="N(52:Out)|(110,30) N(16:L1)|(130,30)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="567" Joints="N(65:64)|(4,60) h(116) B(1) N(57:c0t0v)|(190,60) B(1) v(-20) N(16:L2)|(130,40)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="570" Joints="N(57:error out)|(220,60) N(571:64)|(241,60)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="60" Joints="N(16:R3)|(170,50) h(10) v(20) N(57:c1t0v)|(190,70)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Literal Bounds="25 25 85 15" DataType="@9c3d43c608bc49b4835f2c261b651b8f" Id="52" Label="53" p6:ControlDefinitionChecksum="KFG2Bx61QISA/KolHm5kWvi6i2UEBTi1m8fEozRWox0=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+					<Literal Bounds="25 25 85 15" DataType="@c09f626fe8f643898b6361f0f0bbf501" Id="52" Label="53" p6:ControlDefinitionChecksum="KFG2Bx61QISA/KolHm5kWvi6i2UEBTi1m8fEozRWox0=" xmlns:p6="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 						<p.Data>0</p.Data>
 						<p6:p.TypeDefinitionTargets>
 							<p6:TypeDefinitionTarget TargetName="Commands.gtype" />
@@ -109,8 +108,9 @@
 					<NodeLabel AttachedTo="52" Bounds="25 43 30 15" Id="53" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Command</p.Text>
 					</NodeLabel>
+					<Wire Id="575" Joints="N(65:64)|(4,60) h(111) B(1) N(57:c0t0v)|(190,60) B(1) v(-20) N(16:L2)|(130,40)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 60 13 10" Docking="Left" Id="65" Terminals="62=56, 63=574, 64=567" />
+				<CaseStructure.Selector Bounds="-4 60 13 10" Docking="Left" Id="65" Terminals="62=56, 63=574, 64=575" />
 				<CaseStructure.Tunnel Bounds="-4 20 13 10" Docking="Left" Id="559" Terminals="62=15, 63=573, 64=558" />
 				<CaseStructure.Tunnel Bounds="246 20 13 10" Docking="Right" Id="562" Terminals="62=51, 63=573, 64=561" />
 				<CaseStructure.Tunnel Bounds="246 60 13 10" Docking="Right" Id="571" Terminals="62=61, 63=574, 64=570" />
@@ -200,7 +200,7 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9c3d43c608bc49b4835f2c261b651b8f">
+		<p.TypeReference TypeId="c09f626fe8f643898b6361f0f0bbf501">
 			<Typedef TypedefName="Commands.gtype" UnderlyingType="@19750baad75248fbaa788c69d57f534e" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="d3bc3351dc964b0f9302527af5cd07b8">
@@ -209,7 +209,7 @@
 		<p.TypeReference TypeId="144f1b987bc842f3b8fba8c77af60694">
 			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@4c5f560394354189af60415f516dad02">
 				<ClosedGenericParameters>
-					<TypeRef>@b4299cc8dc554f089178b5cbce75b229</TypeRef>
+					<TypeRef>@e3ee2057226544c1901a0244fec2076e</TypeRef>
 				</ClosedGenericParameters>
 			</Composite>
 		</p.TypeReference>
@@ -272,14 +272,14 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b4299cc8dc554f089178b5cbce75b229">
-			<Typedef TypedefName="Message.gtype" UnderlyingType="@a7666d37a01c4878ad5f476222391e19" />
+		<p.TypeReference TypeId="e3ee2057226544c1901a0244fec2076e">
+			<Typedef TypedefName="Message.gtype" UnderlyingType="@0862cc5b3414495a937e116595094209" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="2f2920b4609e414997ae8f19093fe8c4">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@dcc7ad490fdb41ebafa1bf3bc3e8b6e6" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="401fd46655cc4abca5bcf77218776cb3">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@9c3d43c608bc49b4835f2c261b651b8f" />
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@c09f626fe8f643898b6361f0f0bbf501" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="3feb26fc03274b7a9cfa70e64ff83d3d">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="@d3bc3351dc964b0f9302527af5cd07b8" />
@@ -304,10 +304,10 @@
 				<BaseType>Void</BaseType>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a7666d37a01c4878ad5f476222391e19">
+		<p.TypeReference TypeId="0862cc5b3414495a937e116595094209">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Command" DataType="@9c3d43c608bc49b4835f2c261b651b8f" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Command" DataType="@c09f626fe8f643898b6361f0f0bbf501" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Variant" DataType="@d3bc3351dc964b0f9302527af5cd07b8" />
 				</Members>
 			</Composite>
