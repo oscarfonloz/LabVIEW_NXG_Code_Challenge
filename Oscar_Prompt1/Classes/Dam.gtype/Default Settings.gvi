@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="FDBBAEBB139BACE8F0A90452D9AA7A6FA5507B61F601F7919AA37515809FA0889A8B338178420087175A7EFE559F5450DC89F8B801D91F8B29BF1F1A78672168" Timestamp="1D48B73841BA507" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;This VI holds the constants used in the dam. Modify this VI if you want different reset constants.&lt;/p&gt;</p.UserDescription>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Default Settings" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="55" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 35" Parameter="101" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<ClusterLiteral Bounds="65 -90 236 763" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Id="15" Label="98" p4:ControlDefinitionChecksum="8R/VwutDtVJGi/YZnmFMbHvEZtFKl2sLMBsf30JVFbw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Cluster>
+						<Field1>0x4130C8E000000000_0x408F400000000000_0x0_</Field1>
+						<Field2>
+							<Cluster>
+								<Field1>4</Field1>
+								<Field2>0x40CDE20000000000</Field2>
+								<Field3>null</Field3>
+							</Cluster>
+						</Field2>
+						<Field3>
+							<Cluster>
+								<Field1>5</Field1>
+								<Field2>0x40C0CC0000000000</Field2>
+								<Field3>null</Field3>
+							</Cluster>
+						</Field3>
+						<Field4>
+							<Cluster>
+								<Field1>2</Field1>
+								<Field2>0x4021000000000000</Field2>
+								<Field3>null</Field3>
+								<Field4>null</Field4>
+								<Field5>0x0</Field5>
+								<Field6>0x409B580000000000</Field6>
+							</Cluster>
+						</Field4>
+					</Cluster>
+				</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Report Data.gtype" />
+					<p4:TypeDefinitionTarget TargetName="Report Data.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<ClusterBehavior AutoArrange="ArrangeVertically" />
+				<ClusterLiteral Bounds="2 19 164 118" DataType="@13d6552cc8f9473da62b7a5701b5c8c9" Id="16" Label="17" p4:ControlDefinitionChecksum="uCT3dAqI39Nq6Wrc84eQHhsxUSsmz8E52s/0wfayAbE=">
+					<p.Data>0x4130C8E000000000_0x408F400000000000_0x0_</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Lake properties.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Lake properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 19 70 15" DataType="Double" Id="24" Label="25">
+						<p.Data>0x4130C8E000000000</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="24" Bounds="2 2 110 14" Id="25" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Lake Fill (Acre-feet)</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 55 50 15" DataType="Double" Id="26" Label="27">
+						<p.Data>0x408F400000000000</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="26" Bounds="2 38 124 14" Id="27" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Lake Intake Rate (cfs)</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 91 40 15" DataType="Double" Id="28" Label="29">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="28" Bounds="2 74 143 14" Id="29" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Lake Discharge Rate (cfs)</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+				<NodeLabel AttachedTo="16" Bounds="2 2 86 14" Id="17" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Lake properties</p.Text>
+				</NodeLabel>
+				<ClusterLiteral Bounds="2 158 165 128" DataType="@f60c82deed274fd4a2b831d2f851728c" Id="18" Label="19" p4:ControlDefinitionChecksum="vZj9sZP/6y9C/OlOPd6TBDRETf6e4wM2mrUzuBTl610=">
+					<p.Data>
+						<Cluster>
+							<Field1>4</Field1>
+							<Field2>0x40CDE20000000000</Field2>
+							<Field3>null</Field3>
+						</Cluster>
+					</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Large Floodgates properties.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Large Floodgates properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 19 40 15" DataType="Int32" Id="30" Label="31">
+						<p.Data>4</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<NodeLabel AttachedTo="30" Bounds="2 2 122 14" Id="31" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text># of Large Floodgates</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 55 60 15" DataType="Double" Id="32" Label="33">
+						<p.Data>0x40CDE20000000000</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="32" Bounds="2 38 144 14" Id="33" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Large Flodgates Size (cfs)</p.Text>
+					</NodeLabel>
+					<ArrayLiteral Bounds="2 91 66 25" DataType="Boolean[]" Id="34" Label="35">
+						<p.Data>null</p.Data>
+						<ArrayBehavior ElementType="Boolean" IndexEditorWidth="42">
+							<p.DefaultElementValue>False</p.DefaultElementValue>
+						</ArrayBehavior>
+						<Literal Bounds="47 4 15 15" DataType="Boolean" Id="54">
+							<BooleanBehavior />
+						</Literal>
+					</ArrayLiteral>
+					<NodeLabel AttachedTo="34" Bounds="2 74 134 14" Id="35" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Large Floodgates Status</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+				<NodeLabel AttachedTo="18" Bounds="2 141 155 14" Id="19" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Large Floodgates properties</p.Text>
+				</NodeLabel>
+				<ClusterLiteral Bounds="2 307 172 128" DataType="@4d6f926689814e0c9c56b01a5e970e20" Id="20" Label="21" p4:ControlDefinitionChecksum="znJnfEdqteijfaTacSIuGZIzyCDoqnq8qF969BC11DA=">
+					<p.Data>
+						<Cluster>
+							<Field1>5</Field1>
+							<Field2>0x40C0CC0000000000</Field2>
+							<Field3>null</Field3>
+						</Cluster>
+					</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Small Floodgates properties.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Small Floodgates properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 19 40 15" DataType="Int32" Id="36" Label="37">
+						<p.Data>5</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<NodeLabel AttachedTo="36" Bounds="2 2 122 14" Id="37" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text># of Small Floodgates</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 55 50 15" DataType="Double" Id="38" Label="39">
+						<p.Data>0x40C0CC0000000000</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="38" Bounds="2 38 151 14" Id="39" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Small Floodgates Size (cfs)</p.Text>
+					</NodeLabel>
+					<ArrayLiteral Bounds="2 91 66 25" DataType="Boolean[]" Id="40" Label="41">
+						<p.Data>null</p.Data>
+						<ArrayBehavior ElementType="Boolean" IndexEditorWidth="42">
+							<p.DefaultElementValue>False</p.DefaultElementValue>
+						</ArrayBehavior>
+						<Literal Bounds="47 4 15 15" DataType="Boolean" Id="55">
+							<BooleanBehavior />
+						</Literal>
+					</ArrayLiteral>
+					<NodeLabel AttachedTo="40" Bounds="2 74 134 14" Id="41" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Small Floodgates Status</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+				<NodeLabel AttachedTo="20" Bounds="2 290 155 14" Id="21" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Small Floodgates properties</p.Text>
+				</NodeLabel>
+				<ClusterLiteral Bounds="2 456 215 295" DataType="@b6e5b2531bb34d969d65b9b0b6c5daed" Id="22" Label="23" p4:ControlDefinitionChecksum="oOKO2dmXwS+wvawJrmHPfy0dldCIuagxZV9dKThB6C0=">
+					<p.Data>
+						<Cluster>
+							<Field1>2</Field1>
+							<Field2>0x4021000000000000</Field2>
+							<Field3>null</Field3>
+							<Field4>null</Field4>
+							<Field5>0x0</Field5>
+							<Field6>0x409B580000000000</Field6>
+						</Cluster>
+					</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Turbines properties.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Turbines properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<ClusterBehavior AutoArrange="ArrangeVertically" />
+					<Literal Bounds="2 19 40 15" DataType="Int32" Id="42" Label="43">
+						<p.Data>2</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+					</Literal>
+					<NodeLabel AttachedTo="42" Bounds="2 2 74 14" Id="43" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text># of Turbines</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 55 40 15" DataType="Double" Id="44" Label="45">
+						<p.Data>0x4021000000000000</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="44" Bounds="2 38 138 14" Id="45" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Power at Max Flow (MW)</p.Text>
+					</NodeLabel>
+					<ArrayLiteral Bounds="2 91 66 25" DataType="Boolean[]" Id="46" Label="47">
+						<p.Data>null</p.Data>
+						<ArrayBehavior ElementType="Boolean" IndexEditorWidth="42">
+							<p.DefaultElementValue>False</p.DefaultElementValue>
+						</ArrayBehavior>
+						<Literal Bounds="47 4 15 15" DataType="Boolean" Id="56">
+							<BooleanBehavior />
+						</Literal>
+					</ArrayLiteral>
+					<NodeLabel AttachedTo="46" Bounds="2 74 116 14" Id="47" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Turbine Gates Status</p.Text>
+					</NodeLabel>
+					<ArrayLiteral Bounds="2 137 93 74" DataType="Double[]" Id="48" Label="49">
+						<p.Data>null</p.Data>
+						<ArrayBehavior ElementType="Double" IndexEditorWidth="42" VisibleRows="4">
+							<p.DefaultElementValue>0x0</p.DefaultElementValue>
+						</ArrayBehavior>
+						<Literal Bounds="49 4 40 15" DataType="Double" Id="57">
+							<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+						</Literal>
+					</ArrayLiteral>
+					<NodeLabel AttachedTo="48" Bounds="2 120 106 14" Id="49" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Turbines State (%)</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 232 40 15" DataType="Double" Id="50" Label="51">
+						<p.Data>0x0</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="50" Bounds="2 215 194 14" Id="51" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Total Power Being Generated (MW)</p.Text>
+					</NodeLabel>
+					<Literal Bounds="2 268 50 15" DataType="Double" Id="52" Label="53">
+						<p.Data>0x409B580000000000</p.Data>
+						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+					</Literal>
+					<NodeLabel AttachedTo="52" Bounds="2 251 81 14" Id="53" xmlns="http://www.ni.com/PlatformFramework">
+						<p.Text>Max Flow (cfs)</p.Text>
+					</NodeLabel>
+				</ClusterLiteral>
+				<NodeLabel AttachedTo="22" Bounds="2 439 107 14" Id="23" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Turbines properties</p.Text>
+				</NodeLabel>
+			</ClusterLiteral>
+			<PropertyNode Bounds="320 -90 189 65" HasErrorTerminals="False" Id="58" InstanceDataType="@145f0097d7434f2aa4850ed2b63b9ec9" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Report Data.gtype" />
+					<TypeDefinitionTarget TargetName="Large Floodgates properties.gtype" />
+					<TypeDefinitionTarget TargetName="Small Floodgates properties.gtype" />
+					<TypeDefinitionTarget TargetName="Turbines properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType="@f60c82deed274fd4a2b831d2f851728c" Hotspot="189 15" Id="c0t0v" Path="Large Floodgates properties" PathElementMemberKinds="Field" Usage="Optional" />
+				<PropertyItemTerminal DataType="@4d6f926689814e0c9c56b01a5e970e20" Hotspot="189 30" Id="c1t0v" Path="Small Floodgates properties" PathElementMemberKinds="Field" Usage="Optional" />
+				<PropertyItemTerminal DataType="@b6e5b2531bb34d969d65b9b0b6c5daed" Hotspot="189 45" Id="c2t0v" Path="Turbines properties" PathElementMemberKinds="Field" Usage="Optional" />
+			</PropertyNode>
+			<Wire Id="59" Joints="N(15:Out)|(301,-85) N(58:instance in)|(320,-85)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="1000 -90 208 65" HasErrorTerminals="False" Id="60" InstanceDataType="@145f0097d7434f2aa4850ed2b63b9ec9" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Report Data.gtype" />
+					<TypeDefinitionTarget TargetName="Large Floodgates properties.gtype" />
+					<TypeDefinitionTarget TargetName="Small Floodgates properties.gtype" />
+					<TypeDefinitionTarget TargetName="Turbines properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="@f60c82deed274fd4a2b831d2f851728c" Hotspot="0 15" Id="c0t0v" Path="Large Floodgates properties" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="@4d6f926689814e0c9c56b01a5e970e20" Hotspot="0 30" Id="c1t0v" Path="Small Floodgates properties" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="@b6e5b2531bb34d969d65b9b0b6c5daed" Hotspot="0 45" Id="c2t0v" Path="Turbines properties" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="61" Joints="N(60:instance out)|(1208,-85) N(97:Value)|(1228,-85)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="62" Joints="N(58:instance out)|(509,-85) N(60:instance in)|(1000,-85)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="535 -80 156 35" HasErrorTerminals="False" Id="63" InstanceDataType="@f60c82deed274fd4a2b831d2f851728c" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Large Floodgates properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType="Int32" Hotspot="156 15" Id="c0t0v" Path="# of Large Floodgates" PathElementMemberKinds="Field" Usage="Optional" />
+			</PropertyNode>
+			<Wire Id="64" Joints="N(58:c0t0v)|(509,-75) N(63:instance in)|(535,-75)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="790 -80 184 35" HasErrorTerminals="False" Id="65" InstanceDataType="@f60c82deed274fd4a2b831d2f851728c" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Large Floodgates properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="Boolean[]" Hotspot="0 15" Id="c0t0v" Path="Large Floodgates Status" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="66" Joints="N(63:instance out)|(691,-75) N(65:instance in)|(790,-75)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="67" Joints="N(65:instance out)|(974,-75) N(60:c0t0v)|(1000,-75)" xmlns="http://www.ni.com/PlatformFramework" />
+			<InitializeArray Bounds="730 -70 40 30" Id="68" Terminals="element=71, outArray=72, c0t0v=69" />
+			<Wire Id="69" Joints="N(63:c0t0v)|(691,-65) h(9) v(20) N(68:c0t0v)|(730,-45)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="665 -40 25 15" DataType="Boolean" Id="70" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<Wire Id="71" Joints="N(70:Out)|(690,-35) h(20) v(-30) N(68:element)|(730,-65)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="72" Joints="N(68:outArray)|(770,-65) N(65:c0t0v)|(790,-65)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="535 -20 156 35" HasErrorTerminals="False" Id="73" InstanceDataType="@4d6f926689814e0c9c56b01a5e970e20" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Small Floodgates properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType="Int32" Hotspot="156 15" Id="c0t0v" Path="# of Small Floodgates" PathElementMemberKinds="Field" Usage="Optional" />
+			</PropertyNode>
+			<PropertyNode Bounds="790 -20 183 35" HasErrorTerminals="False" Id="74" InstanceDataType="@4d6f926689814e0c9c56b01a5e970e20" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Small Floodgates properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="Boolean[]" Hotspot="0 15" Id="c0t0v" Path="Small Floodgates Status" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="75" Joints="N(73:instance out)|(691,-15) N(74:instance in)|(790,-15)" xmlns="http://www.ni.com/PlatformFramework" />
+			<InitializeArray Bounds="730 -10 40 30" Id="76" Terminals="element=79, outArray=80, c0t0v=77" />
+			<Wire Id="77" Joints="N(73:c0t0v)|(691,-5) h(29) v(20) N(76:c0t0v)|(730,15)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="665 20 25 15" DataType="Boolean" Id="78" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<Wire Id="79" Joints="N(78:Out)|(690,25) h(10) v(-30) N(76:element)|(730,-5)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="80" Joints="N(76:outArray)|(770,-5) N(74:c0t0v)|(790,-5)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="81" Joints="N(58:c1t0v)|(509,-60) h(16) v(45) N(73:instance in)|(535,-15)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="82" Joints="N(74:instance out)|(973,-15) h(7) v(-45) N(60:c1t0v)|(1000,-60)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="570 85 108 35" HasErrorTerminals="False" Id="83" InstanceDataType="@b6e5b2531bb34d969d65b9b0b6c5daed" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Turbines properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal DataType="Int32" Hotspot="108 15" Id="c0t0v" Path="# of Turbines" PathElementMemberKinds="Field" Usage="Optional" />
+			</PropertyNode>
+			<Wire Id="84" Joints="N(58:c2t0v)|(509,-45) h(6) v(135) N(83:instance in)|(570,90)" xmlns="http://www.ni.com/PlatformFramework" />
+			<InitializeArray Bounds="730 35 40 30" Id="85" Terminals="element=88, outArray=92, c0t0v=86" />
+			<Wire Id="86" Joints="N(83:c0t0v)|(678,100) h(32) B(1) N(93:c0t0v)|(730,100) B(1) v(-40) N(85:c0t0v)|(730,60)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="665 35 25 15" DataType="Boolean" Id="87" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>True</p.Data>
+				<BooleanBehavior />
+			</Literal>
+			<Wire Id="88" Joints="N(87:Out)|(690,40) N(85:element)|(730,40)" xmlns="http://www.ni.com/PlatformFramework" />
+			<PropertyNode Bounds="795 25 164 50" HasErrorTerminals="False" Id="89" InstanceDataType="@b6e5b2531bb34d969d65b9b0b6c5daed" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Turbines properties.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="Boolean[]" Hotspot="0 15" Id="c0t0v" Path="Turbine Gates Status" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="Double[]" Hotspot="0 30" Id="c1t0v" Path="Turbines State (%)" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="90" Joints="N(83:instance out)|(678,90) h(22) v(-60) N(89:instance in)|(795,30)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="91" Joints="N(89:instance out)|(959,30) h(31) v(-75) N(60:c2t0v)|(1000,-45)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="92" Joints="N(85:outArray)|(770,40) N(89:c0t0v)|(795,40)" xmlns="http://www.ni.com/PlatformFramework" />
+			<InitializeArray Bounds="730 75 40 30" Id="93" Terminals="element=95, outArray=96, c0t0v=86" />
+			<Literal Bounds="645 60 45 15" DataType="Double" Id="94" Label="99" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0x4059000000000000</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+			</Literal>
+			<Wire Id="95" Joints="N(94:Out)|(690,65) h(30) v(15) N(93:element)|(730,80)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="96" Joints="N(93:outArray)|(770,80) h(10) v(-25) N(89:c1t0v)|(795,55)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="1225 -90 40 15" DataItem="101" Id="97" Label="100" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="15" Bounds="65 -107 70 14" Id="98" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Default Data</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="94" Bounds="610 60 30 15" Id="99" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>element</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="97" Bounds="1270 -90 39 14" Id="100" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Output</p.Text>
+			</NodeLabel>
+		</BlockDiagram>
+		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000">
+			<PanelExecutionWindow Id="14" />
+			<Cluster AutoArrange="[AutoArrange]ArrangeVertically" BaseName="[string]Report Data" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@145f0097d7434f2aa4850ed2b63b9ec9" Height="[float]576" Id="102" Label="[UIModel]145" Left="[float]100" TabIndex="[int]0" Top="[float]116" Value="{DataItemBinding Id=101}" Width="[float]751" p4:ControlDefinitionChecksum="8R/VwutDtVJGi/YZnmFMbHvEZtFKl2sLMBsf30JVFbw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Report Data.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<p4:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@13d6552cc8f9473da62b7a5701b5c8c9" Height="[float]60" Id="103" Label="[UIModel]104" Left="[float]4" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Lake\ properties}" Width="[float]378" p4:ControlDefinitionChecksum="uCT3dAqI39Nq6Wrc84eQHhsxUSsmz8E52s/0wfayAbE=">
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Lake properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="111" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" IsReadOnly="[bool]False" Label="[UIModel]112" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Lake\ Fill\ (Acre-feet)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="112" LabelOwner="[UIModel]111" Left="[float]4" Text="[string]Lake Fill (Acre-feet)" Top="[float]4" Width="[float]102" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="113" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" IsReadOnly="[bool]False" Label="[UIModel]114" Left="[float]114" MinHeight="[float]24" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Lake\ Intake\ Rate\ (cfs)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="114" LabelOwner="[UIModel]113" Left="[float]114" Text="[string]Lake Intake Rate (cfs)" Top="[float]4" Width="[float]112" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="115" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" IsReadOnly="[bool]False" Label="[UIModel]116" Left="[float]234" MinHeight="[float]24" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Lake\ Discharge\ Rate\ (cfs)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="116" LabelOwner="[UIModel]115" Left="[float]234" Text="[string]Lake Discharge Rate (cfs)" Top="[float]4" Width="[float]132" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="104" LabelOwner="[UIModel]103" Left="[float]4" Text="[string]Lake properties" Top="[float]4" Width="[float]82" />
+				<p4:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@f60c82deed274fd4a2b831d2f851728c" Height="[float]120" Id="105" IsTabStop="[bool]True" Label="[UIModel]106" Left="[float]4" TabIndex="[int]1" Top="[float]112" Value="{ClusterBinding FieldName=Large\ Floodgates\ properties}" Width="[float]409" p4:ControlDefinitionChecksum="vZj9sZP/6y9C/OlOPd6TBDRETf6e4wM2mrUzuBTl610=">
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Large Floodgates properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="117" Interval="[int]1" Label="[UIModel]118" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=#\ of\ Large\ Floodgates}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="118" LabelOwner="[UIModel]117" Left="[float]4" Text="[string]# of Large Floodgates" Top="[float]4" Width="[float]116" />
+					<p4:ArrayViewer ArrayElement="[UIModel]141" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="119" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]120" Left="[float]270" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Large\ Floodgates\ Status}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]72">
+						<p.DefaultElementValue>False</p.DefaultElementValue>
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="141" IsReadOnly="[bool]False" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					</p4:ArrayViewer>
+					<p4:Label Height="[float]16" Id="120" LabelOwner="[UIModel]119" Left="[float]270" Text="[string]Large Floodgates Status" Top="[float]4" Width="[float]127" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="121" IsReadOnly="[bool]False" Label="[UIModel]122" Left="[float]128" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Large\ Flodgates\ Size\ (cfs)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="122" LabelOwner="[UIModel]121" Left="[float]128" Text="[string]Large Flodgates Size (cfs)" Top="[float]4" Width="[float]134" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="106" LabelOwner="[UIModel]105" Left="[float]4" Text="[string]Large Floodgates properties" Top="[float]92" Width="[float]149" />
+				<p4:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@4d6f926689814e0c9c56b01a5e970e20" Height="[float]120" Id="107" Label="[UIModel]108" Left="[float]4" TabIndex="[int]2" Top="[float]260" Value="{ClusterBinding FieldName=Small\ Floodgates\ properties}" Width="[float]413" p4:ControlDefinitionChecksum="znJnfEdqteijfaTacSIuGZIzyCDoqnq8qF969BC11DA=">
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Small Floodgates properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="123" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" Interval="[int]1" IsReadOnly="[bool]False" Label="[UIModel]124" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=#\ of\ Small\ Floodgates}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="124" LabelOwner="[UIModel]123" Left="[float]4" Text="[string]# of Small Floodgates" Top="[float]4" Width="[float]115" />
+					<p4:ArrayViewer ArrayElement="[UIModel]142" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="125" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]126" Left="[float]275" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Small\ Floodgates\ Status}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]72">
+						<p.DefaultElementValue>False</p.DefaultElementValue>
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="142" IsReadOnly="[bool]False" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					</p4:ArrayViewer>
+					<p4:Label Height="[float]16" Id="126" LabelOwner="[UIModel]125" Left="[float]275" Text="[string]Small Floodgates Status" Top="[float]4" Width="[float]126" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="127" InteractionMode="[NumericTextBoxInteractionModes]ArrowKeys, ScrollWheel, ButtonClicks, TextInput" IsReadOnly="[bool]False" Label="[UIModel]128" Left="[float]127" MinHeight="[float]24" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=Small\ Floodgates\ Size\ (cfs)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="128" LabelOwner="[UIModel]127" Left="[float]127" Text="[string]Small Floodgates Size (cfs)" Top="[float]4" Width="[float]140" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="108" LabelOwner="[UIModel]107" Left="[float]4" Text="[string]Small Floodgates properties" Top="[float]240" Width="[float]148" />
+				<p4:Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@b6e5b2531bb34d969d65b9b0b6c5daed" Height="[float]156" Id="109" Label="[UIModel]110" Left="[float]4" TabIndex="[int]3" Top="[float]408" Value="{ClusterBinding FieldName=Turbines\ properties}" Width="[float]735" p4:ControlDefinitionChecksum="oOKO2dmXwS+wvawJrmHPfy0dldCIuagxZV9dKThB6C0=">
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Turbines properties.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="129" Interval="[int]1" Label="[UIModel]130" Left="[float]4" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=#\ of\ Turbines}" ValueFormatter="[string]LV:0" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="130" LabelOwner="[UIModel]129" Left="[float]4" Text="[string]# of Turbines" Top="[float]4" Width="[float]70" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="131" IsReadOnly="[bool]False" Label="[UIModel]132" Left="[float]84" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]1" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Power\ at\ Max\ Flow\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="132" LabelOwner="[UIModel]131" Left="[float]84" Text="[string]Power at Max Flow (MW)" Top="[float]4" Width="[float]132" />
+					<p4:ArrayViewer ArrayElement="[UIModel]143" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]84" Id="133" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]134" Left="[float]224" Orientation="[SMOrientation]Vertical" Rows="[int]1" TabIndex="[int]2" Top="[float]24" Value="{ClusterBinding FieldName=Turbine\ Gates\ Status}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]72">
+						<p.DefaultElementValue>False</p.DefaultElementValue>
+						<Switch BaseName="[string]Square LED" FalseContent="[string]Off" Height="[float]72" Id="143" IsReadOnly="[bool]False" MinHeight="[float]36" MinWidth="[float]34" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					</p4:ArrayViewer>
+					<p4:Label Height="[float]16" Id="134" LabelOwner="[UIModel]133" Left="[float]224" Text="[string]Turbine Gates Status" Top="[float]4" Width="[float]109" />
+					<p4:ArrayViewer ArrayElement="[UIModel]144" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]120" Id="135" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]136" Left="[float]341" Orientation="[SMOrientation]Vertical" Rows="[int]4" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Turbines\ State\ (%)}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]104">
+						<p.DefaultElementValue>0x0</p.DefaultElementValue>
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="144" IsReadOnly="[bool]False" MinHeight="[float]24" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					</p4:ArrayViewer>
+					<p4:Label Height="[float]16" Id="136" LabelOwner="[UIModel]135" Left="[float]341" Text="[string]Turbines State (%)" Top="[float]4" Width="[float]96" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="137" IsReadOnly="[bool]False" Label="[UIModel]138" Left="[float]453" MinHeight="[float]24" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Collapsed" TabIndex="[int]4" Top="[float]24" UnitAnnotation="[string]" Value="{ClusterBinding FieldName=Total\ Power\ Being\ Generated\ (MW)}" ValueFormatter="[string]LV:G6" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="138" LabelOwner="[UIModel]137" Left="[float]453" Text="[string]Total Power Being Generated (MW)" Top="[float]4" Width="[float]186" />
+					<NumericText BaseName="[string]Numeric" Height="[float]24" Id="139" IsReadOnly="[bool]False" Label="[UIModel]140" Left="[float]647" MinHeight="[float]24" TabIndex="[int]5" Top="[float]24" Value="{ClusterBinding FieldName=Max\ Flow\ (cfs)}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+					<p4:Label Height="[float]16" Id="140" LabelOwner="[UIModel]139" Left="[float]647" Text="[string]Max Flow (cfs)" Top="[float]4" Width="[float]76" />
+				</p4:Cluster>
+				<p4:Label Height="[float]16" Id="110" LabelOwner="[UIModel]109" Left="[float]4" Text="[string]Turbines properties" Top="[float]388" Width="[float]103" />
+			</Cluster>
+			<Label Height="[float]16" Id="145" LabelOwner="[UIModel]102" Left="[float]100" Text="[string]Output" Top="[float]96" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Id="101" Name="Output" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>0x0_0x0_0x0_</Field1>
+					<Field2>
+						<Cluster>
+							<Field1>4</Field1>
+							<Field2>0x0</Field2>
+							<Field3>null</Field3>
+						</Cluster>
+					</Field2>
+					<Field3>
+						<Cluster>
+							<Field1>5</Field1>
+							<Field2>0x0</Field2>
+							<Field3>null</Field3>
+						</Cluster>
+					</Field3>
+					<Field4>
+						<Cluster>
+							<Field1>2</Field1>
+							<Field2>0x0</Field2>
+							<Field3>null</Field3>
+							<Field4>null</Field4>
+							<Field5>0x0</Field5>
+							<Field6>0x0</Field6>
+						</Cluster>
+					</Field4>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Report Data.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="145f0097d7434f2aa4850ed2b63b9ec9">
+			<Typedef TypedefName="Report Data.gtype" UnderlyingType="@26f1e6769f344f9c83716a41f72c4a6a" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="13d6552cc8f9473da62b7a5701b5c8c9">
+			<Typedef TypedefName="Lake properties.gtype" UnderlyingType="@b105d2b71291421c8e773cc84701623f" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f60c82deed274fd4a2b831d2f851728c">
+			<Typedef TypedefName="Large Floodgates properties.gtype" UnderlyingType="@f5eb12285ca44c83a5798595bf6f5686" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4d6f926689814e0c9c56b01a5e970e20">
+			<Typedef TypedefName="Small Floodgates properties.gtype" UnderlyingType="@dc39c0c6579f4135813c317998b0d2ba" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b6e5b2531bb34d969d65b9b0b6c5daed">
+			<Typedef TypedefName="Turbines properties.gtype" UnderlyingType="@aed0d25a990943ce8b6222ec67554fb4" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="26f1e6769f344f9c83716a41f72c4a6a">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Lake properties" DataType="@13d6552cc8f9473da62b7a5701b5c8c9" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Large Floodgates properties" DataType="@f60c82deed274fd4a2b831d2f851728c" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Small Floodgates properties" DataType="@4d6f926689814e0c9c56b01a5e970e20" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Turbines properties" DataType="@b6e5b2531bb34d969d65b9b0b6c5daed" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b105d2b71291421c8e773cc84701623f">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Lake Fill (Acre-feet)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Lake Intake Rate (cfs)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Lake Discharge Rate (cfs)" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f5eb12285ca44c83a5798595bf6f5686">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="# of Large Floodgates" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Large Flodgates Size (cfs)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Large Floodgates Status" DataType="Boolean[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="dc39c0c6579f4135813c317998b0d2ba">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="# of Small Floodgates" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Small Floodgates Size (cfs)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Small Floodgates Status" DataType="Boolean[]" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="aed0d25a990943ce8b6222ec67554fb4">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="# of Turbines" DataType="Int32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Power at Max Flow (MW)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Turbine Gates Status" DataType="Boolean[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Turbines State (%)" DataType="Double[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Total Power Being Generated (MW)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Max Flow (cfs)" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DB49BB0A6304902F1F0C5987E762980A0B15F4B43AFC6D5F3C7C4466B04EFF78C0187679F1378093BB059F2FE42BC03829DA22E7C32B9673AC15AC4D24B7A3DF" Timestamp="1D48B6C4F22462D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7F9BA279FBAA5B3D222F8E7B9B9792723946AB4F2E67722055E160A2509D8167D48FA61EA8031B6D36199E1BA6AD3EE7D61B4AF0512BFB94E86BE4007FC2289C" Timestamp="1D48B77ABC3486F" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -51,12 +51,12 @@
 				<p.Text>Error out</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="-125 590 40 15" DataItem="16" Id="29" Label="30" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="29" Bounds="-125 573 40 14" Id="30" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Dam in</p.Text>
 			</NodeLabel>
-			<PropertyNode Bounds="390 590 126 105" Id="132" InstanceDataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+			<PropertyNode Bounds="390 590 126 105" Id="132" InstanceDataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 					<TypeDefinitionTarget TargetName="Dam.gtype" />
 					<TypeDefinitionTarget TargetName="Lake.gtype" />
@@ -224,7 +224,7 @@
 			</MethodCall>
 			<Wire Id="207" Joints="N(132:c4t0v)|(516,675) h(39) v(195) N(206:L0)|(595,870)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="209" Joints="N(206:R3)|(635,900) N(150:L1)|(920,900)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="-65 590 40 40" Id="210" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Get Dams Data.gvi&quot;" Signature="@2dd41208a016416796ab2b505548e4e5" Target="Dam.gtype::Get Dams Data.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="-65 590 40 40" Id="210" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Get Dams Data.gvi&quot;" Signature="@0a7f4c23896143eb8abc1d861ae1a01d" Target="Dam.gtype::Get Dams Data.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Dam in" />
@@ -234,15 +234,15 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="212" Joints="N(29:Value)|(-85,595) N(210:L0)|(-65,595)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="215" Joints="N(138:R3)|(635,505) N(145:L2)|(800,505)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="115 590 40 40" Id="217" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Close Config File.gvi&quot;" Signature="@8b5bc1fec0ae4c85848a64b528cc1c99" Target="Dam.gtype::Close Config File.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="115 590 40 40" Id="217" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Close Config File.gvi&quot;" Signature="@2cca9b6ba99642c4a7911a1fceb44452" Target="Dam.gtype::Close Config File.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Dam in" />
@@ -252,33 +252,30 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Path" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="223" Joints="N(217:R0)|(155,595) N(132:instance in)|(390,595)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="-5 590 40 40" Id="226" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Write Config File.gvi&quot;" Signature="@71216b5369ee434680df04f88c9bba6f" Target="Dam.gtype::Write Config File.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="-5 590 40 40" Id="226" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Overwrite Config File.gvi&quot;" Signature="@22896b6489744abf8a6063d98240ebcb" Target="Dam.gtype::Overwrite Config File.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Dam in" />
-						<Parameter Id="L1" Desc="Report Data" />
 						<Parameter Id="L3" Desc="Error in" />
 						<Parameter Id="R0" Desc="Dam out" />
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="227" Joints="N(210:R0)|(-25,595) N(226:L0)|(-5,595)" xmlns="http://www.ni.com/PlatformFramework" />
 			<Wire Id="230" Joints="N(210:R3)|(-25,625) N(226:L3)|(-5,625)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="232" Joints="N(210:R1)|(-25,605) h(10) B(1) N(226:L1)|(-5,605) B(1) v(-220) N(239:x)|(120,385)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="55 590 40 40" Id="233" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Read Config File.gvi&quot;" Signature="@01f0f90b099841d58cd55089fd09b2b6" Target="Dam.gtype::Read Config File.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="55 590 40 40" Id="233" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt1\\Classes\\Dam.gtype\\Read Config File.gvi&quot;" Signature="@f040f0dd9d864cd1a9f8692f1f2abef3" Target="Dam.gtype::Read Config File.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="Dam in" />
@@ -289,10 +286,10 @@
 						<Parameter Id="R3" Desc="Error out" />
 					</MethodDeclaration>
 				</p.MethodDeclaration>
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@145f0097d7434f2aa4850ed2b63b9ec9" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
@@ -333,7 +330,7 @@
 					</NodeLabel>
 					<Wire Id="258" Joints="N(256:Out)|(75,60) N(253:L1)|(95,60)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="261" Joints="N(278:243)|(4,70) N(253:L2)|(95,70)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Comment Bounds="95 15 265 25" Id="280" xmlns="http://www.ni.com/MocCommon">
+					<Comment Bounds="95 15 265 28" Id="280" xmlns="http://www.ni.com/MocCommon">
 						<p.Text>"Run this case if the last status is not the \r\nsame for the read and write of the config file"</p.Text>
 					</Comment>
 				</CaseStructure.Case>
@@ -356,6 +353,7 @@
 				<p.Text>description</p.Text>
 			</NodeLabel>
 			<Wire Id="277" Joints="N(259:Out)|(160,430) N(278:242)|(176,430)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="281" Joints="N(210:R1)|(-25,605) h(10) v(-220) N(239:x)|(120,385)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<NativeFrontPanel Height="[float]1600" Id="13" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]2000">
 			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="92" IsTabStop="[bool]True" Label="[UIModel]99" Left="[float]100" MinHeight="[float]128" MinWidth="[float]112" TabIndex="[int]0" Top="[float]372" Value="{DataItemBinding Id=14}" Width="[float]176" p4:ControlDefinitionChecksum="e3nj023iwYRzhBkV8z61WFGSCt7pzzv3hwIJFanixR4=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
@@ -383,7 +381,7 @@
 			</Cluster>
 			<Label Height="[float]16" Id="108" LabelOwner="[UIModel]101" Left="[float]544" Text="[string]Error out" Top="[float]352" Width="[float]47" xmlns="http://www.ni.com/PanelCommon" />
 			<PanelExecutionWindow Id="109" />
-			<ValueClassControl BaseName="[string]Dam" Id="126" IsTabStop="[bool]False" Label="[UIModel]128" Left="[float]100" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=16}" ValueClassControl="[Type]@7135504f2f7c41e4a8d74ac1eb617dd0" p4:ControlDefinitionChecksum="13i/yonPZ9jpc9rpRikXhUNI6ABPGcMvztFuspv82oc=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+			<ValueClassControl BaseName="[string]Dam" Id="126" IsTabStop="[bool]False" Label="[UIModel]128" Left="[float]100" TabIndex="[int]2" Top="[float]52" Value="{DataItemBinding Id=16}" ValueClassControl="[Type]@eda864f5cbac4d42ac9bf5b0c99c5919" p4:ControlDefinitionChecksum="13i/yonPZ9jpc9rpRikXhUNI6ABPGcMvztFuspv82oc=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p4:p.TypeDefinitionTargets>
 					<p4:TypeDefinitionTarget TargetName="Dam.gtype::ControlDefinition" />
 				</p4:p.TypeDefinitionTargets>
@@ -416,7 +414,7 @@
 			</p.TypeDefinitionTargets>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">The &lt;B&gt;error out&lt;/B&gt; cluster passes error or warning information out of a VI to be used by other VIs.&lt;br/&gt;&lt;br/&gt;The pop-up option &lt;B&gt;Explain Error&lt;/B&gt; (or Explain Warning) gives more information about the error displayed.</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" Id="16" Name="Dam in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" Id="16" Name="Dam in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Dam.gtype" />
@@ -424,7 +422,7 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="7135504f2f7c41e4a8d74ac1eb617dd0">
+		<p.TypeReference TypeId="eda864f5cbac4d42ac9bf5b0c99c5919">
 			<Composite Id="1" Name="Dam.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -433,6 +431,8 @@
 					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
@@ -454,7 +454,7 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Small floodgates" DataType="@095259e6529c457a998fc9390370d367" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbines" DataType="@120dd71d408f42a1a812baf79689e1b7" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Report" DataType="@dc1457dac8624d6cae2c80a750593c8c" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Backup" DataType="@10411f025dbc493589be793bc0a6bbbf" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Backup" DataType="@24baba14417f47a68acd918e167aab43" />
 					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
@@ -467,61 +467,73 @@
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void">
+					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Default Settings.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void">
+					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Log Status.gvi" ReturnType="Void">
+					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Open Config File.gvi" ReturnType="Void">
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Log Status.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Read Config File.gvi" ReturnType="Void">
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Open Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Set Floodgates Status.gvi" ReturnType="Void">
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Overwrite Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void">
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Read Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="11" IsStatic="False" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void">
+					<Function Id="11" IsStatic="False" IsConstructor="False" Name="Set Floodgates Status.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="12" IsStatic="False" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void">
+					<Function Id="12" IsStatic="False" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="13" IsStatic="False" IsConstructor="False" Name="Write Config File.gvi" ReturnType="Void">
+					<Function Id="13" IsStatic="False" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="14" IsStatic="False" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="15" IsStatic="False" IsConstructor="False" Name="Write Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
@@ -843,8 +855,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="2dd41208a016416796ab2b505548e4e5">
-			<Attributed AttributedType="@e8189140991940cd899e239f0cfd124f">
+		<p.TypeReference TypeId="0a7f4c23896143eb8abc1d861ae1a01d">
+			<Attributed AttributedType="@4ef17bb7f4c945d7ab5e29fa208a4f95">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -855,8 +867,8 @@
 		<p.TypeReference TypeId="145f0097d7434f2aa4850ed2b63b9ec9">
 			<Typedef TypedefName="Report Data.gtype" UnderlyingType="@26f1e6769f344f9c83716a41f72c4a6a" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8b5bc1fec0ae4c85848a64b528cc1c99">
-			<Attributed AttributedType="@c3a8661903134702b60f77e898127d8d">
+		<p.TypeReference TypeId="2cca9b6ba99642c4a7911a1fceb44452">
+			<Attributed AttributedType="@0eda1202a8374ba1a20a050eccc0ac55">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -864,8 +876,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="71216b5369ee434680df04f88c9bba6f">
-			<Attributed AttributedType="@55bfcd8f8a3d4ec283e3a2fc38a2580f">
+		<p.TypeReference TypeId="22896b6489744abf8a6063d98240ebcb">
+			<Attributed AttributedType="@904be51b1e074bb495779dc8fc5b4430">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -873,8 +885,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="01f0f90b099841d58cd55089fd09b2b6">
-			<Attributed AttributedType="@89aef0a265c9405f8990a06cc129ded5">
+		<p.TypeReference TypeId="f040f0dd9d864cd1a9f8692f1f2abef3">
+			<Attributed AttributedType="@53a6fb50425241919bb306ea105c7168">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -893,13 +905,11 @@
 		<p.TypeReference TypeId="321c26ff432b46cd9d2d8ec47cc5f4e1">
 			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="10411f025dbc493589be793bc0a6bbbf">
+		<p.TypeReference TypeId="24baba14417f47a68acd918e167aab43">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="File Path" DataType="Path" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Reference" DataType="@a5e07814fae8412eb841ea97ce6ce539" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Section Name" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Keys names" DataType="String[]" />
+					<Field FieldAccessPolicy="ReadWrite" Name="refnum" DataType="@18002efefbb942ffbb33cba82f8b85e0" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -1030,10 +1040,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e8189140991940cd899e239f0cfd124f">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void" DeclaringType="@7135504f2f7c41e4a8d74ac1eb617dd0" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="4ef17bb7f4c945d7ab5e29fa208a4f95">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void" DeclaringType="@eda864f5cbac4d42ac9bf5b0c99c5919" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@0b58dae868b84225b4bec448c84f08be">
+					<Attributed AttributedType="@47f02ccfda724c2db98128d331baeb8a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -1043,7 +1053,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@6efea77bdab04423ad781ff45c777611">
+					<Attributed AttributedType="@0edc34a572e8499692436365f12e92dc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -1071,10 +1081,10 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c3a8661903134702b60f77e898127d8d">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Config File.gvi" ReturnType="Void" DeclaringType="@7135504f2f7c41e4a8d74ac1eb617dd0" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="0eda1202a8374ba1a20a050eccc0ac55">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Config File.gvi" ReturnType="Void" DeclaringType="@eda864f5cbac4d42ac9bf5b0c99c5919" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@0b58dae868b84225b4bec448c84f08be">
+					<Attributed AttributedType="@47f02ccfda724c2db98128d331baeb8a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -1084,7 +1094,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@6efea77bdab04423ad781ff45c777611">
+					<Attributed AttributedType="@0edc34a572e8499692436365f12e92dc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -1102,17 +1112,12 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="55bfcd8f8a3d4ec283e3a2fc38a2580f">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@7135504f2f7c41e4a8d74ac1eb617dd0" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="904be51b1e074bb495779dc8fc5b4430">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Overwrite Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@eda864f5cbac4d42ac9bf5b0c99c5919" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@0b58dae868b84225b4bec448c84f08be">
+					<Attributed AttributedType="@47f02ccfda724c2db98128d331baeb8a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
-						</AttributeValues>
-					</Attributed>
-					<Attributed AttributedType="@eab77d855d644826b059b49da0916dbd">
-						<AttributeValues>
-							<AttributeValue Name="NI.UserDefinedName" Value="[string]Report Data" />
 						</AttributeValues>
 					</Attributed>
 					<Attributed AttributedType="@584fe768716642bab2aa798a65f5ba44">
@@ -1120,7 +1125,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@6efea77bdab04423ad781ff45c777611">
+					<Attributed AttributedType="@0edc34a572e8499692436365f12e92dc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -1133,10 +1138,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="89aef0a265c9405f8990a06cc129ded5">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@7135504f2f7c41e4a8d74ac1eb617dd0" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="53a6fb50425241919bb306ea105c7168">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@eda864f5cbac4d42ac9bf5b0c99c5919" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@0b58dae868b84225b4bec448c84f08be">
+					<Attributed AttributedType="@47f02ccfda724c2db98128d331baeb8a">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -1151,7 +1156,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@6efea77bdab04423ad781ff45c777611">
+					<Attributed AttributedType="@0edc34a572e8499692436365f12e92dc">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -1205,13 +1210,6 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a5e07814fae8412eb841ea97ce6ce539">
-			<Attributed AttributedType="@4221a72fa4664bd6bfcd5aefa38e3d63">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::G Core::Configuration File (INI)" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
 		<p.TypeReference TypeId="0a27a86d90f64bada6ad049986f1baed">
 			<Composite Id="1" Name="NationalInstruments.LabVIEW.CoreRuntime.ByteStreamFileRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
@@ -1251,11 +1249,11 @@
 		<p.TypeReference TypeId="520e3e16b4c841cabacc4d4ed39f199d">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Path" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="0b58dae868b84225b4bec448c84f08be">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" />
+		<p.TypeReference TypeId="47f02ccfda724c2db98128d331baeb8a">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="6efea77bdab04423ad781ff45c777611">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@7135504f2f7c41e4a8d74ac1eb617dd0" />
+		<p.TypeReference TypeId="0edc34a572e8499692436365f12e92dc">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@eda864f5cbac4d42ac9bf5b0c99c5919" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="c6133c8d870248bcbf8540bf692d7d14">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
@@ -1275,9 +1273,6 @@
 		<p.TypeReference TypeId="0d32d622bd96445794acd0234e8ceae6">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Path" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="eab77d855d644826b059b49da0916dbd">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="4bd45ac52b6b470b80c49d70f59b6e5f">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
 		</p.TypeReference>
@@ -1292,9 +1287,6 @@
 		</p.TypeReference>
 		<p.TypeReference TypeId="c9108f07bdfa4153a68cecd3d1d9eb75">
 			<Parameter InputParameterPassingRule="Optional" OutputParameterPassingRule="NotAllowed" Name="T1" DataType="Boolean" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="4221a72fa4664bd6bfcd5aefa38e3d63">
-			<Typedef TypedefName="Config Data Reference.gtype" Encapsulated="" UnderlyingType="Int32" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="b105d2b71291421c8e773cc84701623f">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -1505,7 +1497,7 @@
 				</MergeItem>
 			</MergeScript>
 		</p.IconModel>
-		<p.IconModel Target="Dam.gtype::Write Config File.gvi">
+		<p.IconModel Target="Dam.gtype::Overwrite Config File.gvi">
 			<MergeScript>
 				<MergeItem Path="." IsPrimary="True">
 					<Icon ListViewIconCrop="0 0 40 40">
@@ -1513,8 +1505,8 @@
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
 								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
-								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Write Config File" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
-									<FontSetting FontFamily="Verdana" FontSize="6.75" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Overwrite Config File" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Dam.gtype" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
