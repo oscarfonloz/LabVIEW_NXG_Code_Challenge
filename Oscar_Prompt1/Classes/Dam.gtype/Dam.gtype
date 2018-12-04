@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6CF5D4F4FE2BEE550C9048BFE689CEF6D76F1D197A33B95614B9BB39C0F18E33DCDEF8339F15739766F112F1B71C28E7163EBE1CB5A07C054920E11E35AFE224" Timestamp="1D48B46E6A4037E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8366EEE1DF0988ADEB192EA53CB9CBC6E8CC8C8756991C86EF82E6D27713B9025257F047D64AD506BD56CC8A9A5129BB7ABE2EA243B646839A887C63E11F858A" Timestamp="1D48B6CD30D85D5" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<TypeDefinition BaseType="gObject" BaseTypeSignature="@321c26ff432b46cd9d2d8ec47cc5f4e1" DataType="@91ef4d5419ef41bc94628da9b39323d3" Id="1" xmlns="http://www.ni.com/MocCommon">
+	<TypeDefinition BaseType="gObject" BaseTypeSignature="@321c26ff432b46cd9d2d8ec47cc5f4e1" DataType="@1dd6c1f5e42e4d4abd4929ab184336ee" Id="1" xmlns="http://www.ni.com/MocCommon">
 		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 			<TypeDefinitionTarget TargetName="Lake.gtype" />
 			<TypeDefinitionTarget TargetName="Floodgate.gtype" />
@@ -33,7 +34,7 @@
 				<TypeDefinitionTarget TargetName="Lake.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@90551d6abe0847e1903854aa12c97e31" Id="71" Target="Dam.gtype::Init.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@dbc84ea1008b4f7d993137502a9b5da3" Id="71" Target="Dam.gtype::Init.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		<DataItem DataType="@095259e6529c457a998fc9390370d367" Id="109" Name="Large floodgates">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
@@ -46,25 +47,39 @@
 				<TypeDefinitionTarget TargetName="Floodgate.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@8b32a0a08a684866b10bc1490ff291fe" Id="112" Target="Dam.gtype::Set Lake Inflow.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@347a97971685444c9f325762ed739b8e" Id="112" Target="Dam.gtype::Set Lake Inflow.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		<DataItem DataType="@120dd71d408f42a1a812baf79689e1b7" Id="117" Name="Turbines">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Turbine.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@099a0d25c96e4cd2adc9f06e4cc0a69e" Id="119" Target="Dam.gtype::Close.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@ea4e987df1e54278bb1aac3823122d30" Id="119" Target="Dam.gtype::Close.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 		<DataItem DataType="@dc1457dac8624d6cae2c80a750593c8c" Id="124" Name="Report">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Report.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@ab45db2646444cfea8571b02c6eb8853" Id="128" Target="Dam.gtype::Log Status.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@4a71b321ddae4cb9827ecaa704b4c6d5" Id="130" Target="Dam.gtype::Get Dams Data.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@2213805febde4d149b73fce797e0a6f3" Id="132" Target="Dam.gtype::Update Dam.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b39d7d63289d46a8bd869c7a7979df39" Id="136" Target="Dam.gtype::Set Turbines Status.gvi" xmlns="http://www.ni.com/PlatformFramework" />
-		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@e92b3024c420485fa85c466acae9f983" Id="138" Target="Dam.gtype::Set Floodgates Status.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@55cfe3c60ac640179695c8c31597cacf" Id="128" Target="Dam.gtype::Log Status.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@c6af030899d741e1bd9a30082971da23" Id="130" Target="Dam.gtype::Get Dams Data.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@2dcbe96112d0471a8543637a0f24b389" Id="132" Target="Dam.gtype::Update Dam.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@98a12c2f93474d70986af2a95aedb7d4" Id="136" Target="Dam.gtype::Set Turbines Status.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@b8a2a5e0f859489ca78424b128214684" Id="138" Target="Dam.gtype::Set Floodgates Status.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@f2d48039240a463c9ca41ed0af4a3f68" Id="144" Target="Dam.gtype::Write Config File.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@ef59ae0922cb4c3c803f906497ec48fd" Id="149" Target="Dam.gtype::Open Config File.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<DataItem DataType="@24baba14417f47a68acd918e167aab43" Id="155" Name="Backup">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>
+						<Path a="1" />
+					</Field1>
+					<Field2>0</Field2>
+				</Cluster>
+			</p.DefaultValue>
+		</DataItem>
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@3a808c0a961b44dfbaedca5578321ac4" Id="160" Target="Dam.gtype::Close Config File.gvi" xmlns="http://www.ni.com/PlatformFramework" />
+		<TypeDefinitionMemberFunction AccessScope="Public" HintSignature="@92edb769fccb438ba06928fc7a7342e8" Id="172" Target="Dam.gtype::Read Config File.gvi" xmlns="http://www.ni.com/PlatformFramework" />
 	</TypeDefinition>
 	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
 		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
@@ -110,6 +125,13 @@
 						</p6:p.TypeDefinitionTargets>
 					</ValueClassControl>
 					<Label Height="[float]16" Id="123" LabelOwner="[UIModel]122" Left="[float]38" Text="[string]Report" Top="[float]319" Width="[float]35" xmlns="http://www.ni.com/PanelCommon" />
+					<Cluster AutoArrange="[AutoArrange]ArrangeHorizontally" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@24baba14417f47a68acd918e167aab43" Height="[float]60" Id="157" Label="[UIModel]158" Left="[float]38" TabIndex="[int]5" Top="[float]400" Value="{DataItemBinding Id=155}" Width="[float]215" xmlns="http://www.ni.com/PanelCommon">
+						<PathSelector BaseName="[string]Path" BrowseDialogTitle="[string]Open File" Height="[float]24" Id="141" Label="[UIModel]142" Left="[float]4" MinHeight="[float]24" Path="{ClusterBinding FieldName=File\ Path}" TabIndex="[int]0" Top="[float]24" Width="[float]152" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="142" LabelOwner="[UIModel]141" Left="[float]4" Text="[string]File Path" Top="[float]4" Width="[float]45" />
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="173" Label="[UIModel]174" Left="[float]164" RefnumType="[Type]@18002efefbb942ffbb33cba82f8b85e0" TabIndex="[int]1" Top="[float]24" Value="{ClusterBinding FieldName=refnum}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="174" LabelOwner="[UIModel]173" Left="[float]164" Text="[string]refnum" Top="[float]4" Width="[float]39" />
+					</Cluster>
+					<Label Height="[float]16" Id="158" LabelOwner="[UIModel]157" Left="[float]38" Text="[string]Backup" Top="[float]380" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
 				</ControlDefinition>
 			</EmbeddedDefinitionReference>
 			<SourceFileReference Id="70" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Init.gvi" StoragePath="Init.gvi" />
@@ -120,13 +142,17 @@
 			<SourceFileReference Id="131" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update Dam.gvi" StoragePath="Update Dam.gvi" />
 			<SourceFileReference Id="135" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Turbines Status.gvi" StoragePath="Set Turbines Status.gvi" />
 			<SourceFileReference Id="137" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Set Floodgates Status.gvi" StoragePath="Set Floodgates Status.gvi" />
+			<SourceFileReference Id="143" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Write Config File.gvi" StoragePath="Write Config File.gvi" />
+			<SourceFileReference Id="148" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Open Config File.gvi" StoragePath="Open Config File.gvi" />
+			<SourceFileReference Id="159" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close Config File.gvi" StoragePath="Close Config File.gvi" />
+			<SourceFileReference Id="171" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Read Config File.gvi" StoragePath="Read Config File.gvi" />
 		</NameScopingEnvoy>
 	</EnvoyManagerFile>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
 		<p.TypeReference TypeId="321c26ff432b46cd9d2d8ec47cc5f4e1">
 			<Composite Id="1" Name="gObject" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="91ef4d5419ef41bc94628da9b39323d3">
+		<p.TypeReference TypeId="1dd6c1f5e42e4d4abd4929ab184336ee">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Lake" DataType="@31cfbf8f7c4547b1bec2d2ffb4652d40" />
@@ -134,6 +160,7 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Small floodgates" DataType="@095259e6529c457a998fc9390370d367" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbines" DataType="@120dd71d408f42a1a812baf79689e1b7" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Report" DataType="@dc1457dac8624d6cae2c80a750593c8c" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Backup" DataType="@24baba14417f47a68acd918e167aab43" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -232,8 +259,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="90551d6abe0847e1903854aa12c97e31">
-			<Attributed AttributedType="@f1d87d8ae1494456a939529754bdaaae">
+		<p.TypeReference TypeId="dbc84ea1008b4f7d993137502a9b5da3">
+			<Attributed AttributedType="@686d36010bdf4303aababc4b248e030c">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -243,8 +270,8 @@
 		<p.TypeReference TypeId="095259e6529c457a998fc9390370d367">
 			<VariableArray DereferenceType="@ca21834cdcad495d9e8dca0dfccb8d50" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8b32a0a08a684866b10bc1490ff291fe">
-			<Attributed AttributedType="@4498fdfa4748424bbdd5d7ca0eb422ea">
+		<p.TypeReference TypeId="347a97971685444c9f325762ed739b8e">
+			<Attributed AttributedType="@903525ef93544ddeb8fe280a8e241b94">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -255,8 +282,8 @@
 		<p.TypeReference TypeId="120dd71d408f42a1a812baf79689e1b7">
 			<VariableArray DereferenceType="@2eb81370261440c5a6cff0ab5eead59c" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="099a0d25c96e4cd2adc9f06e4cc0a69e">
-			<Attributed AttributedType="@d2d2732b185a464186595687b4451267">
+		<p.TypeReference TypeId="ea4e987df1e54278bb1aac3823122d30">
+			<Attributed AttributedType="@144eb9b5aa05466ebf4a1efbbac2839e">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -319,8 +346,8 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="ab45db2646444cfea8571b02c6eb8853">
-			<Attributed AttributedType="@42202ce5f3a44be48f633e2f42164367">
+		<p.TypeReference TypeId="55cfe3c60ac640179695c8c31597cacf">
+			<Attributed AttributedType="@c41429dbf1ba4c9e8d4b89d02cc48c31">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -328,8 +355,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="4a71b321ddae4cb9827ecaa704b4c6d5">
-			<Attributed AttributedType="@466b7bb81f394060a66ae2495dd44f4f">
+		<p.TypeReference TypeId="c6af030899d741e1bd9a30082971da23">
+			<Attributed AttributedType="@2d5be427613d4810b4b225cf2ec828f7">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -337,8 +364,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="2213805febde4d149b73fce797e0a6f3">
-			<Attributed AttributedType="@6c26d765433e46479f1461ef42cdce9a">
+		<p.TypeReference TypeId="2dcbe96112d0471a8543637a0f24b389">
+			<Attributed AttributedType="@cb30cf12193c40e1b3cea4d4a50d1d69">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -346,8 +373,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b39d7d63289d46a8bd869c7a7979df39">
-			<Attributed AttributedType="@e62b4429e69e477e96cd6de6787f8bf5">
+		<p.TypeReference TypeId="98a12c2f93474d70986af2a95aedb7d4">
+			<Attributed AttributedType="@e296bd97b3f4437aa66a97f8d4a1400e">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -355,8 +382,52 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e92b3024c420485fa85c466acae9f983">
-			<Attributed AttributedType="@bd012811adfd4548b6207c1c704fdb4f">
+		<p.TypeReference TypeId="b8a2a5e0f859489ca78424b128214684">
+			<Attributed AttributedType="@ee34bf0340a44498ad44486da3fc1b88">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="f2d48039240a463c9ca41ed0af4a3f68">
+			<Attributed AttributedType="@7e9b9c23a3f8440284dcaff49825e02e">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ef59ae0922cb4c3c803f906497ec48fd">
+			<Attributed AttributedType="@7a31839ce7854b2aaf04f4c6f32610d7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="24baba14417f47a68acd918e167aab43">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="File Path" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="refnum" DataType="@18002efefbb942ffbb33cba82f8b85e0" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="3a808c0a961b44dfbaedca5578321ac4">
+			<Attributed AttributedType="@8665ec3bbc0b48c2b3d9a0ae7882a0f7">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="92edb769fccb438ba06928fc7a7342e8">
+			<Attributed AttributedType="@bb5cd32c51a44242af1ccd9bc41a9b0b">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.Compiler.ThrallMap" Value="[ThrallMapAttributeValue]R0:[L0]" />
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
@@ -480,8 +551,15 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="f1d87d8ae1494456a939529754bdaaae">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="18002efefbb942ffbb33cba82f8b85e0">
+			<Attributed AttributedType="@0a27a86d90f64bada6ad049986f1baed">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="686d36010bdf4303aababc4b248e030c">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Init.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@647985adc4f6449a8360e36562fbd8b8">
 						<AttributeValues>
@@ -498,7 +576,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -521,10 +599,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="4498fdfa4748424bbdd5d7ca0eb422ea">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="903525ef93544ddeb8fe280a8e241b94">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d9e7b6ec72f94d2cb598eaeadb0a7359">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -539,7 +617,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -557,10 +635,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d2d2732b185a464186595687b4451267">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="144eb9b5aa05466ebf4a1efbbac2839e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d9e7b6ec72f94d2cb598eaeadb0a7359">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -578,17 +656,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="18002efefbb942ffbb33cba82f8b85e0">
-			<Attributed AttributedType="@0a27a86d90f64bada6ad049986f1baed">
-				<AttributeValues>
-					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="42202ce5f3a44be48f633e2f42164367">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Log Status.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="c41429dbf1ba4c9e8d4b89d02cc48c31">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Log Status.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d9e7b6ec72f94d2cb598eaeadb0a7359">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -598,7 +669,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -611,10 +682,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="466b7bb81f394060a66ae2495dd44f4f">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="2d5be427613d4810b4b225cf2ec828f7">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d9e7b6ec72f94d2cb598eaeadb0a7359">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -624,7 +695,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -642,10 +713,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6c26d765433e46479f1461ef42cdce9a">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="cb30cf12193c40e1b3cea4d4a50d1d69">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d9e7b6ec72f94d2cb598eaeadb0a7359">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -655,7 +726,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -678,10 +749,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e62b4429e69e477e96cd6de6787f8bf5">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void" DeclaringType="@83ff289bd2814086ab23114ea81a978c" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="e296bd97b3f4437aa66a97f8d4a1400e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@d9e7b6ec72f94d2cb598eaeadb0a7359">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -701,7 +772,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -724,10 +795,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="bd012811adfd4548b6207c1c704fdb4f">
-			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Floodgates Status.gvi" ReturnType="Void" DeclaringType="@13173445a34d447e9c981f5ea7951134" GenericTypeDefinition="Void">
+		<p.TypeReference TypeId="ee34bf0340a44498ad44486da3fc1b88">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Set Floodgates Status.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@2e8f77a22b0f4cc2a87629a24acca74d">
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
 						</AttributeValues>
@@ -747,7 +818,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@17dae2b5ad874c8980c0773a42d6177c">
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
 						</AttributeValues>
@@ -770,124 +841,139 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="83ff289bd2814086ab23114ea81a978c">
-			<Composite Id="1" Name="Dam.gtype">
-				<MemberScopes>
-					<Access Scope="Private" />
-					<Access Scope="Private" />
-					<Access Scope="Private" />
-					<Access Scope="Private" />
-					<Access Scope="Private" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-					<Access Scope="Public" />
-				</MemberScopes>
-				<GenericTypeDefinition>Void</GenericTypeDefinition>
-				<BaseType>@321c26ff432b46cd9d2d8ec47cc5f4e1</BaseType>
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Lake" DataType="@31cfbf8f7c4547b1bec2d2ffb4652d40" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Large floodgates" DataType="@095259e6529c457a998fc9390370d367" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Small floodgates" DataType="@095259e6529c457a998fc9390370d367" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Turbines" DataType="@120dd71d408f42a1a812baf79689e1b7" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Report" DataType="@dc1457dac8624d6cae2c80a750593c8c" />
-					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Get Dams Data.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="4" IsStatic="False" IsConstructor="False" Name="Init.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="5" IsStatic="False" IsConstructor="False" Name="Log Status.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="6" IsStatic="False" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void">
-						<DeclaringType>
-							<Composite RefId="1" />
-						</DeclaringType>
-						<GenericTypeDefinition>Void</GenericTypeDefinition>
-					</Function>
-				</Members>
-			</Composite>
+		<p.TypeReference TypeId="7e9b9c23a3f8440284dcaff49825e02e">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Write Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@eab77d855d644826b059b49da0916dbd">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Report Data" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@584fe768716642bab2aa798a65f5ba44">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@283b364e3da54b9cbfd48e5df590ae1a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="647985adc4f6449a8360e36562fbd8b8">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Path" />
+		<p.TypeReference TypeId="7a31839ce7854b2aaf04f4c6f32610d7">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@b3d1736279c1461fb84f1a7867440cab">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Status backup" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@584fe768716642bab2aa798a65f5ba44">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@283b364e3da54b9cbfd48e5df590ae1a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b08919b6d8a548c99a08387ca6157350">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean" />
+		<p.TypeReference TypeId="8665ec3bbc0b48c2b3d9a0ae7882a0f7">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Close Config File.gvi" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@584fe768716642bab2aa798a65f5ba44">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@0d32d622bd96445794acd0234e8ceae6">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]File Path" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@283b364e3da54b9cbfd48e5df590ae1a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="584fe768716642bab2aa798a65f5ba44">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="7c9ac9a5fc0e47e0b1ae0f43a2913cf1">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@83ff289bd2814086ab23114ea81a978c" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="0d32d622bd96445794acd0234e8ceae6">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Path" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="c6963ed0f7014ce6bb21a9718cf95198">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Double" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="283b364e3da54b9cbfd48e5df590ae1a">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="d9e7b6ec72f94d2cb598eaeadb0a7359">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@83ff289bd2814086ab23114ea81a978c" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="578112e17c28470b9cc1585351d26619">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="76cc67aa13944d07a0e9719b48500f41">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double" />
+		<p.TypeReference TypeId="bb5cd32c51a44242af1ccd9bc41a9b0b">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Read Config File.gvi" InlineIntoCaller="True" ReturnType="Void" DeclaringType="@c9ed3250ab82428d864a4c451bfd861c" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@e250fdcd31db49e1b74f823e087baf9e">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@4bd45ac52b6b470b80c49d70f59b6e5f">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam Data In" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@584fe768716642bab2aa798a65f5ba44">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error in" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@56a25838560f4830bddfb73ba1c9ed18">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@c6133c8d870248bcbf8540bf692d7d14">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Dam Data Out" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@283b364e3da54b9cbfd48e5df590ae1a">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Error out" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
 		</p.TypeReference>
 		<p.TypeReference TypeId="0a27a86d90f64bada6ad049986f1baed">
 			<Composite Id="1" Name="NationalInstruments.LabVIEW.CoreRuntime.ByteStreamFileRefnum" ReferenceClass="" GenericTypeDefinition="Void" BaseType="Void" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="c6133c8d870248bcbf8540bf692d7d14">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="5f673c42d16b40efae4747c415a71ef4">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean[]" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="3a981137847f4f3dbc172c26d9bf3524">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Double[]" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="14b12b9f9896445db8a0556e473f659d">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Boolean[]" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="f0e9ae88b28f4761a5b09e0582d683d1">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Double[]" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="13173445a34d447e9c981f5ea7951134">
+		<p.TypeReference TypeId="c9ed3250ab82428d864a4c451bfd861c">
 			<Composite Id="1" Name="Dam.gtype">
 				<MemberScopes>
 					<Access Scope="Private" />
@@ -895,6 +981,11 @@
 					<Access Scope="Private" />
 					<Access Scope="Private" />
 					<Access Scope="Private" />
+					<Access Scope="Private" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
+					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
 					<Access Scope="Public" />
@@ -912,13 +1003,14 @@
 					<Field FieldAccessPolicy="ReadWrite" Name="Small floodgates" DataType="@095259e6529c457a998fc9390370d367" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Turbines" DataType="@120dd71d408f42a1a812baf79689e1b7" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Report" DataType="@dc1457dac8624d6cae2c80a750593c8c" />
-					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
+					<Field FieldAccessPolicy="ReadWrite" Name="Backup" DataType="@6e7c94c277894d9db92841d13cb2c439" />
+					<Function Id="2" IsStatic="False" IsConstructor="False" Name="Close Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Function.gvi" ReturnType="Void">
+					<Function Id="3" IsStatic="False" IsConstructor="False" Name="Close.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
@@ -942,19 +1034,43 @@
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void">
+					<Function Id="7" IsStatic="False" IsConstructor="False" Name="Open Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void">
+					<Function Id="8" IsStatic="False" IsConstructor="False" Name="Read Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
 						<GenericTypeDefinition>Void</GenericTypeDefinition>
 					</Function>
-					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void">
+					<Function Id="9" IsStatic="False" IsConstructor="False" Name="Set Floodgates Status.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="10" IsStatic="False" IsConstructor="False" Name="Set Lake Inflow.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="11" IsStatic="False" IsConstructor="False" Name="Set Turbines Status.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="12" IsStatic="False" IsConstructor="False" Name="Update Dam.gvi" ReturnType="Void">
+						<DeclaringType>
+							<Composite RefId="1" />
+						</DeclaringType>
+						<GenericTypeDefinition>Void</GenericTypeDefinition>
+					</Function>
+					<Function Id="13" IsStatic="False" IsConstructor="False" Name="Write Config File.gvi" ReturnType="Void">
 						<DeclaringType>
 							<Composite RefId="1" />
 						</DeclaringType>
@@ -963,17 +1079,73 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="2e8f77a22b0f4cc2a87629a24acca74d">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@13173445a34d447e9c981f5ea7951134" />
+		<p.TypeReference TypeId="647985adc4f6449a8360e36562fbd8b8">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="Path" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b08919b6d8a548c99a08387ca6157350">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="584fe768716642bab2aa798a65f5ba44">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="56a25838560f4830bddfb73ba1c9ed18">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@c9ed3250ab82428d864a4c451bfd861c" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="0d32d622bd96445794acd0234e8ceae6">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Path" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c6963ed0f7014ce6bb21a9718cf95198">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="283b364e3da54b9cbfd48e5df590ae1a">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="e250fdcd31db49e1b74f823e087baf9e">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@c9ed3250ab82428d864a4c451bfd861c" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="578112e17c28470b9cc1585351d26619">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="76cc67aa13944d07a0e9719b48500f41">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Double" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="c6133c8d870248bcbf8540bf692d7d14">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="5f673c42d16b40efae4747c415a71ef4">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Boolean[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="3a981137847f4f3dbc172c26d9bf3524">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Double[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="14b12b9f9896445db8a0556e473f659d">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Boolean[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f0e9ae88b28f4761a5b09e0582d683d1">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Double[]" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="2931b0c25663414e9cd79d11bcaa3af8">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Boolean[]" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="17dae2b5ad874c8980c0773a42d6177c">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@13173445a34d447e9c981f5ea7951134" />
-		</p.TypeReference>
 		<p.TypeReference TypeId="4b0879ddd5f849e1bbc2deb97a94b40e">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Boolean[]" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="eab77d855d644826b059b49da0916dbd">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="b3d1736279c1461fb84f1a7867440cab">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Path" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4bd45ac52b6b470b80c49d70f59b6e5f">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="@145f0097d7434f2aa4850ed2b63b9ec9" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="6e7c94c277894d9db92841d13cb2c439">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="File Path" DataType="Path" />
+					<Field FieldAccessPolicy="ReadWrite" Name="refnum out" DataType="@18002efefbb942ffbb33cba82f8b85e0" />
+				</Members>
+			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="145f0097d7434f2aa4850ed2b63b9ec9">
 			<Typedef TypedefName="Report Data.gtype" UnderlyingType="@26f1e6769f344f9c83716a41f72c4a6a" />
@@ -1233,6 +1405,110 @@
 								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
 								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Set Floodgates Status" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
 									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Dam.gtype" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Path Data="[PathGeometry]M 0,0 C 0,1.10000002 0.899999976,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,0 C 2,1.10000002 1.10000002,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]NaN" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,4,2,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]2" />
+								<Path Data="[PathGeometry]M 2,2 C 2,1.10000002 1.10000002,0 0,0 L 0,2 L 2,2 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Path Data="[PathGeometry]M 0,12 L 12,0 L 12,12 L 0,12 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]12" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,4,4,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]12" />
+								<Path Data="[PathGeometry]M 3.69444466,2.75 L 3.69444466,4.75 L 3.69444466,5 L 4.22222233,5 L 19,5 L 19,4.75 L 4.22222233,4.75 L 4.22222233,2.75 L 3.69444466,2.75 Z M 1.58597231,2.25 L 0,2.25 L 0,2.5 L 1.58333337,2.5 L 1.05555558,3 L 3.16666675,2.37549996 L 1.05555558,1.75 L 1.58597231,2.25 Z M 3.69444466,2 L 4.22222233,2 L 4.22222233,0 L 3.69444466,0 L 3.69444466,2 Z M 3.69444466,2.5 L 6.33280563,2.5 L 6.33280563,2.25 L 3.69444466,2.25 L 3.69444466,2.5 Z M 6.86111116,2.5 L 9.5,2.5 L 9.5,2.25 L 6.86111116,2.25 L 6.86111116,2.5 Z M 10.0277777,2.5 L 12.666667,2.5 L 12.666667,2.25 L 10.0277777,2.25 L 10.0277777,2.5 Z M 13.1944447,2.5 L 15.8328066,2.5 L 15.8328066,2.25 L 13.1944447,2.25 L 13.1944447,2.5 Z M 16.3611107,2.5 L 19,2.5 L 19,2.25 L 16.3611107,2.25 L 16.3611107,2.5 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]30" VerticalAlignment="[VerticalAlignment]Top" Width="[float]19" />
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Dam.gtype::Write Config File.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Write Config File" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Dam.gtype" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Path Data="[PathGeometry]M 0,0 C 0,1.10000002 0.899999976,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,0 C 2,1.10000002 1.10000002,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]NaN" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,4,2,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]2" />
+								<Path Data="[PathGeometry]M 2,2 C 2,1.10000002 1.10000002,0 0,0 L 0,2 L 2,2 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Path Data="[PathGeometry]M 0,12 L 12,0 L 12,12 L 0,12 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]12" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,4,4,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]12" />
+								<Path Data="[PathGeometry]M 3.69444466,2.75 L 3.69444466,4.75 L 3.69444466,5 L 4.22222233,5 L 19,5 L 19,4.75 L 4.22222233,4.75 L 4.22222233,2.75 L 3.69444466,2.75 Z M 1.58597231,2.25 L 0,2.25 L 0,2.5 L 1.58333337,2.5 L 1.05555558,3 L 3.16666675,2.37549996 L 1.05555558,1.75 L 1.58597231,2.25 Z M 3.69444466,2 L 4.22222233,2 L 4.22222233,0 L 3.69444466,0 L 3.69444466,2 Z M 3.69444466,2.5 L 6.33280563,2.5 L 6.33280563,2.25 L 3.69444466,2.25 L 3.69444466,2.5 Z M 6.86111116,2.5 L 9.5,2.5 L 9.5,2.25 L 6.86111116,2.25 L 6.86111116,2.5 Z M 10.0277777,2.5 L 12.666667,2.5 L 12.666667,2.25 L 10.0277777,2.25 L 10.0277777,2.5 Z M 13.1944447,2.5 L 15.8328066,2.5 L 15.8328066,2.25 L 13.1944447,2.25 L 13.1944447,2.5 Z M 16.3611107,2.5 L 19,2.5 L 19,2.25 L 16.3611107,2.25 L 16.3611107,2.5 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]30" VerticalAlignment="[VerticalAlignment]Top" Width="[float]19" />
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Dam.gtype::Open Config File.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Open Config File" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Dam.gtype" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Path Data="[PathGeometry]M 0,0 C 0,1.10000002 0.899999976,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,0 C 2,1.10000002 1.10000002,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]NaN" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,4,2,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]2" />
+								<Path Data="[PathGeometry]M 2,2 C 2,1.10000002 1.10000002,0 0,0 L 0,2 L 2,2 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Path Data="[PathGeometry]M 0,12 L 12,0 L 12,12 L 0,12 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]12" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,4,4,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]12" />
+								<Path Data="[PathGeometry]M 3.69444466,2.75 L 3.69444466,4.75 L 3.69444466,5 L 4.22222233,5 L 19,5 L 19,4.75 L 4.22222233,4.75 L 4.22222233,2.75 L 3.69444466,2.75 Z M 1.58597231,2.25 L 0,2.25 L 0,2.5 L 1.58333337,2.5 L 1.05555558,3 L 3.16666675,2.37549996 L 1.05555558,1.75 L 1.58597231,2.25 Z M 3.69444466,2 L 4.22222233,2 L 4.22222233,0 L 3.69444466,0 L 3.69444466,2 Z M 3.69444466,2.5 L 6.33280563,2.5 L 6.33280563,2.25 L 3.69444466,2.25 L 3.69444466,2.5 Z M 6.86111116,2.5 L 9.5,2.5 L 9.5,2.25 L 6.86111116,2.25 L 6.86111116,2.5 Z M 10.0277777,2.5 L 12.666667,2.5 L 12.666667,2.25 L 10.0277777,2.25 L 10.0277777,2.5 Z M 13.1944447,2.5 L 15.8328066,2.5 L 15.8328066,2.25 L 13.1944447,2.25 L 13.1944447,2.5 Z M 16.3611107,2.5 L 19,2.5 L 19,2.25 L 16.3611107,2.25 L 16.3611107,2.5 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]30" VerticalAlignment="[VerticalAlignment]Top" Width="[float]19" />
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Dam.gtype::Close Config File.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Close Config File" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Dam.gtype" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+								<Path Data="[PathGeometry]M 0,0 C 0,1.10000002 0.899999976,2 2,2 L 2,0 L 0,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,2,4,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]NaN" />
+								<Path Data="[PathGeometry]M 2,0 C 2,1.10000002 1.10000002,2 0,2 L 0,0 L 2,0 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]2" />
+								<Rectangle Fill="[SMSolidColorBrush]#b2000000" Height="[float]NaN" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,4,2,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" Width="[float]2" />
+								<Path Data="[PathGeometry]M 2,2 C 2,1.10000002 1.10000002,0 0,0 L 0,2 L 2,2 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]2" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]2,2,2,2" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]2" />
+								<Path Data="[PathGeometry]M 0,12 L 12,0 L 12,12 L 0,12 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]12" HorizontalAlignment="[HorizontalAlignment]Right" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]4,4,4,4" MinHeight="[float]1" MinWidth="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Bottom" Width="[float]12" />
+								<Path Data="[PathGeometry]M 3.69444466,2.75 L 3.69444466,4.75 L 3.69444466,5 L 4.22222233,5 L 19,5 L 19,4.75 L 4.22222233,4.75 L 4.22222233,2.75 L 3.69444466,2.75 Z M 1.58597231,2.25 L 0,2.25 L 0,2.5 L 1.58333337,2.5 L 1.05555558,3 L 3.16666675,2.37549996 L 1.05555558,1.75 L 1.58597231,2.25 Z M 3.69444466,2 L 4.22222233,2 L 4.22222233,0 L 3.69444466,0 L 3.69444466,2 Z M 3.69444466,2.5 L 6.33280563,2.5 L 6.33280563,2.25 L 3.69444466,2.25 L 3.69444466,2.5 Z M 6.86111116,2.5 L 9.5,2.5 L 9.5,2.25 L 6.86111116,2.25 L 6.86111116,2.5 Z M 10.0277777,2.5 L 12.666667,2.5 L 12.666667,2.25 L 10.0277777,2.25 L 10.0277777,2.5 Z M 13.1944447,2.5 L 15.8328066,2.5 L 15.8328066,2.25 L 13.1944447,2.25 L 13.1944447,2.5 Z M 16.3611107,2.5 L 19,2.5 L 19,2.25 L 16.3611107,2.25 L 16.3611107,2.5 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]5" HorizontalAlignment="[HorizontalAlignment]Left" IsHitTestVisible="[bool]False" Left="[float]2" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]30" VerticalAlignment="[VerticalAlignment]Top" Width="[float]19" />
+							</IconTemplate>
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+		<p.IconModel Target="Dam.gtype::Read Config File.gvi">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 40">
+						<IconPanel Height="[float]40" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Left="[float]0" TemplateName="[string]GrayNoText" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]36" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Read Config File" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6.75" />
 								</FileNameText>
 							</IconTemplate>
 							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Class]Dam.gtype" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
