@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="8866B67AAE60EDBA7A906583C134C45773FD23A87A0DDBEA53F38169E783A0D25DB21C16679AEF7B3E19BD1CFECBAE441F8D1D0CF62BA26A9C58E9087001ED97" Timestamp="1D49EF8DD474E06" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;This VI returns a new task configured accordingly to the class type&lt;/p&gt;</p.UserDescription>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]False" Height="[float]21" HorizontalAlignment="[HorizontalAlignment]Left" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Task" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]15" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="11.25" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+				<Path Data="[PathGeometry]M 10.4969997,5.45499992 L 14.75,3.24300003 L 12.5319996,7.48999977 L 17.9839993,8.93299961 L 12.5299997,10.3699999 L 14.7419996,14.6239996 L 10.4919996,12.4060001 L 9.05099964,17.8579998 L 7.61399984,12.4029999 L 3.3599999,14.6190004 L 5.57800007,10.368 L 0,8.92500019 L 5.57800007,7.48799992 L 3.36599994,3.2349999 L 7.61600018,5.45300007 L 9.06000042,0 L 10.4969997,5.45499992 Z" EditMode="[ShapeEditMode]FixedPath" Fill="[SMSolidColorBrush]#b2000000" Height="[float]17.858" Id="54" Left="[float]22" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" Top="[float]2" Width="[float]17.984" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="85" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="18" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="45" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="38" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="46" Interval="[uint]1" IsReadOnly="[bool]False" Left="[float]0" MinHeight="[float]24" Name="[string]Index" RadixBase="[RadixBase]Decimal" TabIndex="[int]0" Top="[float]0" Value="{DataItemBinding Id=45}" ValueFormatter="[string]Decimal, Uppercase, Unsigned" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="245 475 40 15" DataItem="18" Id="19" Label="20" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@4b5368eb8e8144d880f413af6647cbd9" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="19" Bounds="245 458 60 14" Id="20" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Task Types</p.Text>
+			</NodeLabel>
+			<ClusterLiteral Bounds="185 195 186 256" DataType="@9e18dbea600d4baab290a5a93f72c3d6" Id="21" Label="34" p4:ControlDefinitionChecksum="Li1ENg3ntLsOeLFICgWBAdfTzS9FfJXHXe/q7k+yLzE=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0_0x0_0_0_60052752000;0;Utc_60052752000;0;Utc_</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
+					<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<ClusterBehavior AutoArrange="ArrangeVertically" />
+				<Literal Bounds="2 19 125 15" DataType="@4b5368eb8e8144d880f413af6647cbd9" Id="22" Label="23" p4:ControlDefinitionChecksum="OkOAa99i8R6BF3ecDq9Yqpc2mAZ6gtjFPjmYRV6ydgM=">
+					<p.Data>0</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<EnumBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="22" Bounds="2 2 54 14" Id="23" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Task Type</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 55 40 15" DataType="Double" Id="24" Label="25">
+					<p.Data>0x0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
+				</Literal>
+				<NodeLabel AttachedTo="24" Bounds="2 38 107 14" Id="25" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Remaining time (s)</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 91 95 15" DataType="@46fd78d9210c484fa97dbcd258f61f13" Id="26" Label="27" p4:ControlDefinitionChecksum="yJiCEE3iABMdpb72arU9U9Ttq41FyyofCcmDMUf33yk=">
+					<p.Data>0</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<EnumBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="26" Bounds="2 74 36 14" Id="27" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Status</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 127 40 15" DataType="UInt32" Id="28" Label="29">
+					<p.Data>0</p.Data>
+					<NumericBehavior Interpretation="Exact" ValueFormatter="LV:0" />
+				</Literal>
+				<NodeLabel AttachedTo="28" Bounds="2 110 32 14" Id="29" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Index</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 163 165 30" DataType="Timestamp" Id="30" Label="31">
+					<p.Data>60052752000;0;Utc</p.Data>
+					<TimestampBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="30" Bounds="2 146 59 14" Id="31" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Start Time</p.Text>
+				</NodeLabel>
+				<Literal Bounds="2 214 165 30" DataType="Timestamp" Id="32" Label="33">
+					<p.Data>60052752000;0;Utc</p.Data>
+					<TimestampBehavior />
+				</Literal>
+				<NodeLabel AttachedTo="32" Bounds="2 197 52 14" Id="33" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>End Time</p.Text>
+				</NodeLabel>
+			</ClusterLiteral>
+			<NodeLabel AttachedTo="21" Bounds="185 178 55 14" Id="34" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Task Data</p.Text>
+			</NodeLabel>
+			<PropertyNode Bounds="405 465 154 80" HasErrorTerminals="False" Id="35" InstanceDataType="@9e18dbea600d4baab290a5a93f72c3d6" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
+					<TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
+					<TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="@4b5368eb8e8144d880f413af6647cbd9" Hotspot="0 15" Id="c0t0v" Path="Task Type" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="Double" Hotspot="0 30" Id="c1t0v" Path="Remaining time (s)" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="@46fd78d9210c484fa97dbcd258f61f13" Hotspot="0 45" Id="c2t0v" Path="Status" PathElementMemberKinds="Field" Usage="Required" />
+				<PropertyItemTerminal Action="Write" DataType="UInt32" Hotspot="0 60" Id="c3t0v" Path="Index" PathElementMemberKinds="Field" Usage="Required" />
+			</PropertyNode>
+			<Wire Id="36" Joints="N(21:Out)|(371,200) h(14) v(270) N(35:instance in)|(405,470)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="37" Joints="N(19:Value)|(285,480) h(30) B(1) N(35:c0t0v)|(405,480) B(1) v(15) N(51:L0)|(330,495)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="575 465 40 15" DataItem="38" Id="39" Label="40" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@9e18dbea600d4baab290a5a93f72c3d6" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="39" Bounds="620 465 52 14" Id="40" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>New Task</p.Text>
+			</NodeLabel>
+			<Wire Id="41" Joints="N(35:instance out)|(559,470) N(39:Value)|(578,470)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="275 525 100 15" DataType="@46fd78d9210c484fa97dbcd258f61f13" Id="42" Label="43" p4:ControlDefinitionChecksum="yJiCEE3iABMdpb72arU9U9Ttq41FyyofCcmDMUf33yk=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype" />
+					<p4:TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<EnumBehavior />
+			</Literal>
+			<NodeLabel AttachedTo="42" Bounds="275 507 30 15" Id="43" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Status</p.Text>
+			</NodeLabel>
+			<Wire Id="44" Joints="N(42:Out)|(375,530) h(10) v(-20) N(35:c2t0v)|(405,510)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="335 545 40 15" DataItem="45" Id="48" Label="49" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="UInt32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="48" Bounds="298 545 32 14" Id="49" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Index</p.Text>
+			</NodeLabel>
+			<Wire Id="50" Joints="N(48:Value)|(375,550) h(20) v(-25) N(35:c3t0v)|(405,525)" xmlns="http://www.ni.com/PlatformFramework" />
+			<MethodCall Bounds="330 490 40 30" Id="51" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\Task functions\\Get Task Type Time.gviweb&quot;" Signature="@bb349b1fe56c4604913c1337f58f6348" Target="Application::Task functions::Get Task Type Time.gviweb" xmlns="http://www.ni.com/MocCommon">
+				<p.MethodDeclaration>
+					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+						<Parameter Id="L0" Desc="Task Type" />
+						<Parameter Id="R0" Desc="Task time (s)" />
+					</MethodDeclaration>
+				</p.MethodDeclaration>
+				<Terminal DataType="@4b5368eb8e8144d880f413af6647cbd9" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+			</MethodCall>
+			<Wire Id="53" Joints="N(51:R0)|(370,495) N(35:c1t0v)|(405,495)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+		<DataItem CallDirection="Input" CallIndex="0" DataType="@4b5368eb8e8144d880f413af6647cbd9" Id="18" Name="Task Types" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@9e18dbea600d4baab290a5a93f72c3d6" Id="38" Name="New Task" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0_0x0_0_0_60052752000;0;Utc_60052752000;0;Utc_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="1" DataType="UInt32" Id="45" Name="Index" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="4b5368eb8e8144d880f413af6647cbd9">
+			<Attributed AttributedType="@c3abbead05a74ee48fc63d9accc1614a">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="9e18dbea600d4baab290a5a93f72c3d6">
+			<Attributed AttributedType="@58be9eceb82543bca58362fe7118596b">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="46fd78d9210c484fa97dbcd258f61f13">
+			<Attributed AttributedType="@d09e0c9fd98f4bc6856484c97cc0f6f8">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="bb349b1fe56c4604913c1337f58f6348">
+			<Attributed AttributedType="@f02265658d684ca9a8435008f5da948a">
+				<AttributeValues>
+					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]30" />
+					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c3abbead05a74ee48fc63d9accc1614a">
+			<Typedef TypedefName="Task Types.gtype" UnderlyingType="@4835ca39e2d94fb2b87d8ff31bfa2e95" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="58be9eceb82543bca58362fe7118596b">
+			<Typedef TypedefName="Task Data.gtype" UnderlyingType="@cf67587c787b4f87965bd5421d6a02cf" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d09e0c9fd98f4bc6856484c97cc0f6f8">
+			<Typedef TypedefName="Task Status.gtype" UnderlyingType="@b52e41b60721466484048f8f05d5d7b6" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="f02265658d684ca9a8435008f5da948a">
+			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Get Task Type Time.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
+				<Parameters>
+					<Attributed AttributedType="@759f9b6bac7c4303b65befa79463c2be">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Task Type" />
+						</AttributeValues>
+					</Attributed>
+					<Attributed AttributedType="@d4e07fad830b4336b66da597d89c1e13">
+						<AttributeValues>
+							<AttributeValue Name="NI.UserDefinedName" Value="[string]Task time (s)" />
+						</AttributeValues>
+					</Attributed>
+				</Parameters>
+			</Function>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4835ca39e2d94fb2b87d8ff31bfa2e95">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Patch Tee Hole" />
+					<EnumerationMember Value="1" Name="Rake Sand Trap" />
+					<EnumerationMember Value="2" Name="Retrieve Balls from Creek" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="cf67587c787b4f87965bd5421d6a02cf">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Task Type" DataType="@4b5368eb8e8144d880f413af6647cbd9" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Remaining time (s)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@46fd78d9210c484fa97dbcd258f61f13" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWrite" Name="End Time" DataType="Timestamp" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b52e41b60721466484048f8f05d5d7b6">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Waiting" />
+					<EnumerationMember Value="1" Name="Running" />
+					<EnumerationMember Value="2" Name="Completed" />
+					<EnumerationMember Value="3" Name="Failed" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="759f9b6bac7c4303b65befa79463c2be">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@4b5368eb8e8144d880f413af6647cbd9" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d4e07fad830b4336b66da597d89c1e13">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="Double" />
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+	<IconTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.IconModel Target="Application::Task functions::Get Task Type Time.gviweb">
+			<MergeScript>
+				<MergeItem Path="." IsPrimary="True">
+					<Icon ListViewIconCrop="0 0 40 30">
+						<IconPanel Height="[float]30" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+							<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]30" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+								<Rectangle Fill="[SMSolidColorBrush]#ff727272" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+								<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+								<FileNameText Attached="[bool]True" Height="[float]27" HorizontalAlignment="[HorizontalAlignment]Left" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Get Task Type Time" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]-2" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+									<FontSetting FontFamily="Verdana" FontSize="6" />
+								</FileNameText>
+							</IconTemplate>
+							<IconTemplate Height="[float]30" IsHitTestVisible="[bool]False" Left="[float]0" TemplateName="[string][Comp]Application.gcomp" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</Icon>
+				</MergeItem>
+			</MergeScript>
+		</p.IconModel>
+	</IconTable>
+</SourceFile>
