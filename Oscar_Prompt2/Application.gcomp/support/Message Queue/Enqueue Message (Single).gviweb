@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1FFF04D9D55FB53A052948B4C8BE0929F72E27B59B4F54932B8052C3F192C355EDD6EBDD6D6858F3C75DC18A94EC780E1EEFC37F818BC8E9A007E20AE91BD64E" Timestamp="1D45693DA989B8A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B4E97485D3DCD5CD997F55265B3894E2B488AA5CCD53A6C181DB72A5EA85D2C29D1E04E007561DFEDDF5EDA35913F0CC4259AABB8D0E97BD41D96AAEAEC4943B" Timestamp="1D49E45C9A66A10" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.2.0.52432" Name="LabVIEW NXG" Version="3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;For a regular message, enqueue the message. For a priority message, enqueue it at the front of the queue.&lt;/p&gt;</p.UserDescription>
@@ -21,133 +21,144 @@
 			</IconPanel>
 		</Icon>
 		<ConnectorPane Height="40" Id="9" ListViewHeight="145" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
-			<ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="135" />
-			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 65" Parameter="68" />
-			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 80" Parameter="99" />
-			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 95" Parameter="66" />
+			<ConnectorPaneTerminal ListViewHotspot="0 95" Parameter="146" />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 125" Parameter="155" />
+			<ConnectorPaneTerminal Hotspot="0 25" ListViewHotspot="0 35" Parameter="99" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 50" Parameter="66" />
 			<ConnectorPaneTerminal Hotspot="15 0" />
 			<ConnectorPaneTerminal Hotspot="25 0" />
-			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 50" Parameter="130" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 110" Parameter="143" />
 			<ConnectorPaneTerminal Hotspot="40 15" />
 			<ConnectorPaneTerminal Hotspot="40 25" />
-			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 110" Parameter="67" />
-			<ConnectorPaneTerminal Hotspot="15 40" ListViewHotspot="0 125" Parameter="70" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 65" Parameter="67" />
+			<ConnectorPaneTerminal Hotspot="15 40" ListViewHotspot="0 80" Parameter="70" />
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<DataAccessor Bounds="395 480 40 15" DataItem="66" Id="16" Label="58" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="495 425 40 15" DataItem="66" Id="16" Label="58" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="1005 480 40 15" DataItem="67" Id="17" Label="59" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="905 370 40 15" DataItem="67" Id="17" Label="59" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="395 370 40 15" DataItem="68" Id="18" Label="60" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<DataAccessor Bounds="395 540 40 15" DataItem="70" Id="20" Label="62" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="445 260 40 15" DataItem="70" Id="20" Label="62" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<PropertyNode Bounds="555 360 120 50" HasErrorTerminals="False" Id="21" InstanceDataType="@80827d6c306f49a5a19bc2e60037346e" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
-				<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 15" Id="c0t0v" Path="Message" PathElementMemberKinds="Field" Usage="Required" />
+			<PropertyNode Bounds="415 320 120 50" HasErrorTerminals="False" Id="21" InstanceDataType="@70c4cfa33d254305b85e1fd5210d59c3" Mode="InstanceProperties" Template="List" xmlns="http://www.ni.com/MocCommon">
+				<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+					<TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype" />
+					<TypeDefinitionTarget TargetName="Application::support::Message Queue::QMH Commands.gtype" />
+				</p.TypeDefinitionTargets>
+				<PropertyItemTerminal Action="Write" DataType="@b5d54a2b993843a2a52ef29960f6ac78" Hotspot="0 15" Id="c0t0v" Path="Message" PathElementMemberKinds="Field" Usage="Required" />
 				<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 30" Id="c1t0v" Path="Message Data" PathElementMemberKinds="Field" Usage="Required" />
 			</PropertyNode>
-			<CaseStructure AutoGrow="False" Bounds="705 305 280 260" Default="23" Id="22" Selected="24" UserSelectorBounds="96 0 88 17">
-				<CaseStructure.Case Bounds="5 5 270 250" Id="23" Pattern="False">
-					<EnqueueElement Bounds="60 140 40 40" Id="30" Label="31" />
-					<NodeLabel AttachedTo="30" Bounds="60 123 97 14" Id="31" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+			<CaseStructure AutoGrow="False" Bounds="575 300 290 185" Default="23" Id="22" Selected="24" UserSelectorBounds="101 0 88 17">
+				<CaseStructure.Case Bounds="5 5 280 175" Id="23" Pattern="False">
+					<EnqueueElement Bounds="45 35 40 40" Id="30" Label="31" />
+					<NodeLabel AttachedTo="30" Bounds="45 18 97 14" Id="31" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Enqueue Element</p.Text>
 					</NodeLabel>
-					<Wire Id="32" Joints="N(29:23)|(4,55) h(21) v(100) N(30:element)|(60,155)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="33" Joints="N(28:23)|(4,30) h(36) v(115) N(30:queue)|(60,145)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="34" Joints="N(30:error out)|(100,175) N(27:23)|(266,175)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="35" Joints="N(26:23)|(4,175) N(30:error in)|(60,175)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="32" Joints="N(29:23)|(4,50) N(30:element)|(45,50)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="33" Joints="N(28:23)|(4,40) N(30:queue)|(45,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="34" Joints="N(30:error out)|(85,70) N(27:23)|(276,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="35" Joints="N(26:23)|(4,70) N(30:error in)|(45,70)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Case Bounds="5 5 270 250" Id="24" Pattern="True">
-					<EnqueueElementAtOppositeEnd Bounds="55 140 40 40" Id="36" Label="37" />
-					<NodeLabel AttachedTo="36" Bounds="55 123 190 14" Id="37" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+				<CaseStructure.Case Bounds="5 5 280 175" Id="24" Pattern="True">
+					<EnqueueElementAtOppositeEnd Bounds="45 35 40 40" Id="36" Label="37" />
+					<NodeLabel AttachedTo="36" Bounds="45 18 190 14" Id="37" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Enqueue Element At Opposite End</p.Text>
 					</NodeLabel>
-					<Wire Id="39" Joints="N(28:24)|(4,30) h(36) v(115) N(36:queue)|(55,145)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="40" Joints="N(36:error out)|(95,175) N(27:24)|(266,175)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="41" Joints="N(26:24)|(4,175) N(36:error in)|(55,175)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Wire Id="120" Joints="N(29:24)|(4,55) h(16) v(100) N(36:element)|(55,155)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="39" Joints="N(28:24)|(4,40) N(36:queue)|(45,40)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="40" Joints="N(36:error out)|(85,70) N(27:24)|(276,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="41" Joints="N(26:24)|(4,70) N(36:error in)|(45,70)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Wire Id="120" Joints="N(29:24)|(4,50) N(36:element)|(45,50)" xmlns="http://www.ni.com/PlatformFramework" />
 				</CaseStructure.Case>
-				<CaseStructure.Selector Bounds="-4 235 13 10" Docking="Left" Id="25" Terminals="22=46, 23, 24" />
-				<CaseStructure.Tunnel Bounds="-4 175 13 10" Docking="Left" Id="26" Terminals="22=45, 23=35, 24=41" />
-				<CaseStructure.Tunnel Bounds="271 175 13 10" Docking="Right" Id="27" Terminals="22=44, 23=34, 24=40" />
-				<CaseStructure.Tunnel Bounds="-4 30 13 10" Docking="Left" Id="28" Terminals="22=49, 23=33, 24=39" />
-				<CaseStructure.Tunnel Bounds="-4 55 13 10" Docking="Left" Id="29" Terminals="22=43, 23=32, 24=120" />
+				<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="25" Terminals="22=46, 23, 24" />
+				<CaseStructure.Tunnel Bounds="-4 70 13 10" Docking="Left" Id="26" Terminals="22=45, 23=35, 24=41" />
+				<CaseStructure.Tunnel Bounds="281 70 13 10" Docking="Right" Id="27" Terminals="22=44, 23=34, 24=40" />
+				<CaseStructure.Tunnel Bounds="-4 40 13 10" Docking="Left" Id="28" Terminals="22=49, 23=33, 24=39" />
+				<CaseStructure.Tunnel Bounds="-4 50 13 10" Docking="Left" Id="29" Terminals="22=43, 23=32, 24=120" />
 			</CaseStructure>
-			<Comment Bounds="445 575 610 55" Id="42" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+			<Comment Bounds="635 485 610 55" Id="42" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>For a regular message, enqueue the message.  For a priority message, enqueue it at the front of the queue.</p.Text>
 			</Comment>
-			<Wire Id="43" Joints="N(21:instance out)|(675,365) N(29:22)|(701,365)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="44" Joints="N(27:22)|(989,485) N(17:Value)|(1008,485)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="45" Joints="N(16:Value)|(435,485) N(26:22)|(701,485)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="46" Joints="N(20:Value)|(435,545) N(25:22)|(701,545)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="48" Joints="N(18:Value)|(435,375) N(21:c0t0v)|(555,375)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="49" Joints="N(133:Value)|(435,285) h(248) B(1) N(128:Value)|(1033,285) B(1) v(55) N(28:22)|(701,340)" xmlns="http://www.ni.com/PlatformFramework" />
-			<ClusterLiteral Bounds="543 360 12 9" DataType="@80827d6c306f49a5a19bc2e60037346e" Id="52" Label="65" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="43" Joints="N(21:instance out)|(535,325) h(10) v(30) N(29:22)|(571,355)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="44" Joints="N(27:22)|(869,375) N(17:Value)|(908,375)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="45" Joints="N(16:Value)|(535,430) h(10) v(-55) N(26:22)|(571,375)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="46" Joints="N(20:Value)|(485,265) h(80) v(60) N(25:22)|(571,325)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="49" Joints="N(144:Value)|(535,285) h(20) B(1) N(141:Value)|(578,285) B(1) v(60) N(28:22)|(571,345)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="57" Joints="N(149:Out)|(386,325) N(21:instance in)|(415,325)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="16" Bounds="495 408 42 14" Id="58" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="17" Bounds="905 353 50 14" Id="59" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="20" Bounds="445 243 93 14" Id="62" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>priority message</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="310 445 40 15" DataItem="99" Id="100" Label="102" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="100" Bounds="310 428 77 14" Id="102" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>message data</p.Text>
+			</NodeLabel>
+			<Wire Id="103" Joints="N(100:Value)|(350,450) h(55) v(-100) N(21:c1t0v)|(415,350)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="575 280 40 15" DataItem="143" Id="141" Label="142" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="141" Bounds="620 280 109 14" Id="142" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>message queue out</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="495 280 40 15" DataItem="146" Id="144" Label="145" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="144" Bounds="389 280 101 14" Id="145" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>message queue in</p.Text>
+			</NodeLabel>
+			<ClusterLiteral Bounds="270 320 116 82" DataType="@70c4cfa33d254305b85e1fd5210d59c3" Id="149" Label="154" p4:ControlDefinitionChecksum="lLtBJ2KoU3GY5CyXbWyxF0Y0B4RPo/O6veq3indLcnw=" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 				<p.Data>
 					<Cluster>
-						<Field1>""</Field1>
+						<Field1>0</Field1>
 						<Field2>""</Field2>
 					</Cluster>
 				</p.Data>
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype" />
+					<p4:TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype::ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
 				<ClusterBehavior AutoArrange="ArrangeVertically" />
-				<Literal Bounds="2 19 40 15" DataType="String" Id="53" Label="54">
-					<p.Data>""</p.Data>
-					<StringBehavior TextDisplayMode="Default" />
+				<Literal Bounds="2 19 95 15" DataType="@b5d54a2b993843a2a52ef29960f6ac78" Id="150" Label="151" p4:ControlDefinitionChecksum="VC9iPXxOmE+9BaneR3exB0nEb4C23ZuxjS2BL9HEwi4=">
+					<p.Data>0</p.Data>
+					<p4:p.TypeDefinitionTargets>
+						<p4:TypeDefinitionTarget TargetName="Application::support::Message Queue::QMH Commands.gtype" />
+						<p4:TypeDefinitionTarget TargetName="Application::support::Message Queue::QMH Commands.gtype::ControlDefinition" />
+					</p4:p.TypeDefinitionTargets>
+					<EnumBehavior />
 				</Literal>
-				<NodeLabel AttachedTo="53" Bounds="2 2 48 14" Id="54" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="150" Bounds="2 2 48 14" Id="151" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Message</p.Text>
 				</NodeLabel>
-				<Literal Bounds="2 55 40 15" DataType="String" Id="97" Label="98">
+				<Literal Bounds="2 55 40 15" DataType="String" Id="152" Label="153">
 					<p.Data>""</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
-				<NodeLabel AttachedTo="97" Bounds="2 38 78 14" Id="98" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="152" Bounds="2 38 78 14" Id="153" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Message Data</p.Text>
 				</NodeLabel>
-				<DockedConstantFacade LabelVisible="True" UndockedSize="99 82" />
 			</ClusterLiteral>
-			<Wire Facade="WireInvisibleFacade" Id="57" Joints="N(52:Out)|(555,365) N(21:instance in)|(555,365)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
-			<NodeLabel AttachedTo="16" Bounds="395 463 42 14" Id="58" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>error in</p.Text>
-			</NodeLabel>
-			<NodeLabel AttachedTo="17" Bounds="1005 463 50 14" Id="59" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>error out</p.Text>
-			</NodeLabel>
-			<NodeLabel AttachedTo="18" Bounds="395 353 49 14" Id="60" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>message</p.Text>
-			</NodeLabel>
-			<NodeLabel AttachedTo="20" Bounds="395 523 93 14" Id="62" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>priority message</p.Text>
-			</NodeLabel>
-			<NodeLabel AttachedTo="52" Bounds="543 343 91 14" Id="65" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="149" Bounds="270 303 91 14" Id="154" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Message Cluster</p.Text>
 			</NodeLabel>
-			<DataAccessor Bounds="395 420 40 15" DataItem="99" Id="100" Label="102" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="345 405 40 15" DataItem="155" Id="156" Label="157" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@b5d54a2b993843a2a52ef29960f6ac78" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="100" Bounds="395 403 77 14" Id="102" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>message data</p.Text>
+			<NodeLabel AttachedTo="156" Bounds="291 405 49 14" Id="157" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>message</p.Text>
 			</NodeLabel>
-			<Wire Id="103" Joints="N(100:Value)|(435,425) h(115) v(-35) N(21:c1t0v)|(555,390)" xmlns="http://www.ni.com/PlatformFramework" />
-			<DataAccessor Bounds="1030 280 40 15" DataItem="130" Id="128" Label="129" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@920d9f9ea53344ad8fcadd5e855d7f32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="128" Bounds="1030 263 109 14" Id="129" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>message queue out</p.Text>
-			</NodeLabel>
-			<DataAccessor Bounds="395 280 40 15" DataItem="135" Id="133" Label="134" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@920d9f9ea53344ad8fcadd5e855d7f32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-			</DataAccessor>
-			<NodeLabel AttachedTo="133" Bounds="395 263 101 14" Id="134" xmlns="http://www.ni.com/PlatformFramework">
-				<p.Text>message queue in</p.Text>
-			</NodeLabel>
+			<Wire Id="158" Joints="N(156:Value)|(385,410) h(10) v(-75) N(21:c0t0v)|(415,335)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]768" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<HtmlCluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="81" Label="[UIModel]105" Left="[float]708" MinHeight="[float]24" MinWidth="[float]24" TabIndex="[int]0" Top="[float]500" Value="{DataItemBinding Id=67}" Width="[float]176" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -170,14 +181,8 @@
 			<HtmlLabel Height="[float]16" Id="106" LabelOwner="[UIModel]73" Left="[float]68" Text="[string]error in" Top="[float]464" Width="[float]46" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlBooleanLED BaseName="[string]LED" FalseContent="[string]Off" Height="[float]24" Id="114" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]115" Left="[float]260" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Square" TabIndex="[int]2" Top="[float]484" TrueContent="[string]On" Value="{DataItemBinding Id=70}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="115" LabelOwner="[UIModel]114" Left="[float]260" Text="[string]priority message" Top="[float]464" Width="[float]95" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="89" Label="[UIModel]116" Left="[float]68" MinHeight="[float]24" TabIndex="[int]3" Text="{DataItemBinding Id=68}" Top="[float]164" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="116" LabelOwner="[UIModel]89" Left="[float]68" Text="[string]message" Top="[float]144" Width="[float]53" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="101" Label="[UIModel]117" Left="[float]68" TabIndex="[int]4" Text="{DataItemBinding Id=99}" Top="[float]228" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="101" Label="[UIModel]117" Left="[float]68" TabIndex="[int]3" Text="{DataItemBinding Id=99}" Top="[float]228" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="117" LabelOwner="[UIModel]101" Left="[float]68" Text="[string]message data" Top="[float]208" Width="[float]80" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlOpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="131" Label="[UIModel]132" Left="[float]756" RefnumType="[Type]@920d9f9ea53344ad8fcadd5e855d7f32" TabIndex="[int]5" Top="[float]84" Value="{DataItemBinding Id=130}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="132" LabelOwner="[UIModel]131" Left="[float]756" Text="[string]message queue out" Top="[float]64" Width="[float]111" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlOpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="136" Label="[UIModel]137" Left="[float]260" RefnumType="[Type]@920d9f9ea53344ad8fcadd5e855d7f32" TabIndex="[int]6" Top="[float]68" Value="{DataItemBinding Id=135}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="137" LabelOwner="[UIModel]136" Left="[float]260" Text="[string]message queue in" Top="[float]48" Width="[float]103" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</HtmlFrontPanel>
 		<DataItem CallDirection="Input" CallIndex="3" DataType="Error" Id="66" Name="error in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
@@ -205,44 +210,85 @@
 			</p.TypeDefinitionTargets>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"&lt;B&gt;error out&lt;/B&gt; passes error or warning information out of a VI to be used by other VIs.\n\nRight-click the &lt;B&gt;error out&lt;/B&gt; indicator on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error."</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="String" Id="68" Name="message" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>""</p.DefaultValue>
-		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="4" DataType="Boolean" Id="70" Name="priority message" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="2" DataType="String" Id="99" Name="message data" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="0" DataType="@920d9f9ea53344ad8fcadd5e855d7f32" Id="130" Name="message queue out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Id="143" Name="message queue out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype" />
+			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@920d9f9ea53344ad8fcadd5e855d7f32" Id="135" Name="message queue in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Id="146" Name="message queue in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@b5d54a2b993843a2a52ef29960f6ac78" Id="155" Name="message" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Application::support::Message Queue::QMH Commands.gtype" />
+			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="80827d6c306f49a5a19bc2e60037346e">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Message" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Message Data" DataType="String" />
-				</Members>
-			</Composite>
+		<p.TypeReference TypeId="70c4cfa33d254305b85e1fd5210d59c3">
+			<Attributed AttributedType="@a71c1b05283943be8003967d20c4ca98">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Message Queue" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="920d9f9ea53344ad8fcadd5e855d7f32">
-			<Attributed AttributedType="@c852f67a8aa34059a7f77b094e2d10f4">
+		<p.TypeReference TypeId="b5d54a2b993843a2a52ef29960f6ac78">
+			<Attributed AttributedType="@eeb4000089ed454997360a908abbf4a1">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Message Queue" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="5fdcc598c22e4b2cbd8882621002cd8c">
+			<Attributed AttributedType="@cb765aa4ee2946bc910780b94fc2da26">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c852f67a8aa34059a7f77b094e2d10f4">
+		<p.TypeReference TypeId="a71c1b05283943be8003967d20c4ca98">
+			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@ee640db4d02e46df99e1a7fc6aa89601" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="eeb4000089ed454997360a908abbf4a1">
+			<Typedef TypedefName="QMH Commands.gtype" UnderlyingType="@baa36c9a2f1b4049b26b6a5b63d86a63" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="cb765aa4ee2946bc910780b94fc2da26">
 			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@9c0ecfb1296944878bd9953b31a0e7f3">
 				<ClosedGenericParameters>
-					<TypeRef>@80827d6c306f49a5a19bc2e60037346e</TypeRef>
+					<TypeRef>@70c4cfa33d254305b85e1fd5210d59c3</TypeRef>
 				</ClosedGenericParameters>
 			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="ee640db4d02e46df99e1a7fc6aa89601">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Message" DataType="@b5d54a2b993843a2a52ef29960f6ac78" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message Data" DataType="String" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="baa36c9a2f1b4049b26b6a5b63d86a63">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Initialize" />
+					<EnumerationMember Value="1" Name="Update Display" />
+					<EnumerationMember Value="2" Name="Idle" />
+					<EnumerationMember Value="3" Name="Error" />
+					<EnumerationMember Value="4" Name="Exit" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
 		</p.TypeReference>
 		<p.TypeReference TypeId="9c0ecfb1296944878bd9953b31a0e7f3">
 			<Attributed AttributedType="@e0e6c5b47a2f468685456ef5a72b010f">
