@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>F:\OneDrive - National Instruments\Documents\AE\Other projects\LabVIEW NXG Challenge\Oscar_Prompt2\Builds\Application_Web Server</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>F:\OneDrive - National Instruments\Documents\AE\Other projects\LabVIEW NXG Challenge\Oscar_Prompt2\Builds\Application_Web Server</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\Application_Web Server</OutputPath>
+    <BuildName>Application</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>::Web Server::Interactive::Application.gcomp</QualifiedName>
+  </Job>
+  <Job OutputType="Distribution:NiPackageInstaller">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>F:\OneDrive - National Instruments\Documents\AE\Other projects\LabVIEW NXG Challenge\Oscar_Prompt2\Builds\Application</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>F:\OneDrive - National Instruments\Documents\AE\Other projects\LabVIEW NXG Challenge\Oscar_Prompt2\Builds\Application</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\Application</OutputPath>
+    <BuildName>Application</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:38</LastTotalTime>
+    <HasChild>True</HasChild>
+    <QualifiedName>::NullTarget::Application.lvdist</QualifiedName>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>F:\OneDrive - National Instruments\Documents\AE\Other projects\LabVIEW NXG Challenge\Oscar_Prompt2\Builds\Application_Web Server</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackageInstaller</ComponentSubtypeIdentifier>
+      <BuildId>F:\OneDrive - National Instruments\Documents\AE\Other projects\LabVIEW NXG Challenge\Oscar_Prompt2\Builds\Application</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\Application_Web Server</OutputPath>
+    <BuildName>Application</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>::Web Server::Interactive::Application.gcomp</QualifiedName>
+  </Job>
+</JobList>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F05CA683F73BF38640DB842487698E2EBC131A5BB53A6E6DAFEFF81C6B65C2E748F6359344D6F28DA1C3D8B8E963F3175D7C961B20E04C224594866F1E27A27E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="4FD511CE18756D55883C3DDDF5172625578DD916987E96A75494CDF21ED80463DAEB82235BDC37A6B9459F9D3529C4A7DD547E7FCDA2A96CD2261CA4787DE0D4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
@@ -738,6 +738,7 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="1535" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-18.5.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/18.5.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="1537" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-18.5.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/18.5.0" />
 			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="1828" ModelDefinitionType="DistributionDefinition" Name="Application.lvdist" StoragePath="Application.lvdist" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="846" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
 	</Project>

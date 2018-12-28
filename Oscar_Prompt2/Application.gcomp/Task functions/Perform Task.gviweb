@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6AED6D30E8E2D801216AF021FB04FB495A56B90E12B06EAD263AE9A48D0BD2B039745747EDA9A26D162FB91B4C081BEE3F5504C9ED155DF1FE948034D418F0D3" Timestamp="1D49EF95F3D2CE2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="6362F2FB1F25EFB3600B087FE48225CA91AB907BFF991AA3FD0055476C94424554302B74F7BCF439C0E73EC912617E35ACE7C0A06E35B90E2BB77D5413283A33" Timestamp="1D49F05D33F57ED" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -205,7 +205,7 @@
 							<GetCurrentTime Bounds="45 90 35 30" Id="605" />
 							<Wire Id="606" Joints="N(605:current time)|(80,95) N(603:595)|(236,95)" xmlns="http://www.ni.com/PlatformFramework" />
 							<Wire Id="614" Joints="N(615:595)|(4,65) h(31) v(-45) N(611:595)|(236,20)" xmlns="http://www.ni.com/PlatformFramework" />
-							<Comment Bounds="45 45 170 40" Id="617" xmlns="http://www.ni.com/MocCommon">
+							<Comment Bounds="45 45 170 42" Id="617" xmlns="http://www.ni.com/MocCommon">
 								<p.Text>"First iteration is discarded\r\nbecause end time does not\r\nmake sense"</p.Text>
 							</Comment>
 						</CaseStructure.Case>
@@ -238,7 +238,7 @@
 				<p.Text>Current Time</p.Text>
 			</NodeLabel>
 			<Wire Id="391" Joints="N(387:Value)|(760,640) N(392:62)|(776,640)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Comment Bounds="820 835 615 65" Id="394" xmlns="http://www.ni.com/MocCommon">
+			<Comment Bounds="820 835 615 68" Id="394" xmlns="http://www.ni.com/MocCommon">
 				<p.Text>"LOGIC:\r\n1. Get the task type and determine the time it should run.\r\n2. Compare the previous time with the new time.\r\n3. Remove the delta from the remaining time.\r\n4. If the remaining time &lt;= 0, then set the task as completed or failed depending on the random generator"</p.Text>
 			</Comment>
 			<DataAccessor Bounds="2075 570 40 15" DataItem="498" Id="502" Label="503" xmlns="http://www.ni.com/MocCommon">

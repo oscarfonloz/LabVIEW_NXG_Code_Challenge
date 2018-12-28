@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="883784043FD4D90792F115BE0A5585A0E33DD6450E11ADFB48AF9BD8B393EF89A0A89D8157E1AF7AE4D06B438FAD18C06EF2B0BF4DC441CEABF3352BCBEBB455" Timestamp="1D49E4669BB9260" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A943C360E7242F5FC62BA05DCEA7940F6A3CACEE315CFEB268C4FA700490AD94FBB82F01B1EB409414A297097EE96EAC57AE5C21EFD7BBB903B5A4324C39CDF4" Timestamp="1D49EFB05BFD432" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -58,7 +58,7 @@
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<Literal Bounds="485 555 25 15" DataType="Boolean" Id="21" Label="40" xmlns="http://www.ni.com/MocCommon">
-				<p.Data>True</p.Data>
+				<p.Data>False</p.Data>
 				<BooleanBehavior />
 			</Literal>
 			<BuildArray Bounds="435 540 40 20" ConcatenateInputsIsRequested="True" Id="23" Terminals="outArray=31, c0t0v=32, c1t0v=30" VerticalChunkCount="2" />
@@ -94,7 +94,7 @@
 			<NodeLabel AttachedTo="21" Bounds="485 534 129 18" Id="40" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Exit on Error? (F)</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="515 500 40 40" Id="84" Label="88" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\support\\Check Loop Error.gviweb&quot;" Signature="@6b546e0a0bad45b3814c82934baad49c" Target="Application::support::Check Loop Error.gviweb" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="515 500 40 40" Id="84" Label="88" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\support\\Check Loop Error.gviweb&quot;" Signature="@b13d730484694214abfb30a0adb6fdb4" Target="Application::support::Check Loop Error.gviweb" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="B0" Desc="exit on error" />
@@ -106,24 +106,24 @@
 					</MethodDeclaration>
 				</p.MethodDeclaration>
 				<Terminal DataType="Boolean" Direction="Input" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@505f6e16d74248d69f5d987afaa80480" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 15" Id="L1" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Int32[]" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@505f6e16d74248d69f5d987afaa80480" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<NodeLabel AttachedTo="84" Bounds="515 483 96 14" Id="88" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Check Loop Error</p.Text>
 			</NodeLabel>
 			<DataAccessor Bounds="620 390 40 15" DataItem="95" Id="93" Label="94" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@505f6e16d74248d69f5d987afaa80480" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="93" Bounds="665 390 109 14" Id="94" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>message queue out</p.Text>
 			</NodeLabel>
 			<Wire Id="97" Joints="N(98:Value)|(220,310) h(60) v(50) h(150) B(3) h(135) v(35) N(93:Value)|(623,395) B(3) v(145) N(84:L0)|(515,505)" xmlns="http://www.ni.com/PlatformFramework" />
 			<DataAccessor Bounds="180 305 40 15" DataItem="100" Id="98" Label="99" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@505f6e16d74248d69f5d987afaa80480" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<NodeLabel AttachedTo="98" Bounds="74 305 101 14" Id="99" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>message queue in</p.Text>
@@ -183,13 +183,13 @@
 			</p.TypeDefinitionTargets>
 			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">"&lt;B&gt;error out&lt;/B&gt; passes error or warning information out of a VI to be used by other VIs.\n\nRight-click the &lt;B&gt;error out&lt;/B&gt; indicator on the front panel and select &lt;B&gt;Explain Error&lt;/B&gt; or &lt;B&gt;Explain Warning&lt;/B&gt; from the shortcut menu for more information about the error."</p.UserDescription>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="0" DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Id="95" Name="message queue out" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@505f6e16d74248d69f5d987afaa80480" Id="95" Name="message queue out" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@5fdcc598c22e4b2cbd8882621002cd8c" Id="100" Name="message queue in" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@505f6e16d74248d69f5d987afaa80480" Id="100" Name="message queue in" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Application::support::Message Queue::Message Cluster.gtype" />
@@ -197,22 +197,22 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="6b546e0a0bad45b3814c82934baad49c">
-			<Attributed AttributedType="@112a2c5fc2024e3ab15282550d8b0f0a">
+		<p.TypeReference TypeId="b13d730484694214abfb30a0adb6fdb4">
+			<Attributed AttributedType="@54a17cacac004509a27fe42ac951dfe9">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="5fdcc598c22e4b2cbd8882621002cd8c">
-			<Attributed AttributedType="@cb765aa4ee2946bc910780b94fc2da26">
+		<p.TypeReference TypeId="505f6e16d74248d69f5d987afaa80480">
+			<Attributed AttributedType="@2cec56442f164da7be1dbf8278ef864d">
 				<AttributeValues>
 					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="112a2c5fc2024e3ab15282550d8b0f0a">
+		<p.TypeReference TypeId="54a17cacac004509a27fe42ac951dfe9">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Check Loop Error.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@aa3f39a01fef48ba8ac7e8d80dcb0883">
@@ -220,7 +220,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]exit on error" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@8eb2d62869ee40bb8794c409e8f7a3aa">
+					<Attributed AttributedType="@7bbdb7ea9ad6436ea06a2cc162c5a754">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]message queue in" />
 						</AttributeValues>
@@ -235,7 +235,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]ignore errors" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@5d76e80a7ced428ebf715881861d18ce">
+					<Attributed AttributedType="@4f958a3a4174410c8e5a5b4b2986d139">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]message queue out" />
 						</AttributeValues>
@@ -248,18 +248,18 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="cb765aa4ee2946bc910780b94fc2da26">
+		<p.TypeReference TypeId="2cec56442f164da7be1dbf8278ef864d">
 			<Composite Id="1" Name="NationalInstruments.SourceModel.DataTypes.Queue" ReferenceClass="" Sealed="" GenericTypeDefinition="@9c0ecfb1296944878bd9953b31a0e7f3">
 				<ClosedGenericParameters>
-					<TypeRef>@70c4cfa33d254305b85e1fd5210d59c3</TypeRef>
+					<TypeRef>@e5621df55e14461aa80cb1226dde14d7</TypeRef>
 				</ClosedGenericParameters>
 			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="aa3f39a01fef48ba8ac7e8d80dcb0883">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="B0" DataType="Boolean" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8eb2d62869ee40bb8794c409e8f7a3aa">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@5fdcc598c22e4b2cbd8882621002cd8c" />
+		<p.TypeReference TypeId="7bbdb7ea9ad6436ea06a2cc162c5a754">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@505f6e16d74248d69f5d987afaa80480" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="3879e9223d084ec4822bfb8b7738e7dd">
 			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Error" />
@@ -267,8 +267,8 @@
 		<p.TypeReference TypeId="f89930f14ead4a0c9b47a7271f11b381">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Int32[]" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="5d76e80a7ced428ebf715881861d18ce">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@5fdcc598c22e4b2cbd8882621002cd8c" />
+		<p.TypeReference TypeId="4f958a3a4174410c8e5a5b4b2986d139">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@505f6e16d74248d69f5d987afaa80480" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="f83e5f68aa4e4599bad109fd8500394d">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Boolean" />
@@ -280,8 +280,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="70c4cfa33d254305b85e1fd5210d59c3">
-			<Attributed AttributedType="@a71c1b05283943be8003967d20c4ca98">
+		<p.TypeReference TypeId="e5621df55e14461aa80cb1226dde14d7">
+			<Attributed AttributedType="@416bfa59ad664e46b89e2a90796c09c8">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Message Queue" />
 				</AttributeValues>
@@ -295,35 +295,41 @@
 				<BaseType>Void</BaseType>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a71c1b05283943be8003967d20c4ca98">
-			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@ee640db4d02e46df99e1a7fc6aa89601" />
+		<p.TypeReference TypeId="416bfa59ad664e46b89e2a90796c09c8">
+			<Typedef TypedefName="Message Cluster.gtype" UnderlyingType="@22b9889a9601484089b9fb47dcce2801" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="ee640db4d02e46df99e1a7fc6aa89601">
+		<p.TypeReference TypeId="22b9889a9601484089b9fb47dcce2801">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Message" DataType="@b5d54a2b993843a2a52ef29960f6ac78" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Message" DataType="@da5cc6e3de7f443db6a0e650b34164a6" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Message Data" DataType="String" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b5d54a2b993843a2a52ef29960f6ac78">
-			<Attributed AttributedType="@eeb4000089ed454997360a908abbf4a1">
+		<p.TypeReference TypeId="da5cc6e3de7f443db6a0e650b34164a6">
+			<Attributed AttributedType="@33b4882de35d4dc4b50a523d430f5db3">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Message Queue" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="eeb4000089ed454997360a908abbf4a1">
-			<Typedef TypedefName="QMH Commands.gtype" UnderlyingType="@baa36c9a2f1b4049b26b6a5b63d86a63" />
+		<p.TypeReference TypeId="33b4882de35d4dc4b50a523d430f5db3">
+			<Typedef TypedefName="QMH Commands.gtype" UnderlyingType="@b24e1f473674492abacb6b750897ac3e" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="baa36c9a2f1b4049b26b6a5b63d86a63">
+		<p.TypeReference TypeId="b24e1f473674492abacb6b750897ac3e">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Initialize" />
 					<EnumerationMember Value="1" Name="Update Display" />
-					<EnumerationMember Value="2" Name="Idle" />
+					<EnumerationMember Value="2" Name="Idle/Timeout" />
 					<EnumerationMember Value="3" Name="Error" />
 					<EnumerationMember Value="4" Name="Exit" />
+					<EnumerationMember Value="5" Name="Turn On Robot" />
+					<EnumerationMember Value="6" Name="Turn Off Robot" />
+					<EnumerationMember Value="7" Name="Patch" />
+					<EnumerationMember Value="8" Name="Rake" />
+					<EnumerationMember Value="9" Name="Retrieve Balls" />
+					<EnumerationMember Value="10" Name="Clear Alerts" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

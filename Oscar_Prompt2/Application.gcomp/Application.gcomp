@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8EFFC7988EDE7F8439CDCB055927984771D0EDF7D236C8BE0BEF93AD97B0F83992C454C8B6AD292CC24F533073962ED4963CC5D6A5F8579CD92A785BE133408A" Timestamp="1D49EF9633EAC56" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="19273C051596B5D2474F4CFB7E3EA96CFC0D354D6CD7AAC1A2FB1CD36AF6440767077C7F488563F378B9D9D005C7A068903AAC9AE397B532A5ADC6A47C7AE156" Timestamp="1D49F05881DFEA6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -57,6 +57,8 @@
 					<SourceFileReference Id="49" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create New Task.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Create New Task.gviweb" />
 					<SourceFileReference Id="50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Task Type Time.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Get Task Type Time.gviweb" />
 					<SourceFileReference Id="52" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Reset Task.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Reset Task.gviweb" />
+					<SourceFileReference Id="55" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Parse Queue of Tasks.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Parse Queue of Tasks.gviweb" />
+					<SourceFileReference Id="56" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Parse Compelted Tasks.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Parse Compelted Tasks.gviweb" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
