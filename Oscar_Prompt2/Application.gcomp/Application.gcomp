@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8961B1104A0B083C3D238452C0136BCED97D4033BC0771C93AA81AA34DC4A2A2EE16D427E5815319EA53308E81CB237FA7E2CBF9A29F14F17B5E2CC7DC5C9E71" Timestamp="1D49E45015DE044" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="57B7A101C556D133C19849768ED96BE8E1F03AF6FE813A13F4316BA1185C17C277E6372DCC0088BE18BA113E1CB87AA05377BBCE573C83CE792CF9066D3FF1E6" Timestamp="1D49EDEFCE26181" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -33,10 +33,22 @@
 						<SourceFileReference Id="23" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue Message.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Message Queue\Dequeue Message.gviweb" />
 						<SourceFileReference Id="24" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create All Message Queues.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Message Queue\Create All Message Queues.gviweb" />
 						<SourceFileReference Bindings="EnvoyManager" Id="28" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="QMH Commands.gtype" StoragePath="support\Message Queue\QMH Commands.gtype\QMH Commands.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="29" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Cluster.gtype" StoragePath="support\Message Queue\Message Cluster.gtype\Message Cluster.gtype" />
 					</NameScopingEnvoy>
 					<SourceFileReference Id="25" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Check Loop Error.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Check Loop Error.gviweb" />
 					<SourceFileReference Id="26" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Event Handling Loop.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Error Handler - Event Handling Loop.gviweb" />
 					<SourceFileReference Id="27" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Error Handler - Message Handling Loop.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="support\Error Handler - Message Handling Loop.gviweb" />
+					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="31" Name="Controls">
+						<SourceFileReference Bindings="EnvoyManager" Id="32" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Task Data.gtype" StoragePath="support\Controls\Task Data.gtype\Task Data.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="33" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Task Types.gtype" StoragePath="support\Controls\Task Types.gtype\Task Types.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="34" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Task Status.gtype" StoragePath="support\Controls\Task Status.gtype\Task Status.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="35" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Robot Data.gtype" StoragePath="support\Controls\Robot Data.gtype\Robot Data.gtype" />
+						<SourceFileReference Bindings="EnvoyManager" Id="36" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Robot Status.gtype" StoragePath="support\Controls\Robot Status.gtype\Robot Status.gtype" />
+					</NameScopingEnvoy>
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="37" Name="Robot functions" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="39" Name="Task functions">
+					<SourceFileReference Id="40" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Task Pass-Fail.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Task Pass-Fail.gviweb" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>

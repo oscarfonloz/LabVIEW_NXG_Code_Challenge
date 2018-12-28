@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7D12788DEF6E7E4327F1392EF06A2ADBE27DAED59493AE498B7D0F04CAD412A59F18AA87548BF0EC102F4F7AC2EC5CAC167B608936E94AD53843DA621A621363" Timestamp="1D49ED36F3DF47A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@cf67587c787b4f87965bd5421d6a02cf" Id="1" xmlns="http://www.ni.com/MocCommon">
+		<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+			<TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
+			<TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype" />
+		</p.TypeDefinitionTargets>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@cf67587c787b4f87965bd5421d6a02cf" Id="10" Name="Task">
+			<p.DefaultValue>0_0x0_0_0_60052752000;0;Utc_60052752000;0;Utc_</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
+				<TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype" />
+			</p.TypeDefinitionTargets>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="5" xmlns="http://www.ni.com/PlatformFramework">
+		<ProjectSettings Id="6" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="7" Name="Task Data.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="8" ModelDefinitionType="NationalInstruments.PanelCommon.SourceModel.ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="9" xmlns="http://www.ni.com/MocCommon">
+					<Cluster AutoArrange="[AutoArrange]SizeToFit" BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@cf67587c787b4f87965bd5421d6a02cf" Height="[float]215" Id="12" Label="[UIModel]13" Left="[float]30" TabIndex="[int]0" Top="[float]41" Value="{DataItemBinding Id=10}" Width="[float]290" xmlns="http://www.ni.com/PanelCommon">
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="16" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]17" Left="[float]6" MinHeight="[float]24" TabIndex="[int]0" Top="[float]24" Value="{ClusterBinding FieldName=Task\ Type}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]152" p7:ControlDefinitionChecksum="OkOAa99i8R6BF3ecDq9Yqpc2mAZ6gtjFPjmYRV6ydgM=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelectorInfo DisplayValue="[string]Patch Tee Hole" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Rake Sand Trap" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Retrieve Balls from Creek" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="17" LabelOwner="[UIModel]16" Left="[float]6" Text="[string]Task Type" Top="[float]4" Width="[float]50" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="26" Label="[UIModel]27" Left="[float]179" MinHeight="[float]24" TabIndex="[int]1" Top="[float]77" Value="{ClusterBinding FieldName=Remaining\ time\ (s)}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="27" LabelOwner="[UIModel]26" Left="[float]179" Text="[string]Remaining time (s)" Top="[float]57" Width="[float]99" />
+						<EnumSelector AllowUndefinedValueEntry="[bool]False" BaseName="[string]Enum" Height="[float]24" Id="30" IsTabStop="[bool]True" IsTypeAheadEnabled="[bool]True" Label="[UIModel]31" Left="[float]4" MinHeight="[float]24" TabIndex="[int]2" Top="[float]77" Value="{ClusterBinding FieldName=Status}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]95" p7:ControlDefinitionChecksum="yJiCEE3iABMdpb72arU9U9Ttq41FyyofCcmDMUf33yk=" xmlns:p7="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+							<p7:p.TypeDefinitionTargets>
+								<p7:TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype::ControlDefinition" />
+							</p7:p.TypeDefinitionTargets>
+							<EnumSelectorInfo DisplayValue="[string]Waiting" DisplayValueOverride="[string]" Id="26" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Running" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Completed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<EnumSelectorInfo DisplayValue="[string]Failed" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						</EnumSelector>
+						<Label Height="[float]16" Id="31" LabelOwner="[UIModel]30" Left="[float]4" Text="[string]Status" Top="[float]57" Width="[float]32" />
+						<NumericText BaseName="[string]Numeric" Height="[float]24" Id="43" Interval="[uint]1" Label="[UIModel]44" Left="[float]179" MinHeight="[float]24" TabIndex="[int]3" Top="[float]24" Value="{ClusterBinding FieldName=Index}" ValueFormatter="[string]LV:0" ValueType="[Type]UInt32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="44" LabelOwner="[UIModel]43" Left="[float]179" Text="[string]Index" Top="[float]4" Width="[float]29" />
+						<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="47" Label="[UIModel]48" Left="[float]4" Maximum="[PrecisionDateTime]3001-01-01T00:00:00.0" MinHeight="[float]24" MinWidth="[float]40" Minimum="[PrecisionDateTime]1600-01-01T00:00:00.0" TabIndex="[int]4" Top="[float]129" Value="{ClusterBinding FieldName=Start\ Time}" Width="[float]216" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="48" LabelOwner="[UIModel]47" Left="[float]4" Text="[string]Start Time" Top="[float]109" Width="[float]54" />
+						<TimeStampTextBox BaseName="[string]Timestamp" Height="[float]24" Id="49" Label="[UIModel]50" Left="[float]4" Maximum="[PrecisionDateTime]3001-01-01T00:00:00.0" MinHeight="[float]24" MinWidth="[float]40" Minimum="[PrecisionDateTime]1600-01-01T00:00:00.0" TabIndex="[int]5" Top="[float]179" Value="{ClusterBinding FieldName=End\ Time}" Width="[float]216" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="50" LabelOwner="[UIModel]49" Left="[float]4" Text="[string]End Time" Top="[float]159" Width="[float]50" />
+					</Cluster>
+					<Label Height="[float]16" Id="13" LabelOwner="[UIModel]12" Left="[float]30" Text="[string]Task" Top="[float]21" Width="[float]22" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="cf67587c787b4f87965bd5421d6a02cf">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="Task Type" DataType="@4b5368eb8e8144d880f413af6647cbd9" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Remaining time (s)" DataType="Double" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@46fd78d9210c484fa97dbcd258f61f13" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
+					<Field FieldAccessPolicy="ReadWrite" Name="End Time" DataType="Timestamp" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="4b5368eb8e8144d880f413af6647cbd9">
+			<Attributed AttributedType="@c3abbead05a74ee48fc63d9accc1614a">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="46fd78d9210c484fa97dbcd258f61f13">
+			<Attributed AttributedType="@d09e0c9fd98f4bc6856484c97cc0f6f8">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="c3abbead05a74ee48fc63d9accc1614a">
+			<Typedef TypedefName="Task Types.gtype" UnderlyingType="@4835ca39e2d94fb2b87d8ff31bfa2e95" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="d09e0c9fd98f4bc6856484c97cc0f6f8">
+			<Typedef TypedefName="Task Status.gtype" UnderlyingType="@b52e41b60721466484048f8f05d5d7b6" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="4835ca39e2d94fb2b87d8ff31bfa2e95">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Patch Tee Hole" />
+					<EnumerationMember Value="1" Name="Rake Sand Trap" />
+					<EnumerationMember Value="2" Name="Retrieve Balls from Creek" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="b52e41b60721466484048f8f05d5d7b6">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Waiting" />
+					<EnumerationMember Value="1" Name="Running" />
+					<EnumerationMember Value="2" Name="Completed" />
+					<EnumerationMember Value="3" Name="Failed" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>
