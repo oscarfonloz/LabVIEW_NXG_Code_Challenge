@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="57B7A101C556D133C19849768ED96BE8E1F03AF6FE813A13F4316BA1185C17C277E6372DCC0088BE18BA113E1CB87AA05377BBCE573C83CE792CF9066D3FF1E6" Timestamp="1D49EDEFCE26181" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8EFFC7988EDE7F8439CDCB055927984771D0EDF7D236C8BE0BEF93AD97B0F83992C454C8B6AD292CC24F533073962ED4963CC5D6A5F8579CD92A785BE133408A" Timestamp="1D49EF9633EAC56" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
@@ -46,9 +46,17 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="36" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Robot Status.gtype" StoragePath="support\Controls\Robot Status.gtype\Robot Status.gtype" />
 					</NameScopingEnvoy>
 				</NameScopingEnvoy>
-				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="37" Name="Robot functions" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="37" Name="Robot functions">
+					<SourceFileReference Id="42" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Parse Faults and Alerts.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Robot functions\Parse Faults and Alerts.gviweb" />
+					<SourceFileReference Id="45" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Process Task.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Robot functions\Process Task.gviweb" />
+				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="39" Name="Task functions">
 					<SourceFileReference Id="40" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Task Pass-Fail.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Task Pass-Fail.gviweb" />
+					<SourceFileReference Id="47" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Time Constants FGV.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Time Constants FGV.gviweb" />
+					<SourceFileReference Id="48" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Perform Task.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Perform Task.gviweb" />
+					<SourceFileReference Id="49" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Create New Task.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Create New Task.gviweb" />
+					<SourceFileReference Id="50" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get Task Type Time.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Get Task Type Time.gviweb" />
+					<SourceFileReference Id="52" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Reset Task.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Task functions\Reset Task.gviweb" />
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
