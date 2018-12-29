@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="742D86B2EFE715F900D05B12624DC981089A293E00B3D320C1DAF52DCDC1FA9CC3884587D261C4B0433455F754D462497A04798F47A88BBCCF3BC22F717EA1F1" Timestamp="1D49F0688E2197B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="CC3228F36A462F4FAFBCEDB3A4457F09449729513A4339374A05D54E592BBCDDF71510B3DF4C5EEABB4CA75CD767756C69C6F346772B218A47F053743385584F" Timestamp="1D49F0B743F850B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -52,10 +52,10 @@
 				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="2660 550 40 15" DataItem="39" Id="29" Label="34" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@2e368a8238334f38828c18aa0ddec20a" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@efe12f87f82643b5a5d71db758a8b581" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="285 565 40 15" DataItem="40" Id="30" Label="35" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@2e368a8238334f38828c18aa0ddec20a" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@efe12f87f82643b5a5d71db758a8b581" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
 			<DataAccessor Bounds="285 655 40 15" DataItem="41" Id="31" Label="36" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
@@ -83,30 +83,30 @@
 				<CaseStructure.Case Bounds="5 5 2280 800" Id="62" Pattern="No Error">
 					<FloatingPointStringToNumber Bounds="35 265 40 40" Id="19" />
 					<ToTimeStamp Bounds="140 285 30 10" Id="21" />
-					<PropertyNode Bounds="2110 160 139 65" HasErrorTerminals="False" Id="25" InstanceDataType="@2e368a8238334f38828c18aa0ddec20a" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<PropertyNode Bounds="2110 160 139 65" HasErrorTerminals="False" Id="25" InstanceDataType="@efe12f87f82643b5a5d71db758a8b581" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 							<TypeDefinitionTarget TargetName="Application::support::Controls::Robot Data.gtype" />
 							<TypeDefinitionTarget TargetName="Application::support::Controls::Robot Status.gtype" />
 							<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
 						</p.TypeDefinitionTargets>
 						<PropertyItemTerminal Action="Write" DataType="@89d2d78da0744096889b5211d28b3360" Hotspot="0 15" Id="c0t0v" Path="Robot Status" PathElementMemberKinds="Field" Usage="Required" />
-						<PropertyItemTerminal Action="Write" DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" Hotspot="0 30" Id="c1t0v" Path="Completed Tasks" PathElementMemberKinds="Field" Usage="Required" />
-						<PropertyItemTerminal Action="Write" DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" Hotspot="0 45" Id="c2t0v" Path="Tasks in Queue" PathElementMemberKinds="Field" Usage="Required" />
+						<PropertyItemTerminal Action="Write" DataType="@908e781b6e7f49b786ca0fcf1fdef16b" Hotspot="0 30" Id="c1t0v" Path="Completed Tasks" PathElementMemberKinds="Field" Usage="Required" />
+						<PropertyItemTerminal Action="Write" DataType="@908e781b6e7f49b786ca0fcf1fdef16b" Hotspot="0 45" Id="c2t0v" Path="Tasks in Queue" PathElementMemberKinds="Field" Usage="Required" />
 					</PropertyNode>
 					<Wire Id="373" Joints="N(374:62)|(4,270) N(19:string)|(35,270)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="379" Joints="N(25:instance out)|(2249,165) N(380:62)|(2276,165)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="22" Joints="N(19:number)|(75,290) N(21:number)|(143,290)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="387" Joints="N(377:62)|(4,180) N(386:instance in)|(95,180)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="388" Joints="N(386:instance out)|(223,180) h(7) v(-155) h(1870) v(140) N(25:instance in)|(2110,165)" xmlns="http://www.ni.com/PlatformFramework" />
-					<PropertyNode Bounds="95 175 128 65" HasErrorTerminals="False" Id="386" InstanceDataType="@2e368a8238334f38828c18aa0ddec20a" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<PropertyNode Bounds="95 175 128 65" HasErrorTerminals="False" Id="386" InstanceDataType="@efe12f87f82643b5a5d71db758a8b581" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 						<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 							<TypeDefinitionTarget TargetName="Application::support::Controls::Robot Data.gtype" />
 							<TypeDefinitionTarget TargetName="Application::support::Controls::Robot Status.gtype" />
 							<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
 						</p.TypeDefinitionTargets>
 						<PropertyItemTerminal DataType="@89d2d78da0744096889b5211d28b3360" Hotspot="128 15" Id="c0t0v" Path="Robot Status" PathElementMemberKinds="Field" Usage="Optional" />
-						<PropertyItemTerminal DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" Hotspot="128 30" Id="c1t0v" Path="Completed Tasks" PathElementMemberKinds="Field" Usage="Optional" />
-						<PropertyItemTerminal DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" Hotspot="128 45" Id="c2t0v" Path="Tasks in Queue" PathElementMemberKinds="Field" Usage="Optional" />
+						<PropertyItemTerminal DataType="@908e781b6e7f49b786ca0fcf1fdef16b" Hotspot="128 30" Id="c1t0v" Path="Completed Tasks" PathElementMemberKinds="Field" Usage="Optional" />
+						<PropertyItemTerminal DataType="@908e781b6e7f49b786ca0fcf1fdef16b" Hotspot="128 45" Id="c2t0v" Path="Tasks in Queue" PathElementMemberKinds="Field" Usage="Optional" />
 					</PropertyNode>
 					<CaseStructure Bounds="240 40 1845 590" DataType="@89d2d78da0744096889b5211d28b3360" Default="392" Id="391" Selected="393" UserSelectorBounds="846 0 154 17">
 						<CaseStructure.Case Bounds="5 5 1835 580" Id="392" Pattern="Default">
@@ -136,7 +136,7 @@
 									<Wire Id="800" Joints="N(798:Out)|(170,30) h(110) B(1) h(180) v(10) N(789:c0t0v)|(500,40) B(1) v(35) N(793:c0t0v)|(300,65)" xmlns="http://www.ni.com/PlatformFramework" />
 									<Wire Id="804" Joints="N(793:c0out)|(340,65) N(803:instance in)|(360,65)" xmlns="http://www.ni.com/PlatformFramework" />
 									<Wire Id="805" Joints="N(803:instance out)|(451,65) h(9) v(-15) N(789:c0new)|(500,50)" xmlns="http://www.ni.com/PlatformFramework" />
-									<PropertyNode Bounds="360 60 91 35" HasErrorTerminals="False" Id="803" InstanceDataType="@9e18dbea600d4baab290a5a93f72c3d6" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+									<PropertyNode Bounds="360 60 91 35" HasErrorTerminals="False" Id="803" InstanceDataType="@98e541da001c427fb6ef059232fee6c0" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 										<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 											<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
 										</p.TypeDefinitionTargets>
@@ -257,7 +257,7 @@
 													<Select Bounds="465 80 40 40" Id="946" />
 													<ArrayIndex Bounds="35 30 40 30" Id="950" Terminals="array=951, c0t0v, c0out=955" />
 													<Wire Id="951" Joints="N(952:832)|(4,35) N(950:array)|(35,35)" xmlns="http://www.ni.com/PlatformFramework" />
-													<PropertyNode Bounds="95 50 88 50" HasErrorTerminals="False" Id="954" InstanceDataType="@9e18dbea600d4baab290a5a93f72c3d6" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+													<PropertyNode Bounds="95 50 88 50" HasErrorTerminals="False" Id="954" InstanceDataType="@98e541da001c427fb6ef059232fee6c0" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 														<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 															<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
 															<TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
@@ -308,7 +308,7 @@
 												<CaseStructure.Tunnel Bounds="776 20 13 10" Docking="Right" Id="856" Terminals="830=857, 831=858, 832=977" />
 												<CaseStructure.Tunnel Bounds="-4 35 13 10" Docking="Left" Id="952" Terminals="830=861, 831, 832=951" />
 											</CaseStructure>
-											<CaseStructure Bounds="430 50 355 125" Default="835" Id="834" Selected="836" UserSelectorBounds="134 0 88 17">
+											<CaseStructure Bounds="430 50 355 125" Default="835" Id="834" Selected="835" UserSelectorBounds="134 0 88 17">
 												<CaseStructure.Case Bounds="5 5 345 115" Id="835" Pattern="False">
 													<DeleteFromArray Bounds="35 55 40 40" Id="873" Terminals="inArray=885, length (1), outArray=886, deleted=878, index0=901" />
 													<BuildArray Bounds="110 30 40 20" ConcatenateInputsIsRequested="True" Id="874" Terminals="outArray=884, c0t0v=883, c1t0v=878" VerticalChunkCount="2" />
@@ -332,15 +332,15 @@
 													<ReplaceArraySubset Bounds="200 35 40 40" Id="908" Terminals="inArray=907, outArray=910, c0t0v=911, c0new=926" />
 													<Wire Id="910" Joints="N(908:outArray)|(240,40) N(867:836)|(341,40)" xmlns="http://www.ni.com/PlatformFramework" />
 													<Wire Id="911" Joints="N(888:836)|(4,90) h(21) B(1) v(-30) N(908:c0t0v)|(200,60) B(1) v(5) N(906:c0t0v)|(35,95)" xmlns="http://www.ni.com/PlatformFramework" />
-													<MethodCall Bounds="115 65 40 30" Id="924" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\Task functions\\Reset Task.gviweb&quot;" Signature="@91723dc81c41465cbd065388e2c23e02" Target="Application::Task functions::Reset Task.gviweb" xmlns="http://www.ni.com/MocCommon">
+													<MethodCall Bounds="115 65 40 30" Id="924" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\Task functions\\Reset Task.gviweb&quot;" Signature="@069aef0aac8a4f96a6219642932d2b9f" Target="Application::Task functions::Reset Task.gviweb" xmlns="http://www.ni.com/MocCommon">
 														<p.MethodDeclaration>
 															<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 																<Parameter Id="L0" Desc="element" />
 																<Parameter Id="R0" Desc="new element/subarray" />
 															</MethodDeclaration>
 														</p.MethodDeclaration>
-														<Terminal DataType="@9e18dbea600d4baab290a5a93f72c3d6" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
-														<Terminal DataType="@9e18dbea600d4baab290a5a93f72c3d6" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+														<Terminal DataType="@98e541da001c427fb6ef059232fee6c0" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+														<Terminal DataType="@98e541da001c427fb6ef059232fee6c0" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 													</MethodCall>
 													<Wire Id="925" Joints="N(906:c0out)|(75,95) h(10) v(-25) N(924:L0)|(115,70)" xmlns="http://www.ni.com/PlatformFramework" />
 													<Wire Id="926" Joints="N(924:R0)|(155,70) N(908:c0new)|(200,70)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -379,7 +379,7 @@
 										<CaseStructure.Tunnel Bounds="1261 205 13 10" Docking="Right" Id="767" LinkedTunnel="761" Terminals="492=770, 493=771, 494=857" />
 										<CaseStructure.Tunnel Bounds="-4 50 13 10" Docking="Left" Id="823" Terminals="492=822, 493, 494=829" />
 									</CaseStructure>
-									<MethodCall Bounds="215 210 40 40" Id="536" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\Task functions\\Perform Task.gviweb&quot;" Signature="@c8f1e27279584304a07fdce4a8c76f5a" Target="Application::Task functions::Perform Task.gviweb" xmlns="http://www.ni.com/MocCommon">
+									<MethodCall Bounds="215 210 40 40" Id="536" ResolveFailedHint="&quot;F:\\OneDrive - National Instruments\\Documents\\AE\\Other projects\\LabVIEW NXG Challenge\\Oscar_Prompt2\\Application.gcomp\\Task functions\\Perform Task.gviweb&quot;" Signature="@9a189bb6c18f4d329885b74c9aa3306b" Target="Application::Task functions::Perform Task.gviweb" xmlns="http://www.ni.com/MocCommon">
 										<p.MethodDeclaration>
 											<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 												<Parameter Id="L0" Desc="Task In" />
@@ -391,10 +391,10 @@
 												<Parameter Id="R3" Desc="Output" />
 											</MethodDeclaration>
 										</p.MethodDeclaration>
-										<Terminal DataType="@9e18dbea600d4baab290a5a93f72c3d6" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
+										<Terminal DataType="@98e541da001c427fb6ef059232fee6c0" Direction="Input" Id="L0" Usage="Required" xmlns="http://www.ni.com/PlatformFramework" />
 										<Terminal DataType="Timestamp" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 										<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-										<Terminal DataType="@9e18dbea600d4baab290a5a93f72c3d6" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+										<Terminal DataType="@98e541da001c427fb6ef059232fee6c0" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 										<Terminal DataType="Boolean" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 										<Terminal DataType="Boolean" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 										<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
@@ -560,7 +560,7 @@
 				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Output" CallIndex="0" DataType="@2e368a8238334f38828c18aa0ddec20a" Id="39" Name="Output info" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Output" CallIndex="0" DataType="@efe12f87f82643b5a5d71db758a8b581" Id="39" Name="Output info" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>60052752000;0;Utc</Field1>
@@ -574,7 +574,7 @@
 				<TypeDefinitionTarget TargetName="Application::support::Controls::Robot Data.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
-		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@2e368a8238334f38828c18aa0ddec20a" Id="40" Name="Input info" xmlns="http://www.ni.com/MocCommon">
+		<DataItem CallDirection="Input" CallIndex="1" CallUsage="Required" DataType="@efe12f87f82643b5a5d71db758a8b581" Id="40" Name="Input info" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>
 				<Cluster>
 					<Field1>60052752000;0;Utc</Field1>
@@ -596,8 +596,8 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="2e368a8238334f38828c18aa0ddec20a">
-			<Attributed AttributedType="@4707904503ff4e12be6e1cc57f30791b">
+		<p.TypeReference TypeId="efe12f87f82643b5a5d71db758a8b581">
+			<Attributed AttributedType="@be946a4059d54ec4b84fd974cb7c108c">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
 				</AttributeValues>
@@ -610,11 +610,11 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e6ae93d73b9e4d1b8db3399e4d75bda2">
-			<VariableArray DereferenceType="@9e18dbea600d4baab290a5a93f72c3d6" />
+		<p.TypeReference TypeId="908e781b6e7f49b786ca0fcf1fdef16b">
+			<VariableArray DereferenceType="@98e541da001c427fb6ef059232fee6c0" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="9e18dbea600d4baab290a5a93f72c3d6">
-			<Attributed AttributedType="@58be9eceb82543bca58362fe7118596b">
+		<p.TypeReference TypeId="98e541da001c427fb6ef059232fee6c0">
+			<Attributed AttributedType="@7bced655c7db444e86300b28c3d41da2">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
 				</AttributeValues>
@@ -638,43 +638,43 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="91723dc81c41465cbd065388e2c23e02">
-			<Attributed AttributedType="@fd18dcced4944ddfbec7faa39dd40480">
+		<p.TypeReference TypeId="069aef0aac8a4f96a6219642932d2b9f">
+			<Attributed AttributedType="@8c6391e70f3841b2881263e1b82171fe">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]30" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="c8f1e27279584304a07fdce4a8c76f5a">
-			<Attributed AttributedType="@3674398d230b43d895b26927f58b8051">
+		<p.TypeReference TypeId="9a189bb6c18f4d329885b74c9aa3306b">
+			<Attributed AttributedType="@a30fbd8dbcad4ede83ac6a46085f9bb3">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="4707904503ff4e12be6e1cc57f30791b">
-			<Typedef TypedefName="Robot Data.gtype" UnderlyingType="@71fa617c72fa4d45a50008a244821e69" />
+		<p.TypeReference TypeId="be946a4059d54ec4b84fd974cb7c108c">
+			<Typedef TypedefName="Robot Data.gtype" UnderlyingType="@bc5f0beaada54539891fe9feff136424" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="0903cd4d658a4ab8af6e23d0ca761a4e">
 			<Typedef TypedefName="Robot Status.gtype" UnderlyingType="@43f348291b5140adac038083b4b316b3" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="58be9eceb82543bca58362fe7118596b">
-			<Typedef TypedefName="Task Data.gtype" UnderlyingType="@cf67587c787b4f87965bd5421d6a02cf" />
+		<p.TypeReference TypeId="7bced655c7db444e86300b28c3d41da2">
+			<Typedef TypedefName="Task Data.gtype" UnderlyingType="@04d035d8cdc34dd68e13eeec81ec7eca" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="c3abbead05a74ee48fc63d9accc1614a">
 			<Typedef TypedefName="Task Types.gtype" UnderlyingType="@4835ca39e2d94fb2b87d8ff31bfa2e95" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="fd18dcced4944ddfbec7faa39dd40480">
+		<p.TypeReference TypeId="8c6391e70f3841b2881263e1b82171fe">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Reset Task.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@81a274a923224f958a91fe3627c96503">
+					<Attributed AttributedType="@3d823d8166144844a170de1207ba00b3">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]element" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@e3d8aa33398544ef9d06ae66b2f4ff91">
+					<Attributed AttributedType="@514cd9d98ff943a09a19d85f7e7cc627">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]new element/subarray" />
 						</AttributeValues>
@@ -682,10 +682,10 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3674398d230b43d895b26927f58b8051">
+		<p.TypeReference TypeId="a30fbd8dbcad4ede83ac6a46085f9bb3">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Perform Task.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
-					<Attributed AttributedType="@1211fb3b6f8d45d089e8fffa0d1d3770">
+					<Attributed AttributedType="@33bc346298b9418b8c0632257220fdc0">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Task In" />
 						</AttributeValues>
@@ -700,7 +700,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Input" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@e3d8aa33398544ef9d06ae66b2f4ff91">
+					<Attributed AttributedType="@514cd9d98ff943a09a19d85f7e7cc627">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]Task Out" />
 						</AttributeValues>
@@ -723,13 +723,13 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="71fa617c72fa4d45a50008a244821e69">
+		<p.TypeReference TypeId="bc5f0beaada54539891fe9feff136424">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Robot Status" DataType="@89d2d78da0744096889b5211d28b3360" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Completed Tasks" DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Tasks in Queue" DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Completed Tasks" DataType="@908e781b6e7f49b786ca0fcf1fdef16b" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Tasks in Queue" DataType="@908e781b6e7f49b786ca0fcf1fdef16b" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Alerts" DataType="Error[]" />
 				</Members>
 			</Composite>
@@ -746,12 +746,12 @@
 				<DataType>UInt16</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="cf67587c787b4f87965bd5421d6a02cf">
+		<p.TypeReference TypeId="04d035d8cdc34dd68e13eeec81ec7eca">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Task Type" DataType="@4b5368eb8e8144d880f413af6647cbd9" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Remaining time (s)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@46fd78d9210c484fa97dbcd258f61f13" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@024e6a8cc05a45cab5573fd8862570e6" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
 					<Field FieldAccessPolicy="ReadWrite" Name="End Time" DataType="Timestamp" />
@@ -768,14 +768,14 @@
 				<DataType>UInt16</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="81a274a923224f958a91fe3627c96503">
-			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@9e18dbea600d4baab290a5a93f72c3d6" />
+		<p.TypeReference TypeId="3d823d8166144844a170de1207ba00b3">
+			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@98e541da001c427fb6ef059232fee6c0" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="e3d8aa33398544ef9d06ae66b2f4ff91">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@9e18dbea600d4baab290a5a93f72c3d6" />
+		<p.TypeReference TypeId="514cd9d98ff943a09a19d85f7e7cc627">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R0" DataType="@98e541da001c427fb6ef059232fee6c0" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="1211fb3b6f8d45d089e8fffa0d1d3770">
-			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@9e18dbea600d4baab290a5a93f72c3d6" />
+		<p.TypeReference TypeId="33bc346298b9418b8c0632257220fdc0">
+			<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@98e541da001c427fb6ef059232fee6c0" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="9986fe9e74554ebfadcfca8f41c5a231">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L1" DataType="Timestamp" />
@@ -792,23 +792,24 @@
 		<p.TypeReference TypeId="20d1e6c698a64862a4ba242e813b6022">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R3" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="46fd78d9210c484fa97dbcd258f61f13">
-			<Attributed AttributedType="@d09e0c9fd98f4bc6856484c97cc0f6f8">
+		<p.TypeReference TypeId="024e6a8cc05a45cab5573fd8862570e6">
+			<Attributed AttributedType="@6c15c81180de46d78d049fb6ddcf63c4">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d09e0c9fd98f4bc6856484c97cc0f6f8">
-			<Typedef TypedefName="Task Status.gtype" UnderlyingType="@b52e41b60721466484048f8f05d5d7b6" />
+		<p.TypeReference TypeId="6c15c81180de46d78d049fb6ddcf63c4">
+			<Typedef TypedefName="Task Status.gtype" UnderlyingType="@3c931edb9695442ca173669f8b89bfd0" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="b52e41b60721466484048f8f05d5d7b6">
+		<p.TypeReference TypeId="3c931edb9695442ca173669f8b89bfd0">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Waiting" />
 					<EnumerationMember Value="1" Name="Running" />
 					<EnumerationMember Value="2" Name="Completed" />
 					<EnumerationMember Value="3" Name="Failed" />
+					<EnumerationMember Value="4" Name="Skipped" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

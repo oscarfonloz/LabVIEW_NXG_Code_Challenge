@@ -28,7 +28,7 @@
     <OutputPath>Builds\Application</OutputPath>
     <BuildName>Application</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:38</LastTotalTime>
+    <LastTotalTime>00:00:26</LastTotalTime>
     <HasChild>True</HasChild>
     <QualifiedName>::NullTarget::Application.lvdist</QualifiedName>
   </Job>

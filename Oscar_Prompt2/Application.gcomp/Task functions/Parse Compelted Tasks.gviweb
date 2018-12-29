@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="72D813CB82BF36614FF3295294133B25C02A69FCE2279EC50FD91FE9C213B34BF7518287224E96B15F002DEB39885BDD498DD3A278116FD9E298E6E57100B73F" Timestamp="1D49F037A36418C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B46B83370579512A77B0ED743DEC4C25A3D56A7F5350CB1E441A08CE2B33610120846CFBF3EEA370A466944444D8BCB73E9D102897227CEDB5FD03C6CF686B80" Timestamp="1D49F0C196EBBEC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -37,28 +37,30 @@
 		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
 		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="12">
-			<Wire Id="16" Joints="N(27:Value)|(350,675) N(22:o0)|(368,675)" xmlns="http://www.ni.com/PlatformFramework" />
-			<Wire Id="17" Joints="N(21:o0)|(791,650) N(26:Value)|(818,650)" xmlns="http://www.ni.com/PlatformFramework" />
-			<ForLoop Bounds="373 548 415 260" DiagramId="19" Id="18">
-				<LoopIteration Bounds="0 230 15 15" Id="23" />
-				<ConcatenateStrings Bounds="340 95 40 40" Id="36" Terminals="outString=37, c0t0v=45, c1t0v=48, c2t0v=71, c3t0v=74" VerticalChunkCount="4" />
-				<Wire Id="37" Joints="N(36:outString)|(380,100) N(21:i0)|(403,100)" xmlns="http://www.ni.com/PlatformFramework" />
-				<PropertyNode Bounds="35 120 88 65" HasErrorTerminals="False" Id="38" InstanceDataType="@9e18dbea600d4baab290a5a93f72c3d6" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+			<Wire Id="16" Joints="N(27:Value)|(350,700) N(22:o0)|(368,700)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="17" Joints="N(21:o0)|(796,670) N(26:Value)|(823,670)" xmlns="http://www.ni.com/PlatformFramework" />
+			<ForLoop Bounds="373 548 420 285" DiagramId="19" Id="18">
+				<LoopIteration Bounds="0 255 15 15" Id="23" />
+				<ConcatenateStrings Bounds="345 115 40 60" Id="36" Terminals="outString=37, c0t0v=45, c1t0v=48, c2t0v=80, c3t0v=77, c4t0v=71, c5t0v=74" VerticalChunkCount="6" />
+				<Wire Id="37" Joints="N(36:outString)|(385,120) N(21:i0)|(408,120)" xmlns="http://www.ni.com/PlatformFramework" />
+				<PropertyNode Bounds="35 145 88 80" HasErrorTerminals="False" Id="38" InstanceDataType="@98e541da001c427fb6ef059232fee6c0" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 					<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 						<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
 						<TypeDefinitionTarget TargetName="Application::support::Controls::Task Types.gtype" />
+						<TypeDefinitionTarget TargetName="Application::support::Controls::Task Status.gtype" />
 					</p.TypeDefinitionTargets>
 					<PropertyItemTerminal DataType="@4b5368eb8e8144d880f413af6647cbd9" Hotspot="88 15" Id="c0t0v" Path="Task Type" PathElementMemberKinds="Field" Usage="Optional" />
 					<PropertyItemTerminal DataType="UInt32" Hotspot="88 30" Id="c1t0v" Path="Index" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="Timestamp" Hotspot="88 45" Id="c2t0v" Path="End Time" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="@024e6a8cc05a45cab5573fd8862570e6" Hotspot="88 45" Id="c2t0v" Path="Status" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="Timestamp" Hotspot="88 60" Id="c3t0v" Path="End Time" PathElementMemberKinds="Field" Usage="Optional" />
 				</PropertyNode>
-				<Wire Id="39" Joints="N(22:i0)|(6,125) N(38:instance in)|(35,125)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="39" Joints="N(22:i0)|(6,150) N(38:instance in)|(35,150)" xmlns="http://www.ni.com/PlatformFramework" />
 				<FormatIntoString Bounds="210 45 40 40" Id="40" Terminals="outString=45, c0t0v=44" />
-				<Wire Id="44" Joints="N(38:c0t0v)|(123,135) h(7) v(-55) N(40:c0t0v)|(210,80)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="45" Joints="N(40:outString)|(250,50) h(70) v(50) N(36:c0t0v)|(340,100)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="48" Joints="N(54:s? t:f)|(310,110) N(36:c1t0v)|(340,110)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="44" Joints="N(38:c0t0v)|(123,160) h(7) v(-80) N(40:c0t0v)|(210,80)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="45" Joints="N(40:outString)|(250,50) h(85) v(70) N(36:c0t0v)|(345,120)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="48" Joints="N(54:s? t:f)|(310,110) h(15) v(20) N(36:c1t0v)|(345,130)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Literal Bounds="150 125 40 15" DataType="String" Id="51" Label="64" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>" # "</p.Data>
+					<p.Data>" #"</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
 				<ConcatenateStrings Bounds="210 125 40 20" Id="52" Terminals="outString=53, c0t0v=57, c1t0v=63" />
@@ -67,45 +69,58 @@
 				<Wire Id="57" Joints="N(51:Out)|(190,130) N(52:c0t0v)|(210,130)" xmlns="http://www.ni.com/PlatformFramework" />
 				<IsEqualTo0 Bounds="155 95 30 30" Id="58" />
 				<Wire Id="59" Joints="N(58:x = 0?)|(185,110) N(54:s)|(270,110)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Literal Bounds="210 90 40 15" DataType="String" Id="60" Label="65" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>""</p.Data>
-					<StringBehavior TextDisplayMode="Default" />
-				</Literal>
-				<Wire Id="61" Joints="N(60:Out)|(250,95) N(54:t)|(270,95)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="61" Joints="N(85:Out)|(250,95) N(54:t)|(270,95)" xmlns="http://www.ni.com/PlatformFramework" />
 				<NumberToDecimalString Bounds="150 145 40 40" Id="62" />
 				<Wire Id="63" Joints="N(62:decimal integer string)|(190,150) h(10) v(-10) N(52:c1t0v)|(210,140)" xmlns="http://www.ni.com/PlatformFramework" />
-				<NodeLabel AttachedTo="51" Bounds="150 143 30 15" Id="64" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="51" Bounds="150 107 30 15" Id="64" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>string {0}</p.Text>
 				</NodeLabel>
-				<NodeLabel AttachedTo="60" Bounds="210 108 30 15" Id="65" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="85" Bounds="210 108 30 15" Id="86" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>true value</p.Text>
 				</NodeLabel>
-				<Wire Id="66" Joints="N(38:c1t0v)|(123,150) h(17) B(1) N(62:number)|(150,150) B(1) v(-40) N(58:x)|(155,110)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Literal Bounds="220 150 90 15" DataType="String" Id="69" Label="70" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>" finished at "</p.Data>
+				<Wire Id="66" Joints="N(38:c1t0v)|(123,175) h(17) v(-25) B(2) N(62:number)|(150,150) B(2) v(-40) N(58:x)|(155,110)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="270 200 45 15" DataType="String" Id="69" Label="70" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>" at "</p.Data>
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
-				<NodeLabel AttachedTo="69" Bounds="220 132 30 15" Id="70" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="69" Bounds="270 182 30 15" Id="70" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>string {0}</p.Text>
 				</NodeLabel>
-				<Wire Id="71" Joints="N(69:Out)|(310,155) h(10) v(-35) N(36:c2t0v)|(340,120)" xmlns="http://www.ni.com/PlatformFramework" />
-				<GetDateAndTimeString Bounds="270 175 35 30" Id="72" />
-				<Wire Id="73" Joints="N(38:c2t0v)|(123,165) h(7) v(25) N(72:time stamp)|(270,190)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="74" Joints="N(72:time string)|(305,200) h(25) v(-70) N(36:c3t0v)|(340,130)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="71" Joints="N(69:Out)|(315,205) h(10) v(-45) N(36:c4t0v)|(345,160)" xmlns="http://www.ni.com/PlatformFramework" />
+				<GetDateAndTimeString Bounds="210 195 35 30" Id="72" />
+				<Wire Id="73" Joints="N(38:c3t0v)|(123,205) h(77) v(5) N(72:time stamp)|(210,210)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="74" Joints="N(72:time string)|(245,220) h(90) v(-50) N(36:c5t0v)|(345,170)" xmlns="http://www.ni.com/PlatformFramework" />
+				<FormatIntoString Bounds="270 155 40 40" Id="75" Terminals="outString=77, c0t0v=76" />
+				<Wire Id="76" Joints="N(38:c2t0v)|(123,190) N(75:c0t0v)|(270,190)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="77" Joints="N(75:outString)|(310,160) h(15) v(-10) N(36:c3t0v)|(345,150)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="83" Bounds="270 117 30 15" Id="84" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>string {0}</p.Text>
+				</NodeLabel>
+				<Wire Id="80" Joints="N(83:Out)|(310,140) N(36:c2t0v)|(345,140)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="270 135 40 15" DataType="String" Id="83" Label="84" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>" "</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+					<FixedConstantFacade Facade="Space Constant" />
+				</Literal>
+				<Literal Bounds="210 90 40 15" DataType="String" Id="85" Label="86" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>""</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+					<FixedConstantFacade Facade="Empty String Constant" />
+				</Literal>
 				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="20" Terminals="18, 19" />
-				<LoopTunnel AutoIndex="True" Bounds="405 97 13 10" Docking="Right" Id="21" Terminals="o0=17, i0=37" TunnelMode="0" />
-				<LoopTunnel AutoIndex="True" Bounds="-5 122 13 10" Docking="Left" Id="22" Terminals="o0=16, i0=39" TunnelMode="0" />
+				<LoopTunnel AutoIndex="True" Bounds="410 117 13 10" Docking="Right" Id="21" Terminals="o0=17, i0=37" TunnelMode="0" />
+				<LoopTunnel AutoIndex="True" Bounds="-5 147 13 10" Docking="Left" Id="22" Terminals="o0=16, i0=39" TunnelMode="0" />
 			</ForLoop>
-			<DataAccessor Bounds="815 645 40 15" DataItem="30" Id="26" Label="28" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="820 665 40 15" DataItem="30" Id="26" Label="28" xmlns="http://www.ni.com/MocCommon">
 				<Terminal DataType="String[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<DataAccessor Bounds="310 670 40 15" DataItem="31" Id="27" Label="29" xmlns="http://www.ni.com/MocCommon">
-				<Terminal DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="310 695 40 15" DataItem="31" Id="27" Label="29" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="@908e781b6e7f49b786ca0fcf1fdef16b" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 			</DataAccessor>
-			<NodeLabel AttachedTo="26" Bounds="860 645 137 14" Id="28" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="26" Bounds="865 665 137 14" Id="28" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Completed Tasks Strings</p.Text>
 			</NodeLabel>
-			<NodeLabel AttachedTo="27" Bounds="211 670 94 14" Id="29" xmlns="http://www.ni.com/PlatformFramework">
+			<NodeLabel AttachedTo="27" Bounds="211 695 94 14" Id="29" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Completed Tasks</p.Text>
 			</NodeLabel>
 		</BlockDiagram>
@@ -121,7 +136,7 @@
 		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="String[]" Id="30" Name="Completed Tasks Strings" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@e6ae93d73b9e4d1b8db3399e4d75bda2" Id="31" Name="Completed Tasks" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="@908e781b6e7f49b786ca0fcf1fdef16b" Id="31" Name="Completed Tasks" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
 				<TypeDefinitionTarget TargetName="Application::support::Controls::Task Data.gtype" />
@@ -129,8 +144,8 @@
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
-		<p.TypeReference TypeId="9e18dbea600d4baab290a5a93f72c3d6">
-			<Attributed AttributedType="@58be9eceb82543bca58362fe7118596b">
+		<p.TypeReference TypeId="98e541da001c427fb6ef059232fee6c0">
+			<Attributed AttributedType="@7bced655c7db444e86300b28c3d41da2">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
 				</AttributeValues>
@@ -143,21 +158,31 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="e6ae93d73b9e4d1b8db3399e4d75bda2">
-			<VariableArray DereferenceType="@9e18dbea600d4baab290a5a93f72c3d6" />
+		<p.TypeReference TypeId="024e6a8cc05a45cab5573fd8862570e6">
+			<Attributed AttributedType="@6c15c81180de46d78d049fb6ddcf63c4">
+				<AttributeValues>
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
+				</AttributeValues>
+			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="58be9eceb82543bca58362fe7118596b">
-			<Typedef TypedefName="Task Data.gtype" UnderlyingType="@cf67587c787b4f87965bd5421d6a02cf" />
+		<p.TypeReference TypeId="908e781b6e7f49b786ca0fcf1fdef16b">
+			<VariableArray DereferenceType="@98e541da001c427fb6ef059232fee6c0" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="7bced655c7db444e86300b28c3d41da2">
+			<Typedef TypedefName="Task Data.gtype" UnderlyingType="@04d035d8cdc34dd68e13eeec81ec7eca" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="c3abbead05a74ee48fc63d9accc1614a">
 			<Typedef TypedefName="Task Types.gtype" UnderlyingType="@4835ca39e2d94fb2b87d8ff31bfa2e95" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="cf67587c787b4f87965bd5421d6a02cf">
+		<p.TypeReference TypeId="6c15c81180de46d78d049fb6ddcf63c4">
+			<Typedef TypedefName="Task Status.gtype" UnderlyingType="@3c931edb9695442ca173669f8b89bfd0" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="04d035d8cdc34dd68e13eeec81ec7eca">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Task Type" DataType="@4b5368eb8e8144d880f413af6647cbd9" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Remaining time (s)" DataType="Double" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@46fd78d9210c484fa97dbcd258f61f13" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Status" DataType="@024e6a8cc05a45cab5573fd8862570e6" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Index" DataType="UInt32" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Start Time" DataType="Timestamp" />
 					<Field FieldAccessPolicy="ReadWrite" Name="End Time" DataType="Timestamp" />
@@ -174,23 +199,14 @@
 				<DataType>UInt16</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="46fd78d9210c484fa97dbcd258f61f13">
-			<Attributed AttributedType="@d09e0c9fd98f4bc6856484c97cc0f6f8">
-				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]Application::support::Controls" />
-				</AttributeValues>
-			</Attributed>
-		</p.TypeReference>
-		<p.TypeReference TypeId="d09e0c9fd98f4bc6856484c97cc0f6f8">
-			<Typedef TypedefName="Task Status.gtype" UnderlyingType="@b52e41b60721466484048f8f05d5d7b6" />
-		</p.TypeReference>
-		<p.TypeReference TypeId="b52e41b60721466484048f8f05d5d7b6">
+		<p.TypeReference TypeId="3c931edb9695442ca173669f8b89bfd0">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Waiting" />
 					<EnumerationMember Value="1" Name="Running" />
 					<EnumerationMember Value="2" Name="Completed" />
 					<EnumerationMember Value="3" Name="Failed" />
+					<EnumerationMember Value="4" Name="Skipped" />
 				</Members>
 				<DataType>UInt16</DataType>
 			</Enumeration>

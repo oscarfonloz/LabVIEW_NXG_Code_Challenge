@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="00D132E0E2A98B1E8D7C47A3EFBC0529BD2D805998872B08C10D4D5C646AC229B2E05CCD494EE5CB9F3AF1EAEE4354CC6F50F510FA8720B05A237AE9E521F1F0" Timestamp="1D49EFE947DF5DA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="88DB52729B02FD91368F9539F7BE79C6EC9B7A158E099E5B5361EB64533E458D7C1CCD438312269BF7B05CC6F724C5D66DA1989FB140DD19223AD23606388386" Timestamp="1D49F0D978E958C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
 		<ApplicationVersionInfo Build="6.2.1.50272" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition Company="NI" ContentType="Binary" Product="Gold Course Maintainance Robot" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition Company="NI" ContentType="Binary" Product="Golf Course Maintainance Robot" TargetedProduct="LabVIEW" Version="1.0.0.3" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionDependencyContent DisplayName="ni-certificates" Id="1" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
 		<DistributionOutput CachedDisplayName="Package Installer" Id="2" p3:Homepage="ni.com/support" p3:MaintainerEmail="support@ni.com" p3:MaintainerName="Oscar" p3:PackageDisplayName="Gold Course Maintainance Robot" xmlns:p3="http://www.ni.com/GComponent.xsd" />
 		<DistributionBuildTarget Id="3" Target="::Web Server" />
